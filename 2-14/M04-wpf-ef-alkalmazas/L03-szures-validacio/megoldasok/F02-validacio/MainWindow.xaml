@@ -1,0 +1,42 @@
+<Window x:Class="RaktarValidacio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Raktár – ellenőrzött mentés" Height="500" Width="1000">
+    <DockPanel Margin="10">
+        <TextBlock x:Name="txtAllapot" DockPanel.Dock="Bottom" Margin="0,8,0,0" />
+
+        <Border x:Name="pnlUrlap" DockPanel.Dock="Right" Width="270" Margin="10,0,0,0" Padding="10"
+                BorderBrush="LightGray" BorderThickness="1">
+            <StackPanel>
+                <TextBlock x:Name="txtUrlapCim" Text="Új termék" FontWeight="Bold" Margin="0,0,0,8" />
+                <Label Content="Cikkszám" Padding="0" />
+                <TextBox x:Name="txtCikkszam" Margin="0,0,0,6" />
+                <Label Content="Név" Padding="0" />
+                <TextBox x:Name="txtNev" Margin="0,0,0,6" />
+                <Label Content="Ár (Ft)" Padding="0" />
+                <TextBox x:Name="txtAr" Margin="0,0,0,6" />
+                <Label Content="Darab" Padding="0" />
+                <TextBox x:Name="txtDarab" Margin="0,0,0,6" />
+                <Label Content="Kategória" Padding="0" />
+                <ComboBox x:Name="cmbKategoria" DisplayMemberPath="Nev" SelectedValuePath="Id" Margin="0,0,0,12" />
+                <UniformGrid Columns="3">
+                    <Button Content="Új" Click="Uj_Click" Margin="0,0,4,0" Padding="4" />
+                    <Button Content="Mentés" Click="Mentes_Click" Margin="2,0" Padding="4" FontWeight="Bold" />
+                    <Button x:Name="btnTorles" Content="Törlés" Click="Torles_Click" Margin="4,0,0,0" Padding="4" />
+                </UniformGrid>
+                <TextBlock x:Name="txtHibak" Foreground="Firebrick" TextWrapping="Wrap" Margin="0,10,0,0" />
+            </StackPanel>
+        </Border>
+
+        <DataGrid x:Name="dgTermekek" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single"
+                  SelectionChanged="DgTermekek_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cikkszám" Binding="{Binding Cikkszam}" Width="80" />
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                <DataGridTextColumn Header="Kategória" Binding="{Binding Kategoria.Nev}" Width="120" />
+                <DataGridTextColumn Header="Ár (Ft)" Binding="{Binding Ar, StringFormat={}{0:N0}}" Width="80" />
+                <DataGridTextColumn Header="Darab" Binding="{Binding Darab}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

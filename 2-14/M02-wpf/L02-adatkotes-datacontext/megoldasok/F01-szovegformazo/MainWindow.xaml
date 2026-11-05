@@ -1,0 +1,53 @@
+<Window x:Class="SzovegFormazo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Szövegformázó" Height="400" Width="600">
+    <Window.Resources>
+        <!-- Beépített átalakító: bool → Visibility (true → Visible, false → Collapsed) -->
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Bal oldal: a beállítások (ezek a kötések FORRÁSAI) -->
+        <StackPanel>
+            <Label Content="Szöveg:"/>
+            <TextBox Name="Bevitel" Text="Helló, WPF!"/>
+
+            <Label Content="Betűméret:"/>
+            <Slider Name="Betumeret" Minimum="8" Maximum="60" Value="24"
+                    IsSnapToTickEnabled="True" TickFrequency="1"/>
+            <TextBox Width="60" HorizontalAlignment="Left"
+                     Text="{Binding ElementName=Betumeret, Path=Value, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Content="Szín:"/>
+            <ComboBox Name="Szin" SelectedIndex="0">
+                <ComboBoxItem Content="Black"/>
+                <ComboBoxItem Content="DarkRed"/>
+                <ComboBoxItem Content="SeaGreen"/>
+                <ComboBoxItem Content="RoyalBlue"/>
+            </ComboBox>
+
+            <CheckBox Name="Lathato" Content="Látható" IsChecked="True" Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <!-- Jobb oldal: az előnézet (a kötések CÉLJAI) -->
+        <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" Margin="10,0,0,0" Padding="10">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap"
+                           Text="{Binding ElementName=Bevitel, Path=Text}"
+                           FontSize="{Binding ElementName=Betumeret, Path=Value}"
+                           Foreground="{Binding ElementName=Szin, Path=SelectedItem.Content}"
+                           Visibility="{Binding ElementName=Lathato, Path=IsChecked,
+                                        Converter={StaticResource BoolToVis}}"/>
+                <TextBlock Margin="0,10,0,0" Foreground="Gray"
+                           Text="{Binding ElementName=Bevitel, Path=Text.Length,
+                                  StringFormat='Karakterek száma: {0}'}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

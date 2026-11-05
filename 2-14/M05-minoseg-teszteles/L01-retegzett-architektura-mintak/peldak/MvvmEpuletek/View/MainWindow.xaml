@@ -1,0 +1,23 @@
+<Window x:Class="MvvmEpuletek.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Híres épületek – MVVM" Height="400" Width="560">
+    <!-- View: csak a megjelenés. Minden adat Binding-gal jön a ViewModelből. -->
+    <DockPanel Margin="10">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
+            <TextBlock Text="Keresés (név vagy város): " VerticalAlignment="Center" />
+            <TextBox Width="200"
+                     Text="{Binding Szuro, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <TextBlock DockPanel.Dock="Bottom" Margin="0,8,0,0"
+                   Text="{Binding Osszegzes}" />
+        <DataGrid ItemsSource="{Binding Lathato}" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                <DataGridTextColumn Header="Város" Binding="{Binding Varos}" />
+                <DataGridTextColumn Header="Épült" Binding="{Binding Epult}" />
+                <DataGridTextColumn Header="Magasság (m)" Binding="{Binding Magassag}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

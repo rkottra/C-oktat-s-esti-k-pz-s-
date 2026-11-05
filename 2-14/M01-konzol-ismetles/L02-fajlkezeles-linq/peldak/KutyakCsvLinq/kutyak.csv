@@ -1,0 +1,31 @@
+id;nev;kor;suly_kg;nem;fajta;chipes;oltott
+1;Bodri;9;13.4;szuka;Puli;nem;nem
+2;Morzsa;13;46.9;szuka;Komondor;nem;igen
+3;Füles;11;33.6;kan;Keverék;igen;nem
+4;Bundás;13;7.0;szuka;Mopsz;igen;igen
+5;Csöpi;1;14.4;kan;Border collie;nem;nem
+6;Rex;8;20.8;szuka;Border collie;igen;nem
+7;Maszat;14;24.3;kan;Magyar vizsla;igen;igen
+8;Pajtás;14;7.7;kan;Mopsz;nem;igen
+9;Zsemle;14;6.3;szuka;Keverék;igen;igen
+10;Lili;6;59.1;szuka;Komondor;igen;igen
+11;Bella;10;9.4;kan;Beagle;igen;igen
+12;Folti;;11.0;kan;Keverék;igen;igen
+13;Max;2;24.5;szuka;Magyar vizsla;igen;igen
+14;Rocky;5;20.7;szuka;Keverék;igen;igen
+15;Luna;6;20.3;szuka;Border collie;igen;igen
+16;Frakk;4;51.1;kan;Komondor;igen;igen
+17;Pamacs;8;51.4;szuka;Komondor;nem;nem
+18;Cézár;9;8.4;kan;Mopsz;nem;igen
+19;Zorro;12;32.7;szuka;Labrador;igen;igen
+20;Tóbiás;4;tizenkettő;kan;Puli;igen
+21;Mázli;10;8.4;szuka;Tacskó;igen;igen
+22;Kormos;14;6.1;szuka;Mopsz;nem;igen
+23;Tappancs;2;21.0;szuka;Border collie;igen;igen
+24;Szotyi;4;8.8;szuka;Mopsz;igen;igen
+25;Bogyó;11;11.6;szuka;Puli;nem;igen
+26;Hektor;6;7.6;kan;Keverék;igen;nem
+27;Panni;13;35.2;szuka;Labrador;nem;igen
+28;Buksi;4;27.1;kan;Magyar vizsla;igen;nem
+29;Lord;6;46.9;szuka;Komondor;nem;igen
+30;Daisy;2;13.6;szuka;Puli;igen;igen

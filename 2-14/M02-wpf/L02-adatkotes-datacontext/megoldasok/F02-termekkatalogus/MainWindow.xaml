@@ -1,0 +1,47 @@
+<Window x:Class="Termekkatalogus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Termékkatalógus" Height="420" Width="650">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Name="TermekLista" ItemsSource="{Binding Termekek}" Margin="0,0,5,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nev}" FontWeight="Bold" Width="150"/>
+                        <TextBlock Text="{Binding Ar, StringFormat='{}{0} Ft'}" Width="80"/>
+                        <TextBlock Text="{Binding Keszlet, StringFormat='{}{0} db'}" Foreground="Gray"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Column="1" Margin="5,0,0,0">
+            <!-- A szerkesztőpanel DataContextje a kiválasztott termék -->
+            <GroupBox Header="Kiválasztott termék" Padding="5"
+                      DataContext="{Binding ElementName=TermekLista, Path=SelectedItem}">
+                <StackPanel>
+                    <Label Content="Név:"/>
+                    <TextBox Text="{Binding Nev, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="Kategória:"/>
+                    <TextBox Text="{Binding Kategoria}"/>
+                    <Label Content="Ár (Ft):"/>
+                    <TextBox Text="{Binding Ar}"/>
+                    <Label Content="Készlet (db):"/>
+                    <TextBox Text="{Binding Keszlet}"/>
+                </StackPanel>
+            </GroupBox>
+
+            <WrapPanel Margin="0,10,0,0">
+                <Button Content="Új termék" Width="130" Margin="0,0,5,5" Click="Uj_Click"/>
+                <Button Content="Törlés" Width="130" Margin="0,0,5,5" Click="Torles_Click"/>
+                <Button Content="10% akció" Width="130" Margin="0,0,5,5" Click="Akcio_Click"/>
+                <Button Content="Összesítés" Width="130" Margin="0,0,5,5" Click="Osszesites_Click"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

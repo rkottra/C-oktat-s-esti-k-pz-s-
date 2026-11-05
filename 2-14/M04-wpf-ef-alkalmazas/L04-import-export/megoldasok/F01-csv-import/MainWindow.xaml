@@ -1,0 +1,23 @@
+<Window x:Class="RaktarImport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Raktár – CSV-import (bevételezés)" Height="520" Width="900">
+    <DockPanel Margin="10">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
+            <Button Content="Bevételezés CSV-ből…" Click="Import_Click" Padding="8,4" />
+        </StackPanel>
+
+        <TextBox x:Name="txtNaplo" DockPanel.Dock="Bottom" Height="110" Margin="0,8,0,0"
+                 IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" />
+
+        <DataGrid x:Name="dgTermekek" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cikkszám" Binding="{Binding Cikkszam}" Width="80" />
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                <DataGridTextColumn Header="Kategória" Binding="{Binding Kategoria.Nev}" Width="130" />
+                <DataGridTextColumn Header="Ár (Ft)" Binding="{Binding Ar, StringFormat={}{0:N0}}" Width="80" />
+                <DataGridTextColumn Header="Darab" Binding="{Binding Darab}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

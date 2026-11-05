@@ -1,0 +1,52 @@
+<Window x:Class="Hegycsucsok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hegycsúcsok" Height="460" Width="720" MinWidth="560" MinHeight="380">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0,0,0,8">
+            <Label Content="Kontinens:"/>
+            <ComboBox Name="KontinensValaszto" Width="160" SelectionChanged="Szuro_Valtozott"/>
+            <RadioButton Name="MagassagSzerint" Content="magasság szerint" IsChecked="True"
+                         VerticalAlignment="Center" Margin="20,0,10,0" Checked="Szuro_Valtozott"/>
+            <RadioButton Name="NevSzerint" Content="név szerint"
+                         VerticalAlignment="Center" Checked="Szuro_Valtozott"/>
+        </StackPanel>
+
+        <ListBox Grid.Row="1" Name="CsucsLista" Margin="0,0,8,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nev}" Width="170" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Magassag, StringFormat='{}{0} m'}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Részletek" Padding="8"
+                  DataContext="{Binding ElementName=CsucsLista, Path=SelectedItem}">
+            <StackPanel>
+                <TextBlock Text="{Binding Nev, FallbackValue='Válassz csúcsot!'}" FontSize="18" FontWeight="Bold"/>
+                <TextBlock Text="{Binding Hegyseg, StringFormat='Hegység: {0}'}"/>
+                <TextBlock Text="{Binding Orszag, StringFormat='Ország: {0}'}"/>
+                <TextBlock Text="{Binding Kontinens, StringFormat='Kontinens: {0}'}"/>
+                <TextBlock Text="{Binding Magassag, StringFormat='Magasság: {0} m'}"/>
+                <TextBlock Text="{Binding ElsoMegmaszas, StringFormat='Első megmászás: {0}'}"/>
+                <CheckBox Content="Nyolcezres" IsChecked="{Binding Nyolcezres, Mode=OneWay}"
+                          IsHitTestVisible="False" Margin="0,6,0,0"/>
+            </StackPanel>
+        </GroupBox>
+
+        <TextBlock Grid.Row="2" Grid.ColumnSpan="2" Name="OsszegzesSzoveg" Margin="0,8,0,0"/>
+    </Grid>
+</Window>

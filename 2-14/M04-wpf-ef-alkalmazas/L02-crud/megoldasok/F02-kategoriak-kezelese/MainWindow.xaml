@@ -1,0 +1,45 @@
+<Window x:Class="RaktarKategoriak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Raktár – kategóriák" Height="450" Width="900">
+    <DockPanel Margin="10">
+        <TextBlock x:Name="txtAllapot" DockPanel.Dock="Bottom" Margin="0,8,0,0" />
+
+        <TabControl>
+            <TabItem Header="Kategóriák">
+                <DockPanel Margin="8">
+                    <StackPanel DockPanel.Dock="Right" Width="250" Margin="10,0,0,0">
+                        <Label Content="Kategória neve" Padding="0" />
+                        <TextBox x:Name="txtNev" Margin="0,0,0,10" />
+                        <Button Content="Új kategória felvétele" Click="Felvetel_Click" Padding="4" Margin="0,0,0,4" />
+                        <Button x:Name="btnAtnevezes" Content="Kijelölt átnevezése" Click="Atnevezes_Click" Padding="4" Margin="0,0,0,4" />
+                        <Button x:Name="btnTorles" Content="Kijelölt törlése" Click="Torles_Click" Padding="4" />
+                    </StackPanel>
+
+                    <!-- Az elemek Kategoria objektumok; a termékszám az Include-dal betöltött Termekek listából jön -->
+                    <ListBox x:Name="lbKategoriak" SelectionChanged="LbKategoriak_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Nev}" FontWeight="Bold" />
+                                    <TextBlock Text="{Binding Termekek.Count, StringFormat='({0} termék)'}" Margin="6,0,0,0" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </DockPanel>
+            </TabItem>
+
+            <TabItem Header="Termékek">
+                <DataGrid x:Name="dgTermekek" AutoGenerateColumns="False" IsReadOnly="True" Margin="8">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Cikkszám" Binding="{Binding Cikkszam}" Width="80" />
+                        <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                        <DataGridTextColumn Header="Kategória" Binding="{Binding Kategoria.Nev}" Width="150" />
+                        <DataGridTextColumn Header="Darab" Binding="{Binding Darab}" Width="60" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

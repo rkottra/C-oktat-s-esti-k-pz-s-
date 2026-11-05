@@ -1,0 +1,21 @@
+<Window x:Class="DialogusAblakMinta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Könyvek – párbeszédablak minta" Height="360" Width="640" MinHeight="250" MinWidth="420">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="dgKonyvek" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cím" Binding="{Binding Cim}" Width="2*" />
+                <DataGridTextColumn Header="Szerző" Binding="{Binding Szerzo}" Width="*" />
+                <!-- Kapcsolt objektum mezője pont-jelöléssel -->
+                <DataGridTextColumn Header="Műfaj" Binding="{Binding Mufaj.Nev}" Width="*" />
+                <DataGridTextColumn Header="Kiadás (könyv)" Binding="{Binding KiadasEve}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="1" Content="Új könyv…" Width="140" Margin="0,8,0,0" Click="UjKonyv_Click" />
+    </Grid>
+</Window>

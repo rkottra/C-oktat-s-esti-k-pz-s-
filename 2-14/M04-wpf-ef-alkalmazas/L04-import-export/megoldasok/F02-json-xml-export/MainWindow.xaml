@@ -1,0 +1,27 @@
+<Window x:Class="RaktarExport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Raktár – export" Height="500" Width="900">
+    <DockPanel Margin="10">
+        <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+            <Label Content="Kategória:" VerticalAlignment="Center" />
+            <ComboBox x:Name="cmbKategoria" Width="160" DisplayMemberPath="Nev" Margin="0,0,16,0"
+                      SelectionChanged="CmbKategoria_SelectionChanged" />
+            <Button Content="JSON-export…" Click="JsonExport_Click" Padding="8,4" Margin="0,0,6,0" />
+            <Button Content="XML-export…" Click="XmlExport_Click" Padding="8,4" Margin="0,0,6,0" />
+            <Button Content="JSON-fájl ellenőrzése…" Click="JsonBeolvasas_Click" Padding="8,4" />
+        </WrapPanel>
+
+        <TextBlock x:Name="txtAllapot" DockPanel.Dock="Bottom" Margin="0,8,0,0" TextWrapping="Wrap" />
+
+        <DataGrid x:Name="dgTermekek" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cikkszám" Binding="{Binding Cikkszam}" Width="80" />
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                <DataGridTextColumn Header="Kategória" Binding="{Binding Kategoria.Nev}" Width="130" />
+                <DataGridTextColumn Header="Ár (Ft)" Binding="{Binding Ar, StringFormat={}{0:N0}}" Width="80" />
+                <DataGridTextColumn Header="Darab" Binding="{Binding Darab}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,58 @@
+<Window x:Class="HiresEpuletek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:HiresEpuletek"
+        Title="Híres épületek" Height="480" Width="800" MinWidth="600" MinHeight="420"
+        Closing="Window_Closing">
+    <Window.Resources>
+        <!-- A saját átalakító példánya; a local: előtag a projekt névterére mutat -->
+        <local:NullToVisibilityConverter x:Key="NullToVis"/>
+    </Window.Resources>
+
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Bal oldal: az épületek listája -->
+        <DockPanel Margin="0,0,5,0">
+            <TextBlock DockPanel.Dock="Bottom" Margin="0,5,0,0"
+                       Text="{Binding Epuletek.Count, StringFormat='Épületek száma: {0}'}"/>
+            <ListBox Name="EpuletLista" ItemsSource="{Binding Epuletek}"
+                     SelectionChanged="EpuletLista_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Nev}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Varos}" Foreground="Gray" FontSize="11"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </DockPanel>
+
+        <!-- Jobb oldal: szerkesztő. A DataContextet kódból állítjuk (a kiválasztott épület MÁSOLATA). -->
+        <GroupBox Grid.Column="1" Name="Szerkeszto" Header="Épület adatai" Padding="5">
+            <!-- Ha nincs mit szerkeszteni (DataContext == null), a panel rejtve van -->
+            <StackPanel Visibility="{Binding ElementName=Szerkeszto, Path=DataContext,
+                                             Converter={StaticResource NullToVis}}">
+                <Label Content="Név:"/>
+                <TextBox Text="{Binding Nev}"/>
+                <Label Content="Város:"/>
+                <TextBox Text="{Binding Varos}"/>
+                <Label Content="Ország:"/>
+                <TextBox Text="{Binding Orszag}"/>
+                <Label Content="Építés éve (i. e. negatív):"/>
+                <TextBox Text="{Binding EpitesEve}"/>
+                <Label Content="Magasság (m, tizedespont):"/>
+                <TextBox Text="{Binding Magassag}"/>
+                <CheckBox Content="Látogatható" IsChecked="{Binding Latogathato}" Margin="0,8"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Mentés" Width="90" Margin="0,0,5,0" IsDefault="True" Click="Mentes_Click"/>
+                    <Button Content="Mégse" Width="90" IsCancel="True" Click="Megse_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

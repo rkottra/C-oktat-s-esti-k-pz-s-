@@ -1,0 +1,34 @@
+<Window x:Class="SablonWpfDataGrid.UjRekordAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SABLON – új rekord" Height="220" Width="340" MinHeight="200" MinWidth="300"
+        WindowStartupLocation="CenterOwner">
+    <!-- SABLON: Label + vezérlő párok kétoszlopos rácsban, alul Mentés/Mégse -->
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Név:" />
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtNev" Margin="0,3" />
+        <Label Grid.Row="1" Content="Érték:" />
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtErtek" Margin="0,3" />
+        <Label Grid.Row="2" Content="Dátum:" />
+        <DatePicker Grid.Row="2" Grid.Column="1" x:Name="dpDatum" Margin="0,3" />
+        <!-- Legördülő lista objektumokkal:
+             <ComboBox x:Name="cbSzulo" DisplayMemberPath="Nev" />   és a kódban: cbSzulo.ItemsSource = lista; -->
+
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom">
+            <Button Content="Mentés" Width="90" Margin="4" IsDefault="True" Click="Mentes_Click" />
+            <Button Content="Mégse" Width="90" Margin="4" IsCancel="True" />
+        </StackPanel>
+    </Grid>
+</Window>

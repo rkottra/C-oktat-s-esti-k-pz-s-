@@ -1,0 +1,65 @@
+<!-- A Window az ablak; az x:Class köti össze a mögöttes kóddal (MainWindow.xaml.cs). -->
+<Window x:Class="WpfAlapokUrlap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF alapok – űrlap" Height="450" Width="800"
+        MinWidth="450" MinHeight="350"
+        WindowStartupLocation="CenterScreen">
+
+    <!-- A Window-nak csak EGY tartalma lehet: ez egy Grid (rács), abba kerül minden más. -->
+    <Grid>
+        <!-- 3 sor: fix 50 egység, a maradék (*), majd fix 40 egység -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <!-- 2 oszlop 1:3 arányban; a MinWidth megakadályozza, hogy túl keskenyre zsugorodjon -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" MinWidth="150"/>
+            <ColumnDefinition Width="3*" MinWidth="250"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- 0. sor: cím és gomb. Grid.Row / Grid.Column nélkül az elem a 0. sor 0. oszlopába kerül. -->
+        <Label Content="Jelentkezés tanfolyamra"
+               FontSize="16" FontWeight="Bold"
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Grid.Row="0" Grid.Column="1" Name="BetoltesGomb"
+                Content="Tanfolyamok betöltése" Margin="5" Padding="10,0"
+                HorizontalAlignment="Right"
+                Click="BetoltesGomb_Click"/>
+
+        <!-- 1. sor, bal oszlop: lista. A SelectionChanged esemény kiválasztáskor fut le. -->
+        <ListBox Grid.Row="1" Grid.Column="0" Name="TanfolyamLista" Margin="5"
+                 Background="Bisque"
+                 SelectionChanged="TanfolyamLista_SelectionChanged"/>
+
+        <!-- 1. sor, jobb oszlop: az űrlap elemei egymás alatt (StackPanel) -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5" Background="FloralWhite">
+            <Label Content="Név:"/>
+            <TextBox Name="NevMezo" Margin="5,0"/>
+
+            <Label Content="Életkor:"/>
+            <TextBox Name="KorMezo" Margin="5,0" Text="25" TextChanged="KorMezo_TextChanged"/>
+
+            <!-- A GroupBox fejléccel keretez; benne a RadioButtonok egy csoportot alkotnak -->
+            <GroupBox Header="Időpont" Margin="5">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Name="DelelottiRadio" Content="délelőtt" Margin="5" IsChecked="True"/>
+                    <RadioButton Name="DelutaniRadio" Content="délután" Margin="5"/>
+                    <RadioButton Name="EstiRadio" Content="este" Margin="5"/>
+                </StackPanel>
+            </GroupBox>
+
+            <CheckBox Name="HirlevelCheck" Content="Kérek hírlevelet" Margin="5"/>
+            <Label Name="KivalasztottCimke" Content="Nincs kiválasztott tanfolyam." Foreground="BlueViolet"/>
+        </StackPanel>
+
+        <!-- 2. sor: a két oszlopot átfogó (ColumnSpan) gombsor, jobbra igazítva -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="TorlesGomb" Content="Törlés" Width="90" Margin="5" Click="TorlesGomb_Click"/>
+            <Button Name="JelentkezesGomb" Content="Jelentkezés" Width="90" Margin="5"
+                    IsDefault="True" Click="JelentkezesGomb_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

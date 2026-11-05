@@ -1,0 +1,66 @@
+<Window x:Class="HiresEpuletekVizsga.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Híres épületek – kereső" Height="520" Width="980" MinWidth="760" MinHeight="420"
+        WindowStartupLocation="CenterScreen" Language="hu-HU">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="260"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- 1. sor: szűrők -->
+        <WrapPanel Grid.ColumnSpan="2" Margin="0,0,0,8">
+            <Label Content="Ország:"/>
+            <ComboBox Name="OrszagValaszto" Width="200" Margin="0,0,15,0"
+                      SelectionChanged="Szuro_Valtozott"/>
+            <Label Content="Név tartalmazza:"/>
+            <TextBox Name="KeresoMezo" Width="160" Margin="0,0,15,0" VerticalContentAlignment="Center"
+                     TextChanged="Szuro_Valtozott"/>
+            <CheckBox Name="CsakLatogathato" Content="Csak látogatható" VerticalAlignment="Center"
+                      Checked="Szuro_Valtozott" Unchecked="Szuro_Valtozott"/>
+        </WrapPanel>
+
+        <!-- 2. sor bal: táblázat -->
+        <DataGrid Grid.Row="1" Name="EpuletTabla" AutoGenerateColumns="False" IsReadOnly="True"
+                  CanUserAddRows="False" SelectionMode="Single" Margin="0,0,8,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="2*"/>
+                <DataGridTextColumn Header="Város" Binding="{Binding Varos}" Width="*"/>
+                <DataGridTextColumn Header="Ország" Binding="{Binding Orszag}" Width="1.5*"/>
+                <DataGridTextColumn Header="Építés éve" Binding="{Binding EpitesEveSzoveg}" Width="80"/>
+                <DataGridTextColumn Header="Magasság (m)" Binding="{Binding Magassag, StringFormat='{}{0:0.0}'}" Width="95"/>
+                <DataGridCheckBoxColumn Header="Látogatható" Binding="{Binding Latogathato}" Width="85"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- 2. sor jobb: a kiválasztott épület részletei (DataContext = a táblázat kiválasztott eleme) -->
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Kiválasztott épület" Padding="8"
+                  DataContext="{Binding ElementName=EpuletTabla, Path=SelectedItem}">
+            <StackPanel>
+                <TextBlock Text="{Binding Nev, FallbackValue='Válassz épületet a táblázatból!'}"
+                           FontSize="18" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBlock Text="{Binding Hely}" Margin="0,4"/>
+                <TextBlock Text="{Binding EpitesEveSzoveg, StringFormat='Építés éve: {0}'}"/>
+                <TextBlock Text="{Binding Kor, StringFormat='Kora: {0} év'}"/>
+                <TextBlock Text="{Binding Magassag, StringFormat='Magasság: {0} m'}"/>
+                <TextBlock Name="LatogathatoSzoveg" Margin="0,4"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- 3. sor: statisztika a szűrt listáról -->
+        <Border Grid.Row="2" Grid.ColumnSpan="2" Margin="0,8,0,0" Padding="6"
+                Background="#FFF5F5F5" BorderBrush="LightGray" BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="DarabSzoveg" Margin="0,0,25,0"/>
+                <TextBlock Name="AtlagSzoveg" Margin="0,0,25,0"/>
+                <TextBlock Name="LegmagasabbSzoveg"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

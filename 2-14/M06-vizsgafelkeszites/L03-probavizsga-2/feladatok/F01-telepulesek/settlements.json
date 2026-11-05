@@ -1,0 +1,2770 @@
+[
+  {
+    "id": 1,
+    "name": "Aba",
+    "countyname": "Fejér",
+    "region": "Székesfehérvári",
+    "population": 4619,
+    "areasize": 88.05
+  },
+  {
+    "id": 2,
+    "name": "Abádszalók",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Kunhegyesi",
+    "population": 3922,
+    "areasize": 132.23
+  },
+  {
+    "id": 3,
+    "name": "Abaújszántó",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Gönci",
+    "population": 3088,
+    "areasize": 47.36
+  },
+  {
+    "id": 4,
+    "name": "Abony",
+    "countyname": "Pest",
+    "region": "Ceglédi",
+    "population": 14876,
+    "areasize": 127.97
+  },
+  {
+    "id": 5,
+    "name": "Ács",
+    "countyname": "Komárom-Esztergom",
+    "region": "Komáromi",
+    "population": 6965,
+    "areasize": 103.75
+  },
+  {
+    "id": 6,
+    "name": "Adony",
+    "countyname": "Fejér",
+    "region": "Dunaújvárosi",
+    "population": 3912,
+    "areasize": 61.05
+  },
+  {
+    "id": 7,
+    "name": "Ajak",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Kisvárdai",
+    "population": 3528,
+    "areasize": 24.76
+  },
+  {
+    "id": 8,
+    "name": "Ajka",
+    "countyname": "Veszprém",
+    "region": "Ajkai",
+    "population": 29058,
+    "areasize": 95.05
+  },
+  {
+    "id": 9,
+    "name": "Albertirsa",
+    "countyname": "Pest",
+    "region": "Ceglédi",
+    "population": 12410,
+    "areasize": 72.96
+  },
+  {
+    "id": 10,
+    "name": "Alsózsolca",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 5937,
+    "areasize": 26.02
+  },
+  {
+    "id": 11,
+    "name": "Aszód",
+    "countyname": "Pest",
+    "region": "Aszódi",
+    "population": 6414,
+    "areasize": 16.2
+  },
+  {
+    "id": 12,
+    "name": "Bábolna",
+    "countyname": "Komárom-Esztergom",
+    "region": "Komáromi",
+    "population": 3654,
+    "areasize": 33.55
+  },
+  {
+    "id": 13,
+    "name": "Bácsalmás",
+    "countyname": "Bács-Kiskun",
+    "region": "Bácsalmási",
+    "population": 6697,
+    "areasize": 108.32
+  },
+  {
+    "id": 14,
+    "name": "Badacsonytomaj",
+    "countyname": "Veszprém",
+    "region": "Tapolcai",
+    "population": 2080,
+    "areasize": 32.71
+  },
+  {
+    "id": 15,
+    "name": "Baja",
+    "countyname": "Bács-Kiskun",
+    "region": "Bajai",
+    "population": 37330,
+    "areasize": 177.61
+  },
+  {
+    "id": 16,
+    "name": "Baktalórántháza",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Baktalórántházai",
+    "population": 4302,
+    "areasize": 35.25
+  },
+  {
+    "id": 17,
+    "name": "Balassagyarmat",
+    "countyname": "Nógrád",
+    "region": "Balassagyarmati",
+    "population": 16133,
+    "areasize": 23.74
+  },
+  {
+    "id": 18,
+    "name": "Balatonalmádi",
+    "countyname": "Veszprém",
+    "region": "Balatonalmádi",
+    "population": 9167,
+    "areasize": 49.88
+  },
+  {
+    "id": 19,
+    "name": "Balatonboglár",
+    "countyname": "Somogy",
+    "region": "Fonyódi",
+    "population": 5932,
+    "areasize": 32.04
+  },
+  {
+    "id": 20,
+    "name": "Balatonföldvár",
+    "countyname": "Somogy",
+    "region": "Siófoki",
+    "population": 2064,
+    "areasize": 15.32
+  },
+  {
+    "id": 21,
+    "name": "Balatonfüred",
+    "countyname": "Veszprém",
+    "region": "Balatonfüredi",
+    "population": 13532,
+    "areasize": 46.45
+  },
+  {
+    "id": 22,
+    "name": "Balatonfűzfő",
+    "countyname": "Veszprém",
+    "region": "Balatonalmádi",
+    "population": 4299,
+    "areasize": 9.25
+  },
+  {
+    "id": 23,
+    "name": "Balatonkenese",
+    "countyname": "Veszprém",
+    "region": "Balatonalmádi",
+    "population": 3195,
+    "areasize": 65.57
+  },
+  {
+    "id": 24,
+    "name": "Balatonlelle",
+    "countyname": "Somogy",
+    "region": "Fonyódi",
+    "population": 4735,
+    "areasize": 43.23
+  },
+  {
+    "id": 25,
+    "name": "Balkány",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nagykállói",
+    "population": 6215,
+    "areasize": 89.99
+  },
+  {
+    "id": 26,
+    "name": "Balmazújváros",
+    "countyname": "Hajdú-Bihar",
+    "region": "Balmazújvárosi",
+    "population": 17354,
+    "areasize": 205.45
+  },
+  {
+    "id": 27,
+    "name": "Barcs",
+    "countyname": "Somogy",
+    "region": "Barcsi",
+    "population": 11378,
+    "areasize": 122.9
+  },
+  {
+    "id": 28,
+    "name": "Bátaszék",
+    "countyname": "Tolna",
+    "region": "Szekszárdi",
+    "population": 6388,
+    "areasize": 63.55
+  },
+  {
+    "id": 29,
+    "name": "Bátonyterenye",
+    "countyname": "Nógrád",
+    "region": "Bátonyterenyei",
+    "population": 12604,
+    "areasize": 78.92
+  },
+  {
+    "id": 30,
+    "name": "Battonya",
+    "countyname": "Békés",
+    "region": "Mezőkovácsházai",
+    "population": 5565,
+    "areasize": 145.71
+  },
+  {
+    "id": 31,
+    "name": "Békés",
+    "countyname": "Békés",
+    "region": "Békési",
+    "population": 19763,
+    "areasize": 127.23
+  },
+  {
+    "id": 32,
+    "name": "Békéscsaba",
+    "countyname": "Békés",
+    "region": "Békéscsabai",
+    "population": 63752,
+    "areasize": 193.93
+  },
+  {
+    "id": 33,
+    "name": "Bélapátfalva",
+    "countyname": "Heves",
+    "region": "Bélapátfalvai",
+    "population": 2996,
+    "areasize": 36.63
+  },
+  {
+    "id": 34,
+    "name": "Beled",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Kapuvári",
+    "population": 2553,
+    "areasize": 26.47
+  },
+  {
+    "id": 35,
+    "name": "Berettyóújfalu",
+    "countyname": "Hajdú-Bihar",
+    "region": "Berettyóújfalui",
+    "population": 15167,
+    "areasize": 170.98
+  },
+  {
+    "id": 36,
+    "name": "Berhida",
+    "countyname": "Veszprém",
+    "region": "Várpalotai",
+    "population": 5967,
+    "areasize": 42.73
+  },
+  {
+    "id": 37,
+    "name": "Besenyszög",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Szolnoki",
+    "population": 3372,
+    "areasize": 138.08
+  },
+  {
+    "id": 38,
+    "name": "Biatorbágy",
+    "countyname": "Pest",
+    "region": "Budakeszi",
+    "population": 12805,
+    "areasize": 44.12
+  },
+  {
+    "id": 39,
+    "name": "Bicske",
+    "countyname": "Fejér",
+    "region": "Bicskei",
+    "population": 11642,
+    "areasize": 77.08
+  },
+  {
+    "id": 40,
+    "name": "Biharkeresztes",
+    "countyname": "Hajdú-Bihar",
+    "region": "Berettyóújfalui",
+    "population": 3888,
+    "areasize": 49.26
+  },
+  {
+    "id": 41,
+    "name": "Bodajk",
+    "countyname": "Fejér",
+    "region": "Móri",
+    "population": 4051,
+    "areasize": 28.98
+  },
+  {
+    "id": 42,
+    "name": "Bóly",
+    "countyname": "Baranya",
+    "region": "Bólyi",
+    "population": 3996,
+    "areasize": 25.38
+  },
+  {
+    "id": 43,
+    "name": "Bonyhád",
+    "countyname": "Tolna",
+    "region": "Bonyhádi",
+    "population": 13741,
+    "areasize": 72.13
+  },
+  {
+    "id": 44,
+    "name": "Borsodnádasd",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Ózdi",
+    "population": 3007,
+    "areasize": 28.08
+  },
+  {
+    "id": 45,
+    "name": "Budakalász",
+    "countyname": "Pest",
+    "region": "Szentendrei",
+    "population": 10510,
+    "areasize": 15.17
+  },
+  {
+    "id": 46,
+    "name": "Budakeszi",
+    "countyname": "Pest",
+    "region": "Budakeszi",
+    "population": 14507,
+    "areasize": 37.1
+  },
+  {
+    "id": 47,
+    "name": "Budaörs",
+    "countyname": "Pest",
+    "region": "Budakeszi",
+    "population": 29605,
+    "areasize": 23.59
+  },
+  {
+    "id": 48,
+    "name": "Budapest",
+    "countyname": "Budapest",
+    "region": "",
+    "population": 1740041,
+    "areasize": 525.09
+  },
+  {
+    "id": 49,
+    "name": "Bük",
+    "countyname": "Vas",
+    "region": "Kőszegi",
+    "population": 3493,
+    "areasize": 20.86
+  },
+  {
+    "id": 50,
+    "name": "Cegléd",
+    "countyname": "Pest",
+    "region": "Ceglédi",
+    "population": 37778,
+    "areasize": 244.87
+  },
+  {
+    "id": 51,
+    "name": "Celldömölk",
+    "countyname": "Vas",
+    "region": "Celldömölki",
+    "population": 10786,
+    "areasize": 52.39
+  },
+  {
+    "id": 52,
+    "name": "Cigánd",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Cigándi",
+    "population": 2682,
+    "areasize": 56.76
+  },
+  {
+    "id": 53,
+    "name": "Csákvár",
+    "countyname": "Fejér",
+    "region": "Bicskei",
+    "population": 5221,
+    "areasize": 118.76
+  },
+  {
+    "id": 54,
+    "name": "Csanádpalota",
+    "countyname": "Csongrád",
+    "region": "Makói",
+    "population": 2968,
+    "areasize": 77.76
+  },
+  {
+    "id": 55,
+    "name": "Csenger",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Csengeri",
+    "population": 4730,
+    "areasize": 36.16
+  },
+  {
+    "id": 56,
+    "name": "Csepreg",
+    "countyname": "Vas",
+    "region": "Kőszegi",
+    "population": 3384,
+    "areasize": 49.54
+  },
+  {
+    "id": 57,
+    "name": "Csongrád",
+    "countyname": "Csongrád",
+    "region": "Csongrádi",
+    "population": 16846,
+    "areasize": 173.89
+  },
+  {
+    "id": 58,
+    "name": "Csorna",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Csornai",
+    "population": 10649,
+    "areasize": 91.73
+  },
+  {
+    "id": 59,
+    "name": "Csorvás",
+    "countyname": "Békés",
+    "region": "Békéscsabai",
+    "population": 4981,
+    "areasize": 90.18
+  },
+  {
+    "id": 60,
+    "name": "Csurgó",
+    "countyname": "Somogy",
+    "region": "Csurgói",
+    "population": 5186,
+    "areasize": 59.42
+  },
+  {
+    "id": 61,
+    "name": "Dabas",
+    "countyname": "Pest",
+    "region": "Dabasi",
+    "population": 16813,
+    "areasize": 165.99
+  },
+  {
+    "id": 62,
+    "name": "Debrecen",
+    "countyname": "Hajdú-Bihar",
+    "region": "Debreceni",
+    "population": 207594,
+    "areasize": 461.66
+  },
+  {
+    "id": 63,
+    "name": "Demecser",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Kemecsei",
+    "population": 4280,
+    "areasize": 36.98
+  },
+  {
+    "id": 64,
+    "name": "Derecske",
+    "countyname": "Hajdú-Bihar",
+    "region": "Derecskei",
+    "population": 8906,
+    "areasize": 103.58
+  },
+  {
+    "id": 65,
+    "name": "Dévaványa",
+    "countyname": "Békés",
+    "region": "Gyomaendrődi",
+    "population": 7622,
+    "areasize": 216.55
+  },
+  {
+    "id": 66,
+    "name": "Devecser",
+    "countyname": "Veszprém",
+    "region": "Devecseri",
+    "population": 4325,
+    "areasize": 64.11
+  },
+  {
+    "id": 67,
+    "name": "Diósd",
+    "countyname": "Pest",
+    "region": "Érdi",
+    "population": 9522,
+    "areasize": 5.75
+  },
+  {
+    "id": 68,
+    "name": "Dombóvár",
+    "countyname": "Tolna",
+    "region": "Dombóvári",
+    "population": 19494,
+    "areasize": 78.48
+  },
+  {
+    "id": 69,
+    "name": "Dombrád",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Kisvárdai",
+    "population": 3900,
+    "areasize": 51.84
+  },
+  {
+    "id": 70,
+    "name": "Dorog",
+    "countyname": "Komárom-Esztergom",
+    "region": "Esztergomi",
+    "population": 11996,
+    "areasize": 11.54
+  },
+  {
+    "id": 71,
+    "name": "Dunaföldvár",
+    "countyname": "Tolna",
+    "region": "Paksi",
+    "population": 8666,
+    "areasize": 111.42
+  },
+  {
+    "id": 72,
+    "name": "Dunaharaszti",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 20260,
+    "areasize": 29.17
+  },
+  {
+    "id": 73,
+    "name": "Dunakeszi",
+    "countyname": "Pest",
+    "region": "Dunakeszi",
+    "population": 40334,
+    "areasize": 31.06
+  },
+  {
+    "id": 74,
+    "name": "Dunaújváros",
+    "countyname": "Fejér",
+    "region": "Dunaújvárosi",
+    "population": 48010,
+    "areasize": 52.67
+  },
+  {
+    "id": 75,
+    "name": "Dunavarsány",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 7480,
+    "areasize": 22.52
+  },
+  {
+    "id": 76,
+    "name": "Dunavecse",
+    "countyname": "Bács-Kiskun",
+    "region": "Kunszentmiklósi",
+    "population": 3937,
+    "areasize": 66.77
+  },
+  {
+    "id": 77,
+    "name": "Edelény",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Edelényi",
+    "population": 10019,
+    "areasize": 56.84
+  },
+  {
+    "id": 78,
+    "name": "Eger",
+    "countyname": "Heves",
+    "region": "Egri",
+    "population": 56166,
+    "areasize": 92.21
+  },
+  {
+    "id": 79,
+    "name": "Elek",
+    "countyname": "Békés",
+    "region": "Gyulai",
+    "population": 4816,
+    "areasize": 54.91
+  },
+  {
+    "id": 80,
+    "name": "Emőd",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 4895,
+    "areasize": 49.37
+  },
+  {
+    "id": 81,
+    "name": "Encs",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Encsi",
+    "population": 6201,
+    "areasize": 25.8
+  },
+  {
+    "id": 82,
+    "name": "Enying",
+    "countyname": "Fejér",
+    "region": "Enyingi",
+    "population": 6768,
+    "areasize": 82.78
+  },
+  {
+    "id": 83,
+    "name": "Ercsi",
+    "countyname": "Fejér",
+    "region": "Martonvásári",
+    "population": 7999,
+    "areasize": 65.31
+  },
+  {
+    "id": 84,
+    "name": "Érd",
+    "countyname": "Pest",
+    "region": "Érdi",
+    "population": 65277,
+    "areasize": 60.54
+  },
+  {
+    "id": 85,
+    "name": "Esztergom",
+    "countyname": "Komárom-Esztergom",
+    "region": "Esztergomi",
+    "population": 30434,
+    "areasize": 99.95
+  },
+  {
+    "id": 86,
+    "name": "Fegyvernek",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Törökszentmiklósi",
+    "population": 6415,
+    "areasize": 71.48
+  },
+  {
+    "id": 87,
+    "name": "Fehérgyarmat",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Fehérgyarmati",
+    "population": 7861,
+    "areasize": 52.46
+  },
+  {
+    "id": 88,
+    "name": "Felsőzsolca",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 6750,
+    "areasize": 16.25
+  },
+  {
+    "id": 89,
+    "name": "Fertőd",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Soproni",
+    "population": 3461,
+    "areasize": 48.56
+  },
+  {
+    "id": 90,
+    "name": "Fertőszentmiklós",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Soproni",
+    "population": 3891,
+    "areasize": 39.39
+  },
+  {
+    "id": 91,
+    "name": "Fonyód",
+    "countyname": "Somogy",
+    "region": "Fonyódi",
+    "population": 4728,
+    "areasize": 53.55
+  },
+  {
+    "id": 92,
+    "name": "Fót",
+    "countyname": "Pest",
+    "region": "Dunakeszi",
+    "population": 18968,
+    "areasize": 37.4
+  },
+  {
+    "id": 93,
+    "name": "Füzesabony",
+    "countyname": "Heves",
+    "region": "Füzesabonyi",
+    "population": 7781,
+    "areasize": 46.34
+  },
+  {
+    "id": 94,
+    "name": "Füzesgyarmat",
+    "countyname": "Békés",
+    "region": "Szeghalmi",
+    "population": 5665,
+    "areasize": 127.34
+  },
+  {
+    "id": 95,
+    "name": "Gárdony",
+    "countyname": "Fejér",
+    "region": "Gárdonyi",
+    "population": 9927,
+    "areasize": 63.5
+  },
+  {
+    "id": 96,
+    "name": "Göd",
+    "countyname": "Pest",
+    "region": "Dunakeszi",
+    "population": 18565,
+    "areasize": 22.23
+  },
+  {
+    "id": 97,
+    "name": "Gödöllő",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 34172,
+    "areasize": 61.92
+  },
+  {
+    "id": 98,
+    "name": "Gönc",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Gönci",
+    "population": 1951,
+    "areasize": 37.27
+  },
+  {
+    "id": 99,
+    "name": "Gyál",
+    "countyname": "Pest",
+    "region": "Gyáli",
+    "population": 23486,
+    "areasize": 24.93
+  },
+  {
+    "id": 100,
+    "name": "Gyomaendrőd",
+    "countyname": "Békés",
+    "region": "Gyomaendrődi",
+    "population": 13674,
+    "areasize": 303.94
+  },
+  {
+    "id": 101,
+    "name": "Gyömrő",
+    "countyname": "Pest",
+    "region": "Monori",
+    "population": 16670,
+    "areasize": 26.51
+  },
+  {
+    "id": 102,
+    "name": "Gyöngyös",
+    "countyname": "Heves",
+    "region": "Gyöngyösi",
+    "population": 32385,
+    "areasize": 55.31
+  },
+  {
+    "id": 103,
+    "name": "Gyöngyöspata",
+    "countyname": "Heves",
+    "region": "Gyöngyösi",
+    "population": 2472,
+    "areasize": 60.75
+  },
+  {
+    "id": 104,
+    "name": "Gyönk",
+    "countyname": "Tolna",
+    "region": "Tamási",
+    "population": 2066,
+    "areasize": 38.12
+  },
+  {
+    "id": 105,
+    "name": "Győr",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Győri",
+    "population": 131564,
+    "areasize": 174.62
+  },
+  {
+    "id": 106,
+    "name": "Gyula",
+    "countyname": "Békés",
+    "region": "Gyulai",
+    "population": 31679,
+    "areasize": 255.8
+  },
+  {
+    "id": 107,
+    "name": "Hajdúböszörmény",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúböszörményi",
+    "population": 31306,
+    "areasize": 370.78
+  },
+  {
+    "id": 108,
+    "name": "Hajdúdorog",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúböszörményi",
+    "population": 8888,
+    "areasize": 100.65
+  },
+  {
+    "id": 109,
+    "name": "Hajdúhadház",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúhadházi",
+    "population": 12458,
+    "areasize": 87.8
+  },
+  {
+    "id": 110,
+    "name": "Hajdúnánás",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúnánási",
+    "population": 16975,
+    "areasize": 259.62
+  },
+  {
+    "id": 111,
+    "name": "Hajdúsámson",
+    "countyname": "Hajdú-Bihar",
+    "region": "Debreceni",
+    "population": 13105,
+    "areasize": 69.47
+  },
+  {
+    "id": 112,
+    "name": "Hajdúszoboszló",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúszoboszlói",
+    "population": 23309,
+    "areasize": 238.7
+  },
+  {
+    "id": 113,
+    "name": "Hajós",
+    "countyname": "Bács-Kiskun",
+    "region": "Kalocsai",
+    "population": 3134,
+    "areasize": 89.92
+  },
+  {
+    "id": 114,
+    "name": "Halásztelek",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 9310,
+    "areasize": 8.64
+  },
+  {
+    "id": 115,
+    "name": "Harkány",
+    "countyname": "Baranya",
+    "region": "Siklósi",
+    "population": 4065,
+    "areasize": 25.69
+  },
+  {
+    "id": 116,
+    "name": "Hatvan",
+    "countyname": "Heves",
+    "region": "Hatvani",
+    "population": 20259,
+    "areasize": 66.31
+  },
+  {
+    "id": 117,
+    "name": "Herend",
+    "countyname": "Veszprém",
+    "region": "Veszprémi",
+    "population": 3339,
+    "areasize": 19.56
+  },
+  {
+    "id": 118,
+    "name": "Heves",
+    "countyname": "Heves",
+    "region": "Hevesi",
+    "population": 10464,
+    "areasize": 99.31
+  },
+  {
+    "id": 119,
+    "name": "Hévíz",
+    "countyname": "Zala",
+    "region": "Keszthelyi",
+    "population": 4375,
+    "areasize": 8.31
+  },
+  {
+    "id": 120,
+    "name": "Hódmezővásárhely",
+    "countyname": "Csongrád",
+    "region": "Hódmezővásárhelyi",
+    "population": 46522,
+    "areasize": 487.98
+  },
+  {
+    "id": 121,
+    "name": "Ibrány",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Ibrányi",
+    "population": 6842,
+    "areasize": 60.39
+  },
+  {
+    "id": 122,
+    "name": "Igal",
+    "countyname": "Somogy",
+    "region": "Kaposvári",
+    "population": 1308,
+    "areasize": 36.06
+  },
+  {
+    "id": 123,
+    "name": "Isaszeg",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 11397,
+    "areasize": 54.84
+  },
+  {
+    "id": 124,
+    "name": "Izsák",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskőrösi",
+    "population": 5904,
+    "areasize": 113.76
+  },
+  {
+    "id": 125,
+    "name": "Jánoshalma",
+    "countyname": "Bács-Kiskun",
+    "region": "Jánoshalmai",
+    "population": 8937,
+    "areasize": 132.21
+  },
+  {
+    "id": 126,
+    "name": "Jánosháza",
+    "countyname": "Vas",
+    "region": "Celldömölki",
+    "population": 2401,
+    "areasize": 23.41
+  },
+  {
+    "id": 127,
+    "name": "Jánossomorja",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Mosonmagyaróvári",
+    "population": 5912,
+    "areasize": 148.96
+  },
+  {
+    "id": 128,
+    "name": "Jászapáti",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Jászapáti",
+    "population": 8947,
+    "areasize": 78.16
+  },
+  {
+    "id": 129,
+    "name": "Jászárokszállás",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Jászberényi",
+    "population": 7806,
+    "areasize": 77.17
+  },
+  {
+    "id": 130,
+    "name": "Jászberény",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Jászberényi",
+    "population": 26924,
+    "areasize": 221.35
+  },
+  {
+    "id": 131,
+    "name": "Jászfényszaru",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Jászberényi",
+    "population": 5621,
+    "areasize": 76.16
+  },
+  {
+    "id": 132,
+    "name": "Jászkisér",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Jászapáti",
+    "population": 5165,
+    "areasize": 130.11
+  },
+  {
+    "id": 133,
+    "name": "Kaba",
+    "countyname": "Hajdú-Bihar",
+    "region": "Püspökladányi",
+    "population": 5932,
+    "areasize": 95.04
+  },
+  {
+    "id": 134,
+    "name": "Kadarkút",
+    "countyname": "Somogy",
+    "region": "Kaposvári",
+    "population": 2583,
+    "areasize": 39.74
+  },
+  {
+    "id": 135,
+    "name": "Kalocsa",
+    "countyname": "Bács-Kiskun",
+    "region": "Kalocsai",
+    "population": 16959,
+    "areasize": 53.18
+  },
+  {
+    "id": 136,
+    "name": "Kaposvár",
+    "countyname": "Somogy",
+    "region": "Kaposvári",
+    "population": 67686,
+    "areasize": 113.59
+  },
+  {
+    "id": 137,
+    "name": "Kapuvár",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Kapuvári",
+    "population": 10353,
+    "areasize": 96.05
+  },
+  {
+    "id": 138,
+    "name": "Karcag",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Karcagi",
+    "population": 19980,
+    "areasize": 368.63
+  },
+  {
+    "id": 139,
+    "name": "Kazincbarcika",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Kazincbarcikai",
+    "population": 28664,
+    "areasize": 36.67
+  },
+  {
+    "id": 140,
+    "name": "Kecel",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskőrösi",
+    "population": 8687,
+    "areasize": 114.48
+  },
+  {
+    "id": 141,
+    "name": "Kecskemét",
+    "countyname": "Bács-Kiskun",
+    "region": "Kecskeméti",
+    "population": 114226,
+    "areasize": 322.57
+  },
+  {
+    "id": 142,
+    "name": "Kemecse",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Kemecsei",
+    "population": 4736,
+    "areasize": 38.94
+  },
+  {
+    "id": 143,
+    "name": "Kenderes",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Karcagi",
+    "population": 4647,
+    "areasize": 111.24
+  },
+  {
+    "id": 144,
+    "name": "Kerekegyháza",
+    "countyname": "Bács-Kiskun",
+    "region": "Kecskeméti",
+    "population": 6300,
+    "areasize": 81.28
+  },
+  {
+    "id": 145,
+    "name": "Kerepes",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 10087,
+    "areasize": 24.08
+  },
+  {
+    "id": 146,
+    "name": "Keszthely",
+    "countyname": "Zala",
+    "region": "Keszthelyi",
+    "population": 20895,
+    "areasize": 75.98
+  },
+  {
+    "id": 147,
+    "name": "Kisbér",
+    "countyname": "Komárom-Esztergom",
+    "region": "Kisbéri",
+    "population": 5282,
+    "areasize": 52.16
+  },
+  {
+    "id": 148,
+    "name": "Kisköre",
+    "countyname": "Heves",
+    "region": "Hevesi",
+    "population": 2653,
+    "areasize": 68.42
+  },
+  {
+    "id": 149,
+    "name": "Kiskőrös",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskőrösi",
+    "population": 14259,
+    "areasize": 102.23
+  },
+  {
+    "id": 150,
+    "name": "Kiskunfélegyháza",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskunfélegyházi",
+    "population": 29972,
+    "areasize": 256.3
+  },
+  {
+    "id": 151,
+    "name": "Kiskunhalas",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskunhalasi",
+    "population": 28427,
+    "areasize": 227.58
+  },
+  {
+    "id": 152,
+    "name": "Kiskunmajsa",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskunmajsai",
+    "population": 11766,
+    "areasize": 221.99
+  },
+  {
+    "id": 153,
+    "name": "Kistarcsa",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 11975,
+    "areasize": 11.02
+  },
+  {
+    "id": 154,
+    "name": "Kistelek",
+    "countyname": "Csongrád",
+    "region": "Kisteleki",
+    "population": 7020,
+    "areasize": 69.19
+  },
+  {
+    "id": 155,
+    "name": "Kisújszállás",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Karcagi",
+    "population": 11367,
+    "areasize": 205.27
+  },
+  {
+    "id": 156,
+    "name": "Kisvárda",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Kisvárdai",
+    "population": 16473,
+    "areasize": 35.91
+  },
+  {
+    "id": 157,
+    "name": "Komádi",
+    "countyname": "Hajdú-Bihar",
+    "region": "Berettyóújfalui",
+    "population": 5172,
+    "areasize": 144.65
+  },
+  {
+    "id": 158,
+    "name": "Komárom",
+    "countyname": "Komárom-Esztergom",
+    "region": "Komáromi",
+    "population": 19729,
+    "areasize": 70.16
+  },
+  {
+    "id": 159,
+    "name": "Komló",
+    "countyname": "Baranya",
+    "region": "Komlói",
+    "population": 25020,
+    "areasize": 46.55
+  },
+  {
+    "id": 160,
+    "name": "Kondoros",
+    "countyname": "Békés",
+    "region": "Szarvasi",
+    "population": 5201,
+    "areasize": 81.84
+  },
+  {
+    "id": 161,
+    "name": "Kozármisleny",
+    "countyname": "Baranya",
+    "region": "Pécsi",
+    "population": 6109,
+    "areasize": 14.45
+  },
+  {
+    "id": 162,
+    "name": "Körmend",
+    "countyname": "Vas",
+    "region": "Körmendi",
+    "population": 11676,
+    "areasize": 52.79
+  },
+  {
+    "id": 163,
+    "name": "Körösladány",
+    "countyname": "Békés",
+    "region": "Szeghalmi",
+    "population": 4582,
+    "areasize": 123.79
+  },
+  {
+    "id": 164,
+    "name": "Kőszeg",
+    "countyname": "Vas",
+    "region": "Kőszegi",
+    "population": 12055,
+    "areasize": 54.66
+  },
+  {
+    "id": 165,
+    "name": "Kunhegyes",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Kunhegyesi",
+    "population": 7483,
+    "areasize": 148.93
+  },
+  {
+    "id": 166,
+    "name": "Kunszentmárton",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Kunszentmártoni",
+    "population": 8373,
+    "areasize": 143.65
+  },
+  {
+    "id": 167,
+    "name": "Kunszentmiklós",
+    "countyname": "Bács-Kiskun",
+    "region": "Kunszentmiklósi",
+    "population": 8515,
+    "areasize": 172.11
+  },
+  {
+    "id": 168,
+    "name": "Lábatlan",
+    "countyname": "Komárom-Esztergom",
+    "region": "Esztergomi",
+    "population": 4992,
+    "areasize": 26.35
+  },
+  {
+    "id": 169,
+    "name": "Lajosmizse",
+    "countyname": "Bács-Kiskun",
+    "region": "Kecskeméti",
+    "population": 11073,
+    "areasize": 164.66
+  },
+  {
+    "id": 170,
+    "name": "Lébény",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Mosonmagyaróvári",
+    "population": 3159,
+    "areasize": 81.39
+  },
+  {
+    "id": 171,
+    "name": "Lengyeltóti",
+    "countyname": "Somogy",
+    "region": "Fonyódi",
+    "population": 3227,
+    "areasize": 39.57
+  },
+  {
+    "id": 172,
+    "name": "Lenti",
+    "countyname": "Zala",
+    "region": "Lenti",
+    "population": 7971,
+    "areasize": 73.8
+  },
+  {
+    "id": 173,
+    "name": "Létavértes",
+    "countyname": "Hajdú-Bihar",
+    "region": "Derecskei",
+    "population": 7090,
+    "areasize": 116.62
+  },
+  {
+    "id": 174,
+    "name": "Letenye",
+    "countyname": "Zala",
+    "region": "Letenyei",
+    "population": 4053,
+    "areasize": 41.74
+  },
+  {
+    "id": 175,
+    "name": "Lőrinci",
+    "countyname": "Heves",
+    "region": "Hatvani",
+    "population": 5880,
+    "areasize": 23.53
+  },
+  {
+    "id": 176,
+    "name": "Maglód",
+    "countyname": "Pest",
+    "region": "Vecsési",
+    "population": 11989,
+    "areasize": 22.37
+  },
+  {
+    "id": 177,
+    "name": "Mágocs",
+    "countyname": "Baranya",
+    "region": "Hegyháti",
+    "population": 2388,
+    "areasize": 42.54
+  },
+  {
+    "id": 178,
+    "name": "Makó",
+    "countyname": "Csongrád",
+    "region": "Makói",
+    "population": 23573,
+    "areasize": 229.23
+  },
+  {
+    "id": 179,
+    "name": "Mándok",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Záhonyi",
+    "population": 4188,
+    "areasize": 28.91
+  },
+  {
+    "id": 180,
+    "name": "Marcali",
+    "countyname": "Somogy",
+    "region": "Marcali",
+    "population": 11567,
+    "areasize": 104.4
+  },
+  {
+    "id": 181,
+    "name": "Máriapócs",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyírbátori",
+    "population": 2042,
+    "areasize": 22.09
+  },
+  {
+    "id": 182,
+    "name": "Martfű",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Szolnoki",
+    "population": 6435,
+    "areasize": 23.08
+  },
+  {
+    "id": 183,
+    "name": "Martonvásár",
+    "countyname": "Fejér",
+    "region": "Martonvásári",
+    "population": 5811,
+    "areasize": 31.25
+  },
+  {
+    "id": 184,
+    "name": "Mátészalka",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Mátészalkai",
+    "population": 16957,
+    "areasize": 41.4
+  },
+  {
+    "id": 185,
+    "name": "Medgyesegyháza",
+    "countyname": "Békés",
+    "region": "Mezőkovácsházai",
+    "population": 3691,
+    "areasize": 64.29
+  },
+  {
+    "id": 186,
+    "name": "Mélykút",
+    "countyname": "Bács-Kiskun",
+    "region": "Jánoshalmai",
+    "population": 5081,
+    "areasize": 123.46
+  },
+  {
+    "id": 187,
+    "name": "Mezőberény",
+    "countyname": "Békés",
+    "region": "Békési",
+    "population": 10896,
+    "areasize": 118.53
+  },
+  {
+    "id": 188,
+    "name": "Mezőcsát",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Mezőcsáti",
+    "population": 5891,
+    "areasize": 103.08
+  },
+  {
+    "id": 189,
+    "name": "Mezőhegyes",
+    "countyname": "Békés",
+    "region": "Mezőkovácsházai",
+    "population": 4994,
+    "areasize": 155.44
+  },
+  {
+    "id": 190,
+    "name": "Mezőkeresztes",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Mezőkövesdi",
+    "population": 3803,
+    "areasize": 74.25
+  },
+  {
+    "id": 191,
+    "name": "Mezőkovácsháza",
+    "countyname": "Békés",
+    "region": "Mezőkovácsházai",
+    "population": 6049,
+    "areasize": 62.59
+  },
+  {
+    "id": 192,
+    "name": "Mezőkövesd",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Mezőkövesdi",
+    "population": 16538,
+    "areasize": 100.49
+  },
+  {
+    "id": 193,
+    "name": "Mezőtúr",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Mezőtúri",
+    "population": 17337,
+    "areasize": 289.72
+  },
+  {
+    "id": 194,
+    "name": "Mindszent",
+    "countyname": "Csongrád",
+    "region": "Hódmezővásárhelyi",
+    "population": 6685,
+    "areasize": 59.35
+  },
+  {
+    "id": 195,
+    "name": "Miskolc",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 166823,
+    "areasize": 236.66
+  },
+  {
+    "id": 196,
+    "name": "Mohács",
+    "countyname": "Baranya",
+    "region": "Mohácsi",
+    "population": 18604,
+    "areasize": 112.23
+  },
+  {
+    "id": 197,
+    "name": "Monor",
+    "countyname": "Pest",
+    "region": "Monori",
+    "population": 18395,
+    "areasize": 46.79
+  },
+  {
+    "id": 198,
+    "name": "Mór",
+    "countyname": "Fejér",
+    "region": "Móri",
+    "population": 14255,
+    "areasize": 108.61
+  },
+  {
+    "id": 199,
+    "name": "Mórahalom",
+    "countyname": "Csongrád",
+    "region": "Mórahalmi",
+    "population": 6067,
+    "areasize": 83.15
+  },
+  {
+    "id": 200,
+    "name": "Mosonmagyaróvár",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Mosonmagyaróvári",
+    "population": 32720,
+    "areasize": 84.11
+  },
+  {
+    "id": 201,
+    "name": "Nádudvar",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúszoboszlói",
+    "population": 8768,
+    "areasize": 225.91
+  },
+  {
+    "id": 202,
+    "name": "Nagyatád",
+    "countyname": "Somogy",
+    "region": "Nagyatádi",
+    "population": 10734,
+    "areasize": 70.6
+  },
+  {
+    "id": 203,
+    "name": "Nagybajom",
+    "countyname": "Somogy",
+    "region": "Kaposvári",
+    "population": 3431,
+    "areasize": 108.06
+  },
+  {
+    "id": 204,
+    "name": "Nagyecsed",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Mátészalkai",
+    "population": 6042,
+    "areasize": 43.85
+  },
+  {
+    "id": 205,
+    "name": "Nagyhalász",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Ibrányi",
+    "population": 5589,
+    "areasize": 44.31
+  },
+  {
+    "id": 206,
+    "name": "Nagykálló",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nagykállói",
+    "population": 9870,
+    "areasize": 68.52
+  },
+  {
+    "id": 207,
+    "name": "Nagykanizsa",
+    "countyname": "Zala",
+    "region": "Nagykanizsai",
+    "population": 49302,
+    "areasize": 148.4
+  },
+  {
+    "id": 208,
+    "name": "Nagykáta",
+    "countyname": "Pest",
+    "region": "Nagykátai",
+    "population": 12563,
+    "areasize": 81.61
+  },
+  {
+    "id": 209,
+    "name": "Nagykőrös",
+    "countyname": "Pest",
+    "region": "Nagykőrösi",
+    "population": 24433,
+    "areasize": 227.94
+  },
+  {
+    "id": 210,
+    "name": "Nagymányok",
+    "countyname": "Tolna",
+    "region": "Bonyhádi",
+    "population": 2273,
+    "areasize": 10.68
+  },
+  {
+    "id": 211,
+    "name": "Nagymaros",
+    "countyname": "Pest",
+    "region": "Szobi",
+    "population": 4770,
+    "areasize": 34.37
+  },
+  {
+    "id": 212,
+    "name": "Nyékládháza",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 5001,
+    "areasize": 24.67
+  },
+  {
+    "id": 213,
+    "name": "Nyergesújfalu",
+    "countyname": "Komárom-Esztergom",
+    "region": "Esztergomi",
+    "population": 7552,
+    "areasize": 39.5
+  },
+  {
+    "id": 214,
+    "name": "Nyíradony",
+    "countyname": "Hajdú-Bihar",
+    "region": "Nyíradonyi",
+    "population": 7798,
+    "areasize": 96.59
+  },
+  {
+    "id": 215,
+    "name": "Nyírbátor",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyírbátori",
+    "population": 12018,
+    "areasize": 66.73
+  },
+  {
+    "id": 216,
+    "name": "Nyíregyháza",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyíregyházi",
+    "population": 117658,
+    "areasize": 274.54
+  },
+  {
+    "id": 217,
+    "name": "Nyírlugos",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyírbátori",
+    "population": 2701,
+    "areasize": 58.38
+  },
+  {
+    "id": 218,
+    "name": "Nyírmada",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Vásárosnaményi",
+    "population": 4762,
+    "areasize": 38.8
+  },
+  {
+    "id": 219,
+    "name": "Nyírtelek",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyíregyházi",
+    "population": 6783,
+    "areasize": 67.92
+  },
+  {
+    "id": 220,
+    "name": "Ócsa",
+    "countyname": "Pest",
+    "region": "Gyáli",
+    "population": 9136,
+    "areasize": 81.66
+  },
+  {
+    "id": 221,
+    "name": "Onga",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 4775,
+    "areasize": 31.49
+  },
+  {
+    "id": 222,
+    "name": "Orosháza",
+    "countyname": "Békés",
+    "region": "Orosházi",
+    "population": 28910,
+    "areasize": 202.22
+  },
+  {
+    "id": 223,
+    "name": "Oroszlány",
+    "countyname": "Komárom-Esztergom",
+    "region": "Oroszlányi",
+    "population": 18627,
+    "areasize": 75.86
+  },
+  {
+    "id": 224,
+    "name": "Ózd",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Ózdi",
+    "population": 33750,
+    "areasize": 91.65
+  },
+  {
+    "id": 225,
+    "name": "Őrbottyán",
+    "countyname": "Pest",
+    "region": "Váci",
+    "population": 7439,
+    "areasize": 27.38
+  },
+  {
+    "id": 226,
+    "name": "Őriszentpéter",
+    "countyname": "Vas",
+    "region": "Körmendi",
+    "population": 1167,
+    "areasize": 33.56
+  },
+  {
+    "id": 227,
+    "name": "Örkény",
+    "countyname": "Pest",
+    "region": "Dabasi",
+    "population": 4966,
+    "areasize": 36.44
+  },
+  {
+    "id": 228,
+    "name": "Pacsa",
+    "countyname": "Zala",
+    "region": "Zalaegerszegi",
+    "population": 1758,
+    "areasize": 22.71
+  },
+  {
+    "id": 229,
+    "name": "Paks",
+    "countyname": "Tolna",
+    "region": "Paksi",
+    "population": 19510,
+    "areasize": 154.08
+  },
+  {
+    "id": 230,
+    "name": "Pálháza",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Sátoraljaújhelyi",
+    "population": 1000,
+    "areasize": 6.75
+  },
+  {
+    "id": 231,
+    "name": "Pannonhalma",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Pannonhalmi",
+    "population": 3937,
+    "areasize": 29.58
+  },
+  {
+    "id": 232,
+    "name": "Pápa",
+    "countyname": "Veszprém",
+    "region": "Pápai",
+    "population": 32052,
+    "areasize": 91.62
+  },
+  {
+    "id": 233,
+    "name": "Pásztó",
+    "countyname": "Nógrád",
+    "region": "Pásztói",
+    "population": 9569,
+    "areasize": 72.6
+  },
+  {
+    "id": 234,
+    "name": "Pécel",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 15437,
+    "areasize": 43.63
+  },
+  {
+    "id": 235,
+    "name": "Pécs",
+    "countyname": "Baranya",
+    "region": "Pécsi",
+    "population": 156801,
+    "areasize": 162.77
+  },
+  {
+    "id": 236,
+    "name": "Pécsvárad",
+    "countyname": "Baranya",
+    "region": "Pécsváradi",
+    "population": 4022,
+    "areasize": 36.03
+  },
+  {
+    "id": 237,
+    "name": "Pétervására",
+    "countyname": "Heves",
+    "region": "Pétervásárai",
+    "population": 2464,
+    "areasize": 33.87
+  },
+  {
+    "id": 238,
+    "name": "Pilis",
+    "countyname": "Pest",
+    "region": "Monori",
+    "population": 11460,
+    "areasize": 47.35
+  },
+  {
+    "id": 239,
+    "name": "Piliscsaba",
+    "countyname": "Pest",
+    "region": "Pilisvörösvári",
+    "population": 8381,
+    "areasize": 25.57
+  },
+  {
+    "id": 240,
+    "name": "Pilisvörösvár",
+    "countyname": "Pest",
+    "region": "Pilisvörösvári",
+    "population": 13768,
+    "areasize": 24.3
+  },
+  {
+    "id": 241,
+    "name": "Polgár",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúnánási",
+    "population": 7915,
+    "areasize": 97.44
+  },
+  {
+    "id": 242,
+    "name": "Polgárdi",
+    "countyname": "Fejér",
+    "region": "Polgárdi",
+    "population": 6964,
+    "areasize": 72.16
+  },
+  {
+    "id": 243,
+    "name": "Pomáz",
+    "countyname": "Pest",
+    "region": "Szentendrei",
+    "population": 17101,
+    "areasize": 49.03
+  },
+  {
+    "id": 244,
+    "name": "Pusztaszabolcs",
+    "countyname": "Fejér",
+    "region": "Dunaújvárosi",
+    "population": 5997,
+    "areasize": 51.67
+  },
+  {
+    "id": 245,
+    "name": "Putnok",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Putnoki",
+    "population": 6634,
+    "areasize": 34.72
+  },
+  {
+    "id": 246,
+    "name": "Püspökladány",
+    "countyname": "Hajdú-Bihar",
+    "region": "Püspökladányi",
+    "population": 14698,
+    "areasize": 186.95
+  },
+  {
+    "id": 247,
+    "name": "Rácalmás",
+    "countyname": "Fejér",
+    "region": "Dunaújvárosi",
+    "population": 4488,
+    "areasize": 40.64
+  },
+  {
+    "id": 248,
+    "name": "Ráckeve",
+    "countyname": "Pest",
+    "region": "Ráckevei",
+    "population": 10022,
+    "areasize": 64.09
+  },
+  {
+    "id": 249,
+    "name": "Rakamaz",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyíregyházi",
+    "population": 4545,
+    "areasize": 42.64
+  },
+  {
+    "id": 250,
+    "name": "Rákóczifalva",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Szolnoki",
+    "population": 5359,
+    "areasize": 35.94
+  },
+  {
+    "id": 251,
+    "name": "Répcelak",
+    "countyname": "Vas",
+    "region": "Sárvári",
+    "population": 2414,
+    "areasize": 13.82
+  },
+  {
+    "id": 252,
+    "name": "Rétság",
+    "countyname": "Nógrád",
+    "region": "Rétsági",
+    "population": 2895,
+    "areasize": 19.81
+  },
+  {
+    "id": 253,
+    "name": "Rudabánya",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Kazincbarcikai",
+    "population": 2488,
+    "areasize": 16.46
+  },
+  {
+    "id": 254,
+    "name": "Sajóbábony",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Miskolci",
+    "population": 2782,
+    "areasize": 13.43
+  },
+  {
+    "id": 255,
+    "name": "Sajószentpéter",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Kazincbarcikai",
+    "population": 11965,
+    "areasize": 34.85
+  },
+  {
+    "id": 256,
+    "name": "Salgótarján",
+    "countyname": "Nógrád",
+    "region": "Salgótarjáni",
+    "population": 36467,
+    "areasize": 100.83
+  },
+  {
+    "id": 257,
+    "name": "Sándorfalva",
+    "countyname": "Csongrád",
+    "region": "Szegedi",
+    "population": 7953,
+    "areasize": 55.77
+  },
+  {
+    "id": 258,
+    "name": "Sárbogárd",
+    "countyname": "Fejér",
+    "region": "Sárbogárdi",
+    "population": 12448,
+    "areasize": 189.33
+  },
+  {
+    "id": 259,
+    "name": "Sarkad",
+    "countyname": "Békés",
+    "region": "Sarkadi",
+    "population": 10011,
+    "areasize": 125.57
+  },
+  {
+    "id": 260,
+    "name": "Sárospatak",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Sárospataki",
+    "population": 12590,
+    "areasize": 139.11
+  },
+  {
+    "id": 261,
+    "name": "Sárvár",
+    "countyname": "Vas",
+    "region": "Sárvári",
+    "population": 14764,
+    "areasize": 64.65
+  },
+  {
+    "id": 262,
+    "name": "Sásd",
+    "countyname": "Baranya",
+    "region": "Hegyháti",
+    "population": 3282,
+    "areasize": 14.88
+  },
+  {
+    "id": 263,
+    "name": "Sátoraljaújhely",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Sátoraljaújhelyi",
+    "population": 15355,
+    "areasize": 73.46
+  },
+  {
+    "id": 264,
+    "name": "Sellye",
+    "countyname": "Baranya",
+    "region": "Sellyei",
+    "population": 2752,
+    "areasize": 25.18
+  },
+  {
+    "id": 265,
+    "name": "Siklós",
+    "countyname": "Baranya",
+    "region": "Siklósi",
+    "population": 9631,
+    "areasize": 50.92
+  },
+  {
+    "id": 266,
+    "name": "Simontornya",
+    "countyname": "Tolna",
+    "region": "Tamási",
+    "population": 4028,
+    "areasize": 33.83
+  },
+  {
+    "id": 267,
+    "name": "Siófok",
+    "countyname": "Somogy",
+    "region": "Siófoki",
+    "population": 24375,
+    "areasize": 124.66
+  },
+  {
+    "id": 268,
+    "name": "Solt",
+    "countyname": "Bács-Kiskun",
+    "region": "Kalocsai",
+    "population": 6285,
+    "areasize": 132.67
+  },
+  {
+    "id": 269,
+    "name": "Soltvadkert",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskőrösi",
+    "population": 7433,
+    "areasize": 108.86
+  },
+  {
+    "id": 270,
+    "name": "Sopron",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Soproni",
+    "population": 61390,
+    "areasize": 169.01
+  },
+  {
+    "id": 271,
+    "name": "Sülysáp",
+    "countyname": "Pest",
+    "region": "Nagykátai",
+    "population": 8292,
+    "areasize": 47.19
+  },
+  {
+    "id": 272,
+    "name": "Sümeg",
+    "countyname": "Veszprém",
+    "region": "Sümegi",
+    "population": 6190,
+    "areasize": 64.13
+  },
+  {
+    "id": 273,
+    "name": "Szabadszállás",
+    "countyname": "Bács-Kiskun",
+    "region": "Kunszentmiklósi",
+    "population": 5896,
+    "areasize": 164.62
+  },
+  {
+    "id": 274,
+    "name": "Szarvas",
+    "countyname": "Békés",
+    "region": "Szarvasi",
+    "population": 17007,
+    "areasize": 161.57
+  },
+  {
+    "id": 275,
+    "name": "Százhalombatta",
+    "countyname": "Pest",
+    "region": "Érdi",
+    "population": 18896,
+    "areasize": 28.06
+  },
+  {
+    "id": 276,
+    "name": "Szécsény",
+    "countyname": "Nógrád",
+    "region": "Szécsényi",
+    "population": 5682,
+    "areasize": 45.83
+  },
+  {
+    "id": 277,
+    "name": "Szeged",
+    "countyname": "Csongrád",
+    "region": "Szegedi",
+    "population": 170052,
+    "areasize": 281
+  },
+  {
+    "id": 278,
+    "name": "Szeghalom",
+    "countyname": "Békés",
+    "region": "Szeghalmi",
+    "population": 9115,
+    "areasize": 217.13
+  },
+  {
+    "id": 279,
+    "name": "Székesfehérvár",
+    "countyname": "Fejér",
+    "region": "Székesfehérvári",
+    "population": 101722,
+    "areasize": 170.89
+  },
+  {
+    "id": 280,
+    "name": "Szekszárd",
+    "countyname": "Tolna",
+    "region": "Szekszárdi",
+    "population": 33311,
+    "areasize": 96.28
+  },
+  {
+    "id": 281,
+    "name": "Szendrő",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Edelényi",
+    "population": 4062,
+    "areasize": 53.56
+  },
+  {
+    "id": 282,
+    "name": "Szentendre",
+    "countyname": "Pest",
+    "region": "Szentendrei",
+    "population": 26250,
+    "areasize": 43.82
+  },
+  {
+    "id": 283,
+    "name": "Szentes",
+    "countyname": "Csongrád",
+    "region": "Szentesi",
+    "population": 28476,
+    "areasize": 353.25
+  },
+  {
+    "id": 284,
+    "name": "Szentgotthárd",
+    "countyname": "Vas",
+    "region": "Szentgotthárdi",
+    "population": 8839,
+    "areasize": 67.73
+  },
+  {
+    "id": 285,
+    "name": "Szentlőrinc",
+    "countyname": "Baranya",
+    "region": "Szentlőrinci",
+    "population": 6848,
+    "areasize": 27.81
+  },
+  {
+    "id": 286,
+    "name": "Szerencs",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Szerencsi",
+    "population": 9100,
+    "areasize": 36.68
+  },
+  {
+    "id": 287,
+    "name": "Szigethalom",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 17436,
+    "areasize": 9.12
+  },
+  {
+    "id": 288,
+    "name": "Szigetszentmiklós",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 34877,
+    "areasize": 45.65
+  },
+  {
+    "id": 289,
+    "name": "Szigetvár",
+    "countyname": "Baranya",
+    "region": "Szigetvári",
+    "population": 10772,
+    "areasize": 39.51
+  },
+  {
+    "id": 290,
+    "name": "Szikszó",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Szikszói",
+    "population": 5348,
+    "areasize": 36.23
+  },
+  {
+    "id": 291,
+    "name": "Szob",
+    "countyname": "Pest",
+    "region": "Szobi",
+    "population": 2915,
+    "areasize": 17.97
+  },
+  {
+    "id": 292,
+    "name": "Szolnok",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Szolnoki",
+    "population": 74341,
+    "areasize": 187.24
+  },
+  {
+    "id": 293,
+    "name": "Szombathely",
+    "countyname": "Vas",
+    "region": "Szombathelyi",
+    "population": 79348,
+    "areasize": 97.5
+  },
+  {
+    "id": 294,
+    "name": "Tab",
+    "countyname": "Somogy",
+    "region": "Tabi",
+    "population": 4242,
+    "areasize": 25.86
+  },
+  {
+    "id": 295,
+    "name": "Tamási",
+    "countyname": "Tolna",
+    "region": "Tamási",
+    "population": 8389,
+    "areasize": 111.96
+  },
+  {
+    "id": 296,
+    "name": "Tápiószele",
+    "countyname": "Pest",
+    "region": "Nagykátai",
+    "population": 6122,
+    "areasize": 36.99
+  },
+  {
+    "id": 297,
+    "name": "Tapolca",
+    "countyname": "Veszprém",
+    "region": "Tapolcai",
+    "population": 15596,
+    "areasize": 63.46
+  },
+  {
+    "id": 298,
+    "name": "Tát",
+    "countyname": "Komárom-Esztergom",
+    "region": "Esztergomi",
+    "population": 5343,
+    "areasize": 12.18
+  },
+  {
+    "id": 299,
+    "name": "Tata",
+    "countyname": "Komárom-Esztergom",
+    "region": "Tatai",
+    "population": 24906,
+    "areasize": 78.16
+  },
+  {
+    "id": 300,
+    "name": "Tatabánya",
+    "countyname": "Komárom-Esztergom",
+    "region": "Tatabányai",
+    "population": 70003,
+    "areasize": 91.42
+  },
+  {
+    "id": 301,
+    "name": "Téglás",
+    "countyname": "Hajdú-Bihar",
+    "region": "Hajdúhadházi",
+    "population": 6637,
+    "areasize": 38.33
+  },
+  {
+    "id": 302,
+    "name": "Tét",
+    "countyname": "Győr-Moson-Sopron",
+    "region": "Téti",
+    "population": 3877,
+    "areasize": 56.35
+  },
+  {
+    "id": 303,
+    "name": "Tiszacsege",
+    "countyname": "Hajdú-Bihar",
+    "region": "Balmazújvárosi",
+    "population": 4481,
+    "areasize": 136.4
+  },
+  {
+    "id": 304,
+    "name": "Tiszaföldvár",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Kunszentmártoni",
+    "population": 11120,
+    "areasize": 80.34
+  },
+  {
+    "id": 305,
+    "name": "Tiszafüred",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Tiszafüredi",
+    "population": 10694,
+    "areasize": 162.18
+  },
+  {
+    "id": 306,
+    "name": "Tiszakécske",
+    "countyname": "Bács-Kiskun",
+    "region": "Tiszakécskei",
+    "population": 11237,
+    "areasize": 133.27
+  },
+  {
+    "id": 307,
+    "name": "Tiszalök",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Tiszavasvári",
+    "population": 5517,
+    "areasize": 58.72
+  },
+  {
+    "id": 308,
+    "name": "Tiszaújváros",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Tiszaújvárosi",
+    "population": 16557,
+    "areasize": 46.04
+  },
+  {
+    "id": 309,
+    "name": "Tiszavasvári",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Tiszavasvári",
+    "population": 12551,
+    "areasize": 128.53
+  },
+  {
+    "id": 310,
+    "name": "Tokaj",
+    "countyname": "Borsod-Abaúj-Zemplén",
+    "region": "Tokaji",
+    "population": 4839,
+    "areasize": 28.2
+  },
+  {
+    "id": 311,
+    "name": "Tolna",
+    "countyname": "Tolna",
+    "region": "Tolnai",
+    "population": 11367,
+    "areasize": 71.07
+  },
+  {
+    "id": 312,
+    "name": "Tompa",
+    "countyname": "Bács-Kiskun",
+    "region": "Kiskunhalasi",
+    "population": 4543,
+    "areasize": 81.57
+  },
+  {
+    "id": 313,
+    "name": "Tótkomlós",
+    "countyname": "Békés",
+    "region": "Orosházi",
+    "population": 5780,
+    "areasize": 125.05
+  },
+  {
+    "id": 314,
+    "name": "Tököl",
+    "countyname": "Pest",
+    "region": "Szigetszentmiklósi",
+    "population": 10416,
+    "areasize": 38.49
+  },
+  {
+    "id": 315,
+    "name": "Törökbálint",
+    "countyname": "Pest",
+    "region": "Érdi",
+    "population": 13587,
+    "areasize": 29.4
+  },
+  {
+    "id": 316,
+    "name": "Törökszentmiklós",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Törökszentmiklósi",
+    "population": 21043,
+    "areasize": 185.16
+  },
+  {
+    "id": 317,
+    "name": "Tura",
+    "countyname": "Pest",
+    "region": "Aszódi",
+    "population": 7731,
+    "areasize": 55.92
+  },
+  {
+    "id": 318,
+    "name": "Túrkeve",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Mezőtúri",
+    "population": 8741,
+    "areasize": 236.52
+  },
+  {
+    "id": 319,
+    "name": "Újfehértó",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Nyíregyházi",
+    "population": 13005,
+    "areasize": 140.88
+  },
+  {
+    "id": 320,
+    "name": "Újhartyán",
+    "countyname": "Pest",
+    "region": "Dabasi",
+    "population": 2780,
+    "areasize": 22.43
+  },
+  {
+    "id": 321,
+    "name": "Újkígyós",
+    "countyname": "Békés",
+    "region": "Békéscsabai",
+    "population": 5235,
+    "areasize": 54.92
+  },
+  {
+    "id": 322,
+    "name": "Újszász",
+    "countyname": "Jász-Nagykun-Szolnok",
+    "region": "Szolnoki",
+    "population": 6360,
+    "areasize": 58.2
+  },
+  {
+    "id": 323,
+    "name": "Üllő",
+    "countyname": "Pest",
+    "region": "Vecsési",
+    "population": 11435,
+    "areasize": 48.1
+  },
+  {
+    "id": 324,
+    "name": "Vác",
+    "countyname": "Pest",
+    "region": "Váci",
+    "population": 34810,
+    "areasize": 61.6
+  },
+  {
+    "id": 325,
+    "name": "Vaja",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Mátészalkai",
+    "population": 3545,
+    "areasize": 28.61
+  },
+  {
+    "id": 326,
+    "name": "Vámospércs",
+    "countyname": "Hajdú-Bihar",
+    "region": "Nyíradonyi",
+    "population": 5263,
+    "areasize": 58.19
+  },
+  {
+    "id": 327,
+    "name": "Várpalota",
+    "countyname": "Veszprém",
+    "region": "Várpalotai",
+    "population": 20305,
+    "areasize": 77.26
+  },
+  {
+    "id": 328,
+    "name": "Vásárosnamény",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Vásárosnaményi",
+    "population": 8670,
+    "areasize": 65.66
+  },
+  {
+    "id": 329,
+    "name": "Vasvár",
+    "countyname": "Vas",
+    "region": "Vasvári",
+    "population": 4127,
+    "areasize": 55.1
+  },
+  {
+    "id": 330,
+    "name": "Vecsés",
+    "countyname": "Pest",
+    "region": "Vecsési",
+    "population": 20910,
+    "areasize": 36.17
+  },
+  {
+    "id": 331,
+    "name": "Velence",
+    "countyname": "Fejér",
+    "region": "Gárdonyi",
+    "population": 5359,
+    "areasize": 33.37
+  },
+  {
+    "id": 332,
+    "name": "Vép",
+    "countyname": "Vas",
+    "region": "Szombathelyi",
+    "population": 3358,
+    "areasize": 32.89
+  },
+  {
+    "id": 333,
+    "name": "Veresegyház",
+    "countyname": "Pest",
+    "region": "Gödöllői",
+    "population": 16892,
+    "areasize": 28.56
+  },
+  {
+    "id": 334,
+    "name": "Verpelét",
+    "countyname": "Heves",
+    "region": "Egri",
+    "population": 3812,
+    "areasize": 53.18
+  },
+  {
+    "id": 335,
+    "name": "Veszprém",
+    "countyname": "Veszprém",
+    "region": "Veszprémi",
+    "population": 64024,
+    "areasize": 126.9
+  },
+  {
+    "id": 336,
+    "name": "Vésztő",
+    "countyname": "Békés",
+    "region": "Szeghalmi",
+    "population": 6680,
+    "areasize": 125.7
+  },
+  {
+    "id": 337,
+    "name": "Villány",
+    "countyname": "Baranya",
+    "region": "Siklósi",
+    "population": 2474,
+    "areasize": 22.02
+  },
+  {
+    "id": 338,
+    "name": "Visegrád",
+    "countyname": "Pest",
+    "region": "Szentendrei",
+    "population": 1863,
+    "areasize": 33.27
+  },
+  {
+    "id": 339,
+    "name": "Záhony",
+    "countyname": "Szabolcs-Szatmár-Bereg",
+    "region": "Záhonyi",
+    "population": 3978,
+    "areasize": 6.96
+  },
+  {
+    "id": 340,
+    "name": "Zalaegerszeg",
+    "countyname": "Zala",
+    "region": "Zalaegerszegi",
+    "population": 61849,
+    "areasize": 102.41
+  },
+  {
+    "id": 341,
+    "name": "Zalakaros",
+    "countyname": "Zala",
+    "region": "Nagykanizsai",
+    "population": 1846,
+    "areasize": 17.17
+  },
+  {
+    "id": 342,
+    "name": "Zalalövő",
+    "countyname": "Zala",
+    "region": "Zalaegerszegi",
+    "population": 3021,
+    "areasize": 52.64
+  },
+  {
+    "id": 343,
+    "name": "Zalaszentgrót",
+    "countyname": "Zala",
+    "region": "Zalaszentgróti",
+    "population": 6473,
+    "areasize": 74.65
+  },
+  {
+    "id": 344,
+    "name": "Zamárdi",
+    "countyname": "Somogy",
+    "region": "Siófoki",
+    "population": 2363,
+    "areasize": 45.15
+  },
+  {
+    "id": 345,
+    "name": "Zirc",
+    "countyname": "Veszprém",
+    "region": "Zirci",
+    "population": 7096,
+    "areasize": 37.4
+  },
+  {
+    "id": 346,
+    "name": "Zsámbék",
+    "countyname": "Pest",
+    "region": "Budakeszi",
+    "population": 5480,
+    "areasize": 33.66
+  }
+]

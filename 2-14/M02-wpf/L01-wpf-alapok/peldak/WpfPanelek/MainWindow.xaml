@@ -1,0 +1,91 @@
+<Window x:Class="WpfPanelek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Elrendező panelek" Height="420" Width="700">
+
+    <!-- Méretezd át az ablakot, és figyeld, hogyan rendezik át a panelek a gombokat! -->
+    <TabControl Margin="5">
+
+        <TabItem Header="StackPanel">
+            <!-- Egymás alá (vagy Orientation="Horizontal" esetén egymás mellé) rakja az elemeket -->
+            <StackPanel Margin="10">
+                <Button Content="Első" Margin="3"/>
+                <Button Content="Második (balra igazítva)" Margin="3" HorizontalAlignment="Left"/>
+                <Button Content="Harmadik (középre, belső margóval)" Margin="3" Padding="20,5"
+                        HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Button Content="Vízszintes 1" Margin="3"/>
+                    <Button Content="Vízszintes 2" Margin="3"/>
+                    <Button Content="Vízszintes 3" Margin="3"/>
+                </StackPanel>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="WrapPanel">
+            <!-- Sorba rakja, és ha nem fér ki, új sorba tördeli az elemeket -->
+            <WrapPanel Margin="10" ItemWidth="120" ItemHeight="40">
+                <Button Content="1" Margin="3"/>
+                <Button Content="2" Margin="3"/>
+                <Button Content="3" Margin="3"/>
+                <Button Content="4" Margin="3"/>
+                <Button Content="5" Margin="3"/>
+                <Button Content="6" Margin="3"/>
+                <Button Content="7" Margin="3"/>
+                <Button Content="8" Margin="3"/>
+            </WrapPanel>
+        </TabItem>
+
+        <TabItem Header="DockPanel">
+            <!-- A terület széleihez „dokkol”; az utolsó elem kitölti a maradék helyet (LastChildFill) -->
+            <DockPanel LastChildFill="True">
+                <Button DockPanel.Dock="Top" Content="Menüsor (Top)" Height="35"/>
+                <Button DockPanel.Dock="Bottom" Content="Állapotsor (Bottom)" Height="30"/>
+                <Button DockPanel.Dock="Left" Content="Navigáció (Left)" Width="130"/>
+                <Button Content="Tartalom (a maradék hely)" Background="AliceBlue"/>
+            </DockPanel>
+        </TabItem>
+
+        <TabItem Header="Grid">
+            <Grid Margin="10" ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>  <!-- akkora, amekkora a tartalom -->
+                    <RowDefinition Height="*"/>     <!-- a maradék -->
+                    <RowDefinition Height="2*"/>    <!-- a maradék kétszerese -->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/> <!-- fix szélesség -->
+                    <ColumnDefinition Width="5"/>   <!-- ide kerül az elválasztó -->
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.ColumnSpan="3" Content="Fejléc: Grid.ColumnSpan=&quot;3&quot; – mindhárom oszlopon átnyúlik"
+                       Background="Beige"/>
+                <Button Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Content="RowSpan=2" Margin="3"/>
+                <!-- A GridSplitterrel a felhasználó húzással méretezheti az oszlopokat -->
+                <GridSplitter Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"
+                              Width="5" HorizontalAlignment="Stretch" Background="Gray"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="1. sor, 2. oszlop (*)" Margin="3"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="2. sor, 2. oszlop (2*)" Margin="3"/>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="UniformGrid">
+            <!-- Azonos méretű cellák, a beírás sorrendjében töltődnek fel -->
+            <UniformGrid Rows="3" Columns="3" Margin="10">
+                <Button Content="7"/> <Button Content="8"/> <Button Content="9"/>
+                <Button Content="4"/> <Button Content="5"/> <Button Content="6"/>
+                <Button Content="1"/> <Button Content="2"/> <Button Content="3"/>
+            </UniformGrid>
+        </TabItem>
+
+        <TabItem Header="Canvas">
+            <!-- Koordináta alapú elhelyezés: átméretezéskor NEM rendez át (ritkán használjuk) -->
+            <Canvas Background="WhiteSmoke">
+                <Button Canvas.Left="20" Canvas.Top="20" Content="(20; 20)"/>
+                <Button Canvas.Left="200" Canvas.Top="100" Content="(200; 100)"/>
+                <Rectangle Canvas.Left="120" Canvas.Top="60" Width="120" Height="80"
+                           Fill="LightBlue" Panel.ZIndex="-1"/>
+            </Canvas>
+        </TabItem>
+    </TabControl>
+</Window>

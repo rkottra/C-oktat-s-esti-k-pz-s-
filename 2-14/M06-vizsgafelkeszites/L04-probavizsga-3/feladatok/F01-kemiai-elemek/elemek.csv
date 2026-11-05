@@ -1,0 +1,37 @@
+rendszam;vegyjel;nev;kategoria;periodus;csoport;atomtomeg;elektronegativitas;halmazallapot
+1;H;hidrogén;nemfém;1;1;1.008;2.20;gáz
+2;He;hélium;nemesgáz;1;18;4.003;;gáz
+3;Li;lítium;alkálifém;2;1;6.94;0.98;szilárd
+4;Be;berillium;alkáliföldfém;2;2;9.012;1.57;szilárd
+5;B;bór;félfém;2;13;10.81;2.04;szilárd
+6;C;szén;nemfém;2;14;12.011;2.55;szilárd
+7;N;nitrogén;nemfém;2;15;14.007;3.04;gáz
+8;O;oxigén;nemfém;2;16;15.999;3.44;gáz
+9;F;fluor;halogén;2;17;18.998;3.98;gáz
+10;Ne;neon;nemesgáz;2;18;20.18;;gáz
+11;Na;nátrium;alkálifém;3;1;22.99;0.93;szilárd
+12;Mg;magnézium;alkáliföldfém;3;2;24.305;1.31;szilárd
+13;Al;alumínium;egyéb fém;3;13;26.982;1.61;szilárd
+14;Si;szilícium;félfém;3;14;28.085;1.90;szilárd
+15;P;foszfor;nemfém;3;15;30.974;2.19;szilárd
+16;S;kén;nemfém;3;16;32.06;2.58;szilárd
+17;Cl;klór;halogén;3;17;35.45;3.16;gáz
+18;Ar;argon;nemesgáz;3;18;39.948;;gáz
+19;K;kálium;alkálifém;4;1;39.098;0.82;szilárd
+20;Ca;kalcium;alkáliföldfém;4;2;40.078;1.00;szilárd
+21;Sc;szkandium;átmenetifém;4;3;44.956;1.36;szilárd
+22;Ti;titán;átmenetifém;4;4;47.867;1.54;szilárd
+23;V;vanádium;átmenetifém;4;5;50.942;1.63;szilárd
+24;Cr;króm;átmenetifém;4;6;51.996;1.66;szilárd
+25;Mn;mangán;átmenetifém;4;7;54.938;1.55;szilárd
+26;Fe;vas;átmenetifém;4;8;55.845;1.83;szilárd
+27;Co;kobalt;átmenetifém;4;9;58.933;1.88;szilárd
+28;Ni;nikkel;átmenetifém;4;10;58.693;1.91;szilárd
+29;Cu;réz;átmenetifém;4;11;63.546;1.90;szilárd
+30;Zn;cink;átmenetifém;4;12;65.38;1.65;szilárd
+31;Ga;gallium;egyéb fém;4;13;69.723;1.81;szilárd
+32;Ge;germánium;félfém;4;14;72.63;2.01;szilárd
+33;As;arzén;félfém;4;15;74.922;2.18;szilárd
+34;Se;szelén;nemfém;4;16;78.971;2.55;szilárd
+35;Br;bróm;halogén;4;17;79.904;2.96;folyékony
+36;Kr;kripton;nemesgáz;4;18;83.798;3.00;gáz

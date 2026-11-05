@@ -1,0 +1,37 @@
+<Window x:Class="DialogusAblakMinta.UjKonyvAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Új könyv" Height="240" Width="360" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Cím:" />
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtCim" Margin="0,3" />
+        <Label Grid.Row="1" Content="Szerző:" />
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtSzerzo" Margin="0,3" />
+        <Label Grid.Row="2" Content="Műfaj:" />
+        <!-- DisplayMemberPath: ezt látjuk; SelectedValuePath: ezt kapjuk a SelectedValue-ban -->
+        <ComboBox Grid.Row="2" Grid.Column="1" x:Name="cbMufaj" Margin="0,3"
+                  DisplayMemberPath="Nev" SelectedValuePath="Id" />
+        <Label Grid.Row="3" Content="Kiadás éve:" />
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtEv" Margin="0,3" />
+
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom">
+            <!-- IsDefault: Enterre ez fut; IsCancel: Esc-re bezár, DialogResult = false -->
+            <Button Content="Mentés" Width="90" Margin="4" IsDefault="True" Click="Mentes_Click" />
+            <Button Content="Mégse" Width="90" Margin="4" IsCancel="True" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+<Window x:Class="BindingElemekKozott.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Adatkötés vezérlők között" Height="420" Width="560" FontSize="14">
+
+    <!-- Ebben a példában NINCS mögöttes kód: minden összeköttetés a XAML-ben, Bindinggal készül. -->
+    <StackPanel Margin="10">
+
+        <!-- 1. Forrás: a csúszka. Name kell, hogy hivatkozni tudjunk rá (ElementName). -->
+        <GroupBox Header="1. Slider ↔ TextBox (kétirányú)" Padding="5">
+            <StackPanel>
+                <Slider Name="Homerseklet" Minimum="-30" Maximum="50" Value="20"
+                        SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" TickFrequency="1"/>
+                <!-- TwoWay: a csúszka mozgatása átírja a szöveget, a szöveg átírása mozgatja a csúszkát.
+                     UpdateSourceTrigger=PropertyChanged: már gépelés közben frissít (alapból csak fókuszvesztéskor). -->
+                <TextBox Width="80" HorizontalAlignment="Left" Margin="0,5"
+                         Text="{Binding ElementName=Homerseklet, Path=Value,
+                                Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <!-- OneWay + StringFormat: csak megjelenít, formázva. A szöveget aposztrófok közé tesszük, a {0} helyére kerül az érték. -->
+                <TextBlock Text="{Binding ElementName=Homerseklet, Path=Value, StringFormat='Kint {0} °C van.'}"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="2. Egy forrás – több cél" Padding="5" Margin="0,8,0,0">
+            <StackPanel>
+                <Slider Name="Meret" Minimum="10" Maximum="40" Value="16"/>
+                <!-- Ugyanaz a forrás két különböző tulajdonságot vezérel -->
+                <ProgressBar Height="12" Minimum="10" Maximum="40" Margin="0,5"
+                             Value="{Binding ElementName=Meret, Path=Value}"/>
+                <TextBlock Text="Ez a szöveg nő és zsugorodik"
+                           FontSize="{Binding ElementName=Meret, Path=Value}"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="3. Logikai érték és kiválasztás" Padding="5" Margin="0,8,0,0">
+            <StackPanel>
+                <!-- A CheckBox IsChecked (bool?) értéke engedélyezi a gombot -->
+                <CheckBox Name="Elfogadom" Content="Elfogadom a feltételeket"/>
+                <Button Content="Tovább" Width="100" HorizontalAlignment="Left" Margin="0,5"
+                        IsEnabled="{Binding ElementName=Elfogadom, Path=IsChecked}"/>
+
+                <ComboBox Name="Szinek" SelectedIndex="0" Width="150" HorizontalAlignment="Left">
+                    <ComboBoxItem Content="LightBlue"/>
+                    <ComboBoxItem Content="LightGreen"/>
+                    <ComboBoxItem Content="Khaki"/>
+                </ComboBox>
+                <!-- Path több szintű is lehet: a kiválasztott elem Content tulajdonsága.
+                     A szöveg ("Khaki") háttérszínné alakítását a WPF beépített átalakítója végzi. -->
+                <Border Height="25" Margin="0,5"
+                        Background="{Binding ElementName=Szinek, Path=SelectedItem.Content}"/>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>

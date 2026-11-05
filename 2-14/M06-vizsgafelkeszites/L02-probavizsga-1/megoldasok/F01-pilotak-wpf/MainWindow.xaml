@@ -1,0 +1,69 @@
+<Window x:Class="PilotakWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="F1 pilóták" Height="500" Width="900" MinHeight="380" MinWidth="700">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Bal oldal: táblázat, alatta törlés és darabszám -->
+        <DockPanel Grid.Column="0" Margin="0,0,8,0">
+            <DockPanel DockPanel.Dock="Bottom" Margin="0,8,0,0">
+                <Button Content="Kijelölt pilóta törlése" Width="170" Click="Torles_Click" />
+                <TextBlock Text="{Binding Pilotak.Count, StringFormat=Pilóták száma: {0}}"
+                           VerticalAlignment="Center" HorizontalAlignment="Right" />
+            </DockPanel>
+            <DataGrid x:Name="dgPilotak" ItemsSource="{Binding Pilotak}" AutoGenerateColumns="False"
+                      IsReadOnly="True" SelectionMode="Single" CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Azonosító" Binding="{Binding Id}" />
+                    <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                    <DataGridTextColumn Header="Nem" Binding="{Binding Nem}" />
+                    <DataGridTextColumn Header="Születési dátum"
+                                        Binding="{Binding SzuletesiDatum, StringFormat=yyyy.MM.dd}" />
+                    <DataGridTextColumn Header="Nemzetiség" Binding="{Binding Nemzetiseg}" Width="110" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <!-- Jobb oldal: új pilóta felvétele -->
+        <GroupBox Grid.Column="1" Header="Új pilóta">
+            <Grid Margin="6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Content="Név:" />
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtNev" Margin="0,3" />
+
+                <Label Grid.Row="1" Content="Nem:" />
+                <ComboBox Grid.Row="1" Grid.Column="1" x:Name="cbNem" Margin="0,3">
+                    <!-- A Tag tárolja az adatbázisba kerülő kódot -->
+                    <ComboBoxItem Content="Férfi" Tag="M" />
+                    <ComboBoxItem Content="Nő" Tag="F" />
+                </ComboBox>
+
+                <Label Grid.Row="2" Content="Születési dátum:" />
+                <DatePicker Grid.Row="2" Grid.Column="1" x:Name="dpSzuletes" Margin="0,3" />
+
+                <Label Grid.Row="3" Content="Nemzetiség:" />
+                <!-- IsEditable: a listából választható, de új érték is begépelhető -->
+                <ComboBox Grid.Row="3" Grid.Column="1" x:Name="cbNemzetiseg" Margin="0,3"
+                          IsEditable="True" ItemsSource="{Binding Nemzetisegek}" />
+
+                <Button Grid.Row="4" Grid.ColumnSpan="2" Content="Mentés" Width="120" Margin="0,12,0,0"
+                        Click="Mentes_Click" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
