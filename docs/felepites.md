@@ -22,7 +22,7 @@
 ├─ kozos/                     évfolyamfüggetlen segédanyagok
 ├─ _sablon/                   új lecke (lecke/) és új feladat (feladat/) sablonja
 ├─ scripts/                   PowerShell-segédszkriptek
-├─ .github/                   issue-sablonok, PR-sablon, build-ellenőrzés
+├─ .github/                   issue-sablonok, PR-sablon
 ├─ _bemenet/   (gitből kizárt) feltöltött nyers anyagok feldolgozás előtt
 └─ _halozat/   (gitből kizárt) a hálózati mappába szinkronizálandó export
 ```

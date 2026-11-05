@@ -23,7 +23,7 @@ Címkék (labels): `uj-lecke`, `hiba`, `feladat`, `tanmenet`, `1-13`, `2-14`.
 
 1. **Issue** a megfelelő sablonnal (*Új lecke* / *Hiba vagy javítás*) – automatikusan bekerül a Projectbe.
 2. **Branch + szerkesztés** – új leckénél `scripts/Uj-Lecke.ps1`.
-3. **Pull request** – a PR-sablon ellenőrzőlistájával; a GitHub Actions lefordítja az összes C#-projektet.
+3. **Pull request** – a PR-sablon ellenőrzőlistájával (a projektek fordítását helyben, Visual Studióban ellenőrizzük).
 4. **Beolvasztás** a `main`-be → Status: *Kész a GitHubon*.
 5. **Kiadás**
    - `scripts/Tartalomjegyzek.ps1` – évfolyam-tartalomjegyzék frissítése (és commit),
