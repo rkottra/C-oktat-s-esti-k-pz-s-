@@ -65,7 +65,6 @@ function Get-Leckek {
                     Het        = $f.het
                     Oraszam    = $f.oraszam
                     Leiras     = $f.leiras
-                    Classroom  = $f.classroom
                     Mappa      = $lecke.FullName
                     RelUt      = Get-RelUt $lecke.FullName
                 }

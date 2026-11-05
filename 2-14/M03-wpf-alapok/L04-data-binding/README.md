@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M03-L03
 leiras: DataContext beállítása, egyszerű Binding XAML-ben, DataGrid.SelectedItem átadása a szerkesztő mezőknek.
-classroom:
 ---
 
 # 14-M03-L04 · Data Binding és kiválasztás

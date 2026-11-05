@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
   Elkészíti a hálózati mappába szánt exportot a (gitből kizárt) _halozat/ mappába.
-  Ugyanaz a szerkezet, mint a GitHubon; minden leckébe _GitHub.url (és ha van, _Classroom.url)
-  parancsikon kerül. A _halozat/ tükrözött: ami a repóból törlődött, onnan is törlődik.
+  Ugyanaz a szerkezet, mint a GitHubon; minden leckébe _GitHub.url
+  parancsikon kerül (Classroom-link szándékosan nem). A _halozat/ tükrözött: ami a repóból törlődött, onnan is törlődik.
   A hálózati mappába juttatás a saját szinkronodra van bízva.
 #>
 [CmdletBinding()]
@@ -29,7 +29,7 @@ if (Get-Command git -ErrorAction SilentlyContinue) {
 $kizartMappak = @('.vs', 'bin', 'obj') +
     (@('.git', '.github', 'docs', 'scripts', '_sablon', '_bemenet') | ForEach-Object { Join-Path $Gyoker $_ }) +
     @($cel)
-$kizartFajlok = @('.gitignore', '.gitattributes', '.gitkeep', 'ecosystem.config.json', '*.user', '*.suo',
+$kizartFajlok = @('.gitignore', '.gitattributes', '.gitkeep', 'ecosystem.config.json', 'ecosystem.local.json', '*.user', '*.suo',
                   '_GitHub.url', '_Classroom.url', '_FRISSITVE.txt')
 
 $robocopyArgs = @($Gyoker, $cel, '/MIR', '/R:1', '/W:1', '/NFL', '/NDL', '/NJH', '/NP',
@@ -46,15 +46,12 @@ foreach ($evf in Get-Evfolyamok) {
     $evfCel = Join-Path $cel $evf
     if (-not (Test-Path $evfCel)) { continue }
     New-UrlFajl (Join-Path $evfCel '_GitHub.url') (Get-GitHubUrl $evf)
-    $cr = $k.evfolyamok.$evf.classroom
-    if ($cr) { New-UrlFajl (Join-Path $evfCel '_Classroom.url') $cr }
 }
 
 $db = 0
 foreach ($l in Get-Leckek) {
     $lCel = Join-Path $cel ($l.RelUt -replace '/', '\')
     New-UrlFajl (Join-Path $lCel '_GitHub.url') (Get-GitHubUrl $l.RelUt)
-    if ($l.Classroom) { New-UrlFajl (Join-Path $lCel '_Classroom.url') $l.Classroom }
     $db++
 }
 

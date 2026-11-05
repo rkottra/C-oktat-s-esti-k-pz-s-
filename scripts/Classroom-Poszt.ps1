@@ -41,4 +41,3 @@ if (-not $NemMasol) {
     Set-Clipboard -Value $leiras
     Write-Host "`n(A leírás a vágólapra másolva.)"
 }
-Write-Host "`nKözzététel után írd be a Classroom-linket a lecke fejlécébe: classroom: <link>"

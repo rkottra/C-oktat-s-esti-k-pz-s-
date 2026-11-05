@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M04-L06
 leiras: Teljes feladatsor (CSV import → MySQL adatbázis → Scaffold → WPF CRUD felület) időre, 3 óra kódolás + 1 óra kiértékelés.
-classroom:
 ---
 
 # 14-M05-L01 · 1. komplett próbavizsga

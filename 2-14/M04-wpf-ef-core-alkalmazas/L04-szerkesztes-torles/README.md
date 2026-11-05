@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M04-L03
 leiras: Kiválasztott rekord módosítása és törlése (Remove), megerősítő kérdés MessageBox használatával.
-classroom:
 ---
 
 # 14-M04-L04 · Szerkesztés és törlés

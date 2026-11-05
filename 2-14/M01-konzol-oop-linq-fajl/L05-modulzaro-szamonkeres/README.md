@@ -8,7 +8,6 @@ het:
 oraszam: 2
 elofeltetel: 14-M01-L04
 leiras: Önálló konzolos feladatmegoldás időre + kódátnézés (Code Review).
-classroom:
 ---
 
 # 14-M01-L05 · I. modul számonkérés

@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M05-L01
 leiras: Összetettebb, 3 táblás kapcsolatot és szűréseket tartalmazó feladatsor önálló megoldása.
-classroom:
 ---
 
 # 14-M05-L02 · 2. komplett próbavizsga

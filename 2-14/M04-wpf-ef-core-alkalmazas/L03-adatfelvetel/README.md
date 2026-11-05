@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M04-L02
 leiras: Új rekord beszúrása WPF felületről – mezők beolvasása, példányosítás, beszúrás az adatbázisba, UI frissítés.
-classroom:
 ---
 
 # 14-M04-L03 · Adatfelvétel (Create)

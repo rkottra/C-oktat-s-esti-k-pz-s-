@@ -4,16 +4,7 @@
   "halozatExportMappa": "_halozat",
   "halozatiUtvonal": "\\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás",
   "evfolyamok": {
-    "1-13": {
-      "nev": "1/13. évfolyam – 2. félév",
-      "classroom": "https://classroom.google.com/c/ODg1NjY1NjQ1MjY3"
-    },
-    "2-14": {
-      "nev": "2/14. évfolyam – teljes tanév",
-      "classroom": "https://classroom.google.com/c/ODg1NjY1NjQ1MjY3"
-    }
-  },
-  "archivClassroomok": {
-    "2-14 (2025/26)": "https://classroom.google.com/w/NzE0MTY1NDUyNTgz/t/all"
+    "1-13": { "nev": "1/13. évfolyam – 2. félév" },
+    "2-14": { "nev": "2/14. évfolyam – teljes tanév" }
   }
 }

@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M05-L03
 leiras: Tipikus hibák átbeszélése, vizsgatrükkök, gyorsbillentyűk, saját kódminták és sablonok elmentése a vizsgára.
-classroom:
 ---
 
 # 14-M05-L04 · Finomhangolás és rutin

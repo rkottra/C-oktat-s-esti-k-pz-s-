@@ -8,7 +8,6 @@ het:
 oraszam:
 elofeltetel:
 leiras:
-classroom:
 ---
 
 # {{ID}} · {{CIM}}

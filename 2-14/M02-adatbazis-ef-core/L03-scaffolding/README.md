@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M02-L02
 leiras: Package Manager Console és Scaffold-DbContext parancs futtatása, a generált DbContext és entitásosztályok áttekintése.
-classroom:
 ---
 
 # 14-M02-L03 · Scaffolding rutin

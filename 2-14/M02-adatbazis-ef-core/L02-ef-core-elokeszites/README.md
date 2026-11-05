@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M02-L01
 leiras: Visual Studio NuGet csomagkezelés – Microsoft.EntityFrameworkCore.Tools, Pomelo.EntityFrameworkCore.MySql telepítése.
-classroom:
 ---
 
 # 14-M02-L02 · EF Core előkészítés

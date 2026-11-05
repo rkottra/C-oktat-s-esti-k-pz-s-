@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M02-L04
 leiras: XAML szerkezet, layout konténerek – Grid (sorok/oszlopok méretezése), StackPanel, elemek elhelyezése és igazítása.
-classroom:
 ---
 
 # 14-M03-L01 · WPF XAML alapok, elrendezés

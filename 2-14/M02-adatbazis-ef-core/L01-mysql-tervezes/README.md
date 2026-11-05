@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M01-L05
 leiras: MySQL Workbench használata – 2-3 táblás adatmodell tervezése, elsődleges kulcs (PK), idegen kulcs (FK) és AUTO_INCREMENT beállítása.
-classroom:
 ---
 
 # 14-M02-L01 · MySQL adatbázis tervezése

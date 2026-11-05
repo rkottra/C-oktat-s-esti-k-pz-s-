@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M02-L03
 leiras: Adatbázis-módosítások lekövetése a -Force kapcsolóval, EF Core CRUD műveletek tesztelése konzolos felületen (Add, SaveChanges).
-classroom:
 ---
 
 # 14-M02-L04 · Scaffold módosítások, CRUD konzolon

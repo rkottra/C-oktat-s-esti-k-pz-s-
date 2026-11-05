@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M04-L01
 leiras: Integrált feladat – CSV fájl beolvasása gombnyomásra WPF-ből és az adatok automatikus mentése MySQL-be (AddRange + SaveChanges).
-classroom:
 ---
 
 # 14-M04-L02 · Adatimport CSV-ből MySQL-be

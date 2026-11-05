@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M01-L03
 leiras: Komplex konzolos próbafeladatok – adatbeolvasás TXT/CSV-ből, összetett LINQ lekérdezések és statisztikák kiíratása.
-classroom:
 ---
 
 # 14-M01-L04 · Konzolos vizsgafeladatok

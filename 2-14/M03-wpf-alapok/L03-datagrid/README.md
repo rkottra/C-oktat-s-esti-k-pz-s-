@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M03-L02
 leiras: DataGrid felépítése, oszlopok manuális definiálása (DataGridTextColumn), AutoGenerateColumns szabályozása.
-classroom:
 ---
 
 # 14-M03-L03 · WPF DataGrid

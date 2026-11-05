@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M05-L02
 leiras: Szigorú vizsgaszimuláció időkorláttal, pontozással.
-classroom:
 ---
 
 # 14-M05-L03 · 3. komplett próbavizsga

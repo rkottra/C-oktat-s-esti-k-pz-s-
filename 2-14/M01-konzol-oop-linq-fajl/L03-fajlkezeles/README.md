@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M01-L02
 leiras: System.IO használata, File.ReadAllLines, CSV fájlok soronkénti beolvasása, objektumokká alakítása és hibás sorok kiszűrése.
-classroom:
 ---
 
 # 14-M01-L03 · Fájlkezelés (TXT, CSV)

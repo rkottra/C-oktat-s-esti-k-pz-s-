@@ -28,7 +28,7 @@ Címkék (labels): `uj-lecke`, `hiba`, `feladat`, `tanmenet`, `1-13`, `2-14`.
 5. **Kiadás**
    - `scripts/Tartalomjegyzek.ps1` – évfolyam-tartalomjegyzék frissítése (és commit),
    - `scripts/Export-Halozat.ps1` – a `_halozat/` frissítése, utána a saját szinkronod viszi a hálózati mappába,
-   - `scripts/Classroom-Poszt.ps1 -Id …` – a Classroom-bejegyzés szövege; közzététel után a Classroom-linket beírod a lecke fejlécébe (`classroom:`).
+   - `scripts/Classroom-Poszt.ps1 -Id …` – a Classroom-bejegyzés szövege (a Classroom-link nem kerül vissza a repóba).
 6. Status: *Kiadva*, issue lezárva.
 
 Egyszemélyes, gyors javításnál a 2–4. lépés lehet közvetlen commit a `main`-re, de akkor is legyen issue, hogy a Project mutassa, mi változott és ki lett-e adva.
@@ -36,4 +36,4 @@ Egyszemélyes, gyors javításnál a 2–4. lépés lehet közvetlen commit a `m
 ## Félévek, tanévek
 
 - Tanév elején/végén **git tag**: `2026-27`, `2027-28` – így bármikor visszanézhető, mi volt a kiadott anyag egy adott évben.
-- Ha a Classroom-kurzust évente újra létrehozzátok, csak a `ecosystem.config.json` Classroom-linkjeit és a leckék `classroom:` mezőit kell frissíteni.
+- Ha a Classroom-kurzust évente újra létrehozzátok, a repóban semmit nem kell módosítani; a linkek csak a helyi `ecosystem.local.json`-ban vannak.

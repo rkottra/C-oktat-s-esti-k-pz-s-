@@ -5,7 +5,7 @@
 ```
 /
 ├─ README.md                  belépési pont, linkek
-├─ ecosystem.config.json      GitHub-URL, hálózati útvonal, Classroom-linkek
+├─ ecosystem.config.json      GitHub-URL, hálózati útvonal (Classroom-link nem kerül a repóba!)
 ├─ tanmenet/                  tanmenetek (hetekre/órákra bontva, leckeazonosítókkal)
 │   ├─ 1-13-2felev.md
 │   └─ 2-14.md
@@ -68,12 +68,11 @@ het: 5
 oraszam: 2
 elofeltetel: 13-M02-L02
 leiras: Elöltesztelő ciklus, végtelen ciklus, kilépési feltétel.
-classroom:
 ---
 ```
 
 - `orak`: a tanmenet szerinti órasorszámok (pl. `17–18.`); `het`: tanítási hét, ha ismert; `oraszam`: a lecke óraszáma.
-- `classroom`: a Classroom-anyag linkje, kiadás után töltjük ki – így a GitHub is visszamutat a Classroomra.
+- **Classroom-linkek nem kerülnek a repóba** (nyilvános). A kurzus- és archív linkek a gitből kizárt `ecosystem.local.json`-ban vannak.
 
 ## Példaprogramok és feladatok
 

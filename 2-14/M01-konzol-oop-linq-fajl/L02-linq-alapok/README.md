@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M01-L01
 leiras: Generikus listák (`List<T>`), szűrés (Where), transzformáció (Select), rendezés (OrderBy), aggregáció (Sum, Average, Count).
-classroom:
 ---
 
 # 14-M01-L02 · LINQ alapok

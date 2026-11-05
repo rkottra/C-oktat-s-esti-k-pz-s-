@@ -14,4 +14,4 @@ Closes #
 ## Beolvasztás után (kiadás)
 
 - [ ] `scripts/Export-Halozat.ps1` → hálózati mappa szinkronizálva
-- [ ] Classroom-bejegyzés kint / frissítve, link beírva a fejlécbe (`classroom:`)
+- [ ] Classroom-bejegyzés kint / frissítve

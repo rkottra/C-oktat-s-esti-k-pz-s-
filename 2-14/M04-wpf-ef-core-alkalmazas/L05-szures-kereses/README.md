@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M04-L04
 leiras: Élő keresés megvalósítása – TextBox.TextChanged eseményre LINQ szűrés futtatása az adatbázis entitásain.
-classroom:
 ---
 
 # 14-M04-L05 · Szűrés és keresés

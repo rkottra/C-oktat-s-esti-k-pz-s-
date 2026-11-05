@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 
 leiras: Osztályok, adattagok, auto-property-k, konstruktorok, metódusok felüldefiniálása (ToString()).
-classroom:
 ---
 
 # 14-M01-L01 · C# OOP ismétlés

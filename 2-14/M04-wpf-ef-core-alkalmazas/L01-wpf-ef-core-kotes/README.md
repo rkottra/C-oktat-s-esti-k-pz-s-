@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M03-L04
 leiras: Adatbázis elemeinek betöltése WPF DataGrid-be és ComboBox-ba a generált DbContext segítségével.
-classroom:
 ---
 
 # 14-M04-L01 · WPF és EF Core összekötése

@@ -8,7 +8,6 @@ het:
 oraszam: 4
 elofeltetel: 14-M03-L01
 leiras: TextBox, Button, Label, CheckBox, RadioButton, ComboBox használata és eseménykezelés (Click, SelectionChanged).
-classroom:
 ---
 
 # 14-M03-L02 · WPF alapvezérlők és események
