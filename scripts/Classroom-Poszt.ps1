@@ -33,7 +33,7 @@ if ($feladatok) {
 }
 $leiras = $sorok -join "`r`n"
 
-Write-Host "TÉMA:  $($l.Modul)"
+Write-Host "TÉMA:  $($l.Id.Substring(0, 3))$($l.Modul)"   # közös kurzus: pl. 13-M02 – Ciklusok
 Write-Host "CÍM:   $($l.Id) · $($l.Cim)"
 Write-Host "LEÍRÁS:"
 Write-Host $leiras

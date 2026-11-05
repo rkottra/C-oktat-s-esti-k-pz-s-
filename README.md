@@ -4,8 +4,8 @@ Ez az esti tagozatos C# programozásoktatás **egyetlen igazságforrása**: a ta
 
 | Évfolyam | Időszak | Tanmenet | Tananyag | Google Classroom |
 |---|---|---|---|---|
-| 1/13. | 2. félév | [tanmenet/1-13-2felev.md](tanmenet/1-13-2felev.md) | [1-13/](1-13/) | *(link a `ecosystem.config.json`-ban)* |
-| 2/14. | teljes tanév | [tanmenet/2-14.md](tanmenet/2-14.md) | [2-14/](2-14/) | *(link a `ecosystem.config.json`-ban)* |
+| 1/13. | 2. félév | [tanmenet/1-13-2felev.md](tanmenet/1-13-2felev.md) | [1-13/](1-13/) | [közös kurzus](https://classroom.google.com/c/ODk3Nzk5MzI2NzI4) |
+| 2/14. | teljes tanév | [tanmenet/2-14.md](tanmenet/2-14.md) | [2-14/](2-14/) | [közös kurzus](https://classroom.google.com/c/ODk3Nzk5MzI2NzI4) |
 
 Közös segédanyagok (telepítés, értékelés, kódolási szabályok): [kozos/](kozos/)
 
@@ -19,7 +19,7 @@ Közös segédanyagok (telepítés, értékelés, kódolási szabályok): [kozos
    Export-Halozat.ps1│              │Classroom-Poszt.ps1
                      ▼              ▼
      _halozat/ (gitből kizárt) Google Classroom
-     → saját szinkron →       (téma = modul, anyag = lecke,
+     → saját szinkron →       (közös kurzus; téma = 13-M02 …, anyag = lecke,
      iskolai hálózati mappa    link a GitHub-mappára és a hálózati útvonalra)
 ```
 

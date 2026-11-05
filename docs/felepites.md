@@ -44,7 +44,7 @@ Feladat: `13-M02-L03-F02` (a lecke 2. feladata).
 |---|---|
 | GitHub | mappa: `1-13/M02-ciklusok/L03-while-ciklus/`, fejléc: `id: 13-M02-L03` |
 | Hálózati mappa | ugyanaz a mappa, benne `_GitHub.url` parancsikon |
-| Google Classroom | téma: `M02 – Ciklusok`, anyag címe: `13-M02-L03 · A while ciklus`, benne GitHub-link és hálózati útvonal |
+| Google Classroom (közös kurzus mindkét évfolyamnak) | téma: `13-M02 – Ciklusok`, anyag címe: `13-M02-L03 · A while ciklus`, benne GitHub-link és hálózati útvonal |
 | Tanmenet | a heti sorban az azonosító, linkkel a leckére |
 
 Szabályok:
