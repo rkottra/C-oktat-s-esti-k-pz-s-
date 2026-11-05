@@ -61,6 +61,7 @@ function Get-Leckek {
                     Evfolyam   = $evf
                     Modul      = $f.modul
                     ModulMappa = $modul.Name
+                    Orak       = $f.orak
                     Het        = $f.het
                     Oraszam    = $f.oraszam
                     Leiras     = $f.leiras

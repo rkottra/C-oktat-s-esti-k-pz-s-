@@ -3,6 +3,7 @@ id: {{ID}}
 cim: {{CIM}}
 evfolyam: {{EVFOLYAM}}
 modul: {{MODUL}}
+orak:
 het:
 oraszam:
 elofeltetel:
@@ -32,7 +33,7 @@ A lecke végére a tanuló:
 
 | Azonosító | Feladat | Nehézség | Megoldás |
 |---|---|---|---|
-| {{ID}}-F01 | [Feladat neve](feladatok/F01-feladat-neve/) | ★☆☆ | [megoldás](megoldasok/F01-feladat-neve/) |
+| | *(még nincs feladat – sablon: `_sablon/feladat/`, mappa: `feladatok/F01-rovid-nev/`)* | | |
 
 ## Kapcsolódó
 

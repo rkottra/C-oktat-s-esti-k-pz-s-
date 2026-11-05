@@ -4,8 +4,10 @@ Ez az esti tagozatos C# programozásoktatás **egyetlen igazságforrása**: a ta
 
 | Évfolyam | Időszak | Tanmenet | Tananyag | Google Classroom |
 |---|---|---|---|---|
-| 1/13. | 2. félév | [tanmenet/1-13-2felev.md](tanmenet/1-13-2felev.md) | [1-13/](1-13/) | [közös kurzus](https://classroom.google.com/c/ODk3Nzk5MzI2NzI4) |
-| 2/14. | teljes tanév | [tanmenet/2-14.md](tanmenet/2-14.md) | [2-14/](2-14/) | [közös kurzus](https://classroom.google.com/c/ODk3Nzk5MzI2NzI4) |
+| 1/13. | 2. félév | [tanmenet/1-13-2felev.md](tanmenet/1-13-2felev.md) | [1-13/](1-13/) | [közös kurzus](https://classroom.google.com/c/ODg1NjY1NjQ1MjY3) |
+| 2/14. | teljes tanév | [tanmenet/2-14.md](tanmenet/2-14.md) | [2-14/](2-14/) | [közös kurzus](https://classroom.google.com/c/ODg1NjY1NjQ1MjY3) |
+
+Korábbi kurzus (archív forrás): [2/14. – 2025/26](https://classroom.google.com/w/NzE0MTY1NDUyNTgz/t/all)
 
 Közös segédanyagok (telepítés, értékelés, kódolási szabályok): [kozos/](kozos/)
 

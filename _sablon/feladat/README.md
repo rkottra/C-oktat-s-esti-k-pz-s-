@@ -1,4 +1,4 @@
-# {{ID}}-F01 · Feladat neve
+# {{FELADAT_ID}} · Feladat neve
 
 **Nehézség:** ★☆☆ **Becsült idő:** 15 perc
 
@@ -16,4 +16,4 @@
 
 - …
 
-Megoldás: [../../megoldasok/F01-feladat-neve/](../../megoldasok/F01-feladat-neve/)
+Megoldás: [../../megoldasok/Fxx-…/](../../megoldasok/)

@@ -6,11 +6,14 @@
   "evfolyamok": {
     "1-13": {
       "nev": "1/13. évfolyam – 2. félév",
-      "classroom": "https://classroom.google.com/c/ODk3Nzk5MzI2NzI4"
+      "classroom": "https://classroom.google.com/c/ODg1NjY1NjQ1MjY3"
     },
     "2-14": {
       "nev": "2/14. évfolyam – teljes tanév",
-      "classroom": "https://classroom.google.com/c/ODk3Nzk5MzI2NzI4"
+      "classroom": "https://classroom.google.com/c/ODg1NjY1NjQ1MjY3"
     }
+  },
+  "archivClassroomok": {
+    "2-14 (2025/26)": "https://classroom.google.com/w/NzE0MTY1NDUyNTgz/t/all"
   }
 }

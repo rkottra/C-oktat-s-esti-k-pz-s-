@@ -20,7 +20,7 @@
 │           └─ megoldasok/    F01-…/ megoldó projektek
 ├─ 2-14/                      2/14. évfolyam, ugyanígy
 ├─ kozos/                     évfolyamfüggetlen segédanyagok
-├─ _sablon/lecke/             új lecke sablonja
+├─ _sablon/                   új lecke (lecke/) és új feladat (feladat/) sablonja
 ├─ scripts/                   PowerShell-segédszkriptek
 ├─ .github/                   issue-sablonok, PR-sablon, build-ellenőrzés
 ├─ _bemenet/   (gitből kizárt) feltöltött nyers anyagok feldolgozás előtt
@@ -63,6 +63,7 @@ id: 13-M02-L03
 cim: A while ciklus
 evfolyam: 1-13
 modul: M02 – Ciklusok
+orak: 17–18.
 het: 5
 oraszam: 2
 elofeltetel: 13-M02-L02
@@ -71,7 +72,7 @@ classroom:
 ---
 ```
 
-- `het`: a tanmenet szerinti tanítási hét.
+- `orak`: a tanmenet szerinti órasorszámok (pl. `17–18.`); `het`: tanítási hét, ha ismert; `oraszam`: a lecke óraszáma.
 - `classroom`: a Classroom-anyag linkje, kiadás után töltjük ki – így a GitHub is visszamutat a Classroomra.
 
 ## Példaprogramok és feladatok

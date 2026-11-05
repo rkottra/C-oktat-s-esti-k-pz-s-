@@ -24,11 +24,11 @@ foreach ($evf in Get-Evfolyamok) {
         $modulCim = Get-ElsoCim (Join-Path $Gyoker "$evf\$($csoport.Name)\README.md")
         if (-not $modulCim) { $modulCim = $csoport.Name }
         [void]$sb.AppendLine("### [$modulCim]($($csoport.Name)/)").AppendLine()
-        [void]$sb.AppendLine('| ID | Lecke | Hét | Óra | Classroom |').AppendLine('|---|---|---|---|---|')
+        [void]$sb.AppendLine('| ID | Lecke | Órák | Hét | Classroom |').AppendLine('|---|---|---|---|---|')
         foreach ($l in $csoport.Group) {
             $rel = $l.RelUt.Substring($evf.Length + 1)
             $cr = if ($l.Classroom) { "[megnyitás]($($l.Classroom))" } else { '–' }
-            [void]$sb.AppendLine("| $($l.Id) | [$($l.Cim)]($rel/) | $($l.Het) | $($l.Oraszam) | $cr |")
+            [void]$sb.AppendLine("| $($l.Id) | [$($l.Cim)]($rel/) | $($l.Orak) | $($l.Het) | $cr |")
         }
         [void]$sb.AppendLine()
     }
