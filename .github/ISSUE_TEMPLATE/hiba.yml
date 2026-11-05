@@ -1,0 +1,23 @@
+name: Hiba vagy javítás
+description: Hiba egy leckében, példában, feladatban vagy megoldásban
+title: "[javítás] "
+labels: ["hiba"]
+body:
+  - type: input
+    id: leckeid
+    attributes:
+      label: Lecke- vagy feladat-ID
+      placeholder: 13-M02-L03-F02
+    validations: { required: true }
+  - type: textarea
+    id: leiras
+    attributes:
+      label: Mi a hiba / mit kell változtatni?
+    validations: { required: true }
+  - type: checkboxes
+    id: hatas
+    attributes:
+      label: Érinti a már kiadott anyagot?
+      options:
+        - label: Igen, a Classroom-bejegyzést is frissíteni kell
+        - label: Igen, a hálózati mappát is frissíteni kell

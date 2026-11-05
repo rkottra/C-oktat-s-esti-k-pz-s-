@@ -1,0 +1,23 @@
+# --- Ökoszisztéma: helyi, gitből kizárt mappák ---
+# Hálózati mappába szinkronizálandó export (a Export-Halozat.ps1 állítja elő)
+/_halozat/
+# Feltöltött nyers anyagok feldolgozás előtt
+/_bemenet/
+
+# --- Visual Studio / .NET ---
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+TestResults/
+packages/
+*.nupkg
+
+# --- Rendszer ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*

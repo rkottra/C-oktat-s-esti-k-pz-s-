@@ -1,0 +1,16 @@
+{
+  "githubRepo": "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-",
+  "branch": "main",
+  "halozatExportMappa": "_halozat",
+  "halozatiUtvonal": "\\\\ISKOLA-SZERVER\\Tananyag\\Estis-CSharp",
+  "evfolyamok": {
+    "1-13": {
+      "nev": "1/13. évfolyam – 2. félév",
+      "classroom": ""
+    },
+    "2-14": {
+      "nev": "2/14. évfolyam – teljes tanév",
+      "classroom": ""
+    }
+  }
+}

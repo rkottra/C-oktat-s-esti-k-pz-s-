@@ -1,0 +1,31 @@
+name: C# projektek fordítása
+
+on:
+  push:
+    branches: [main]
+    paths: ["**/*.cs", "**/*.csproj", "**/*.sln", ".github/workflows/build.yml"]
+  pull_request:
+    paths: ["**/*.cs", "**/*.csproj", "**/*.sln", ".github/workflows/build.yml"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest   # WinForms/WPF projektek miatt
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Minden projekt fordítása
+        shell: pwsh
+        run: |
+          $projektek = Get-ChildItem -Recurse -Filter *.csproj | Where-Object { $_.FullName -notmatch '\_sablon\' }
+          if (-not $projektek) { Write-Host "Nincs még C#-projekt."; exit 0 }
+          $hibas = @()
+          foreach ($p in $projektek) {
+            Write-Host "::group::$($p.FullName)"
+            dotnet build $p.FullName -nologo -v q
+            if ($LASTEXITCODE -ne 0) { $hibas += $p.FullName }
+            Write-Host "::endgroup::"
+          }
+          if ($hibas) { Write-Host "Nem fordult le:"; $hibas | ForEach-Object { Write-Host "  $_" }; exit 1 }

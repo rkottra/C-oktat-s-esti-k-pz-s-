@@ -1,0 +1,34 @@
+name: Új lecke / feladat
+description: Új tananyag felvétele valamelyik évfolyamhoz
+title: "[új] "
+labels: ["uj-lecke"]
+body:
+  - type: dropdown
+    id: evfolyam
+    attributes:
+      label: Évfolyam
+      options: ["1-13", "2-14"]
+    validations: { required: true }
+  - type: input
+    id: leckeid
+    attributes:
+      label: Lecke-ID (ha már van)
+      placeholder: 13-M02-L03
+  - type: input
+    id: het
+    attributes:
+      label: Tanmenet szerinti hét
+  - type: textarea
+    id: tartalom
+    attributes:
+      label: Tartalom, célok
+    validations: { required: true }
+  - type: checkboxes
+    id: kell
+    attributes:
+      label: Mi kell hozzá?
+      options:
+        - label: Elméleti jegyzet
+        - label: Példaprogram
+        - label: Gyakorló feladat(ok)
+        - label: Megoldás(ok)
