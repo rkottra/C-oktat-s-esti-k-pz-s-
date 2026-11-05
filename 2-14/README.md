@@ -7,51 +7,56 @@ Tanmenet: [../tanmenet/2-14.md](../tanmenet/2-14.md)
 Az alábbi táblázatot a `scripts/Tartalomjegyzek.ps1` generálja a leckék fejlécéből – kézzel ne szerkeszd.
 
 <!-- TARTALOM:START -->
-### [M01 – Konzolos alkalmazások: OOP, LINQ, fájlkezelés](M01-konzol-oop-linq-fajl/)
+### [M01 – Konzolos alkalmazások ismétlése](M01-konzol-ismetles/)
 
 | ID | Lecke | Órák | Hét |
 |---|---|---|---|
-| 14-M01-L01 | [C# OOP ismétlés](M01-konzol-oop-linq-fajl/L01-oop-ismetles/) | 1–4. |  |
-| 14-M01-L02 | [LINQ alapok](M01-konzol-oop-linq-fajl/L02-linq-alapok/) | 5–8. |  |
-| 14-M01-L03 | [Fájlkezelés (TXT, CSV)](M01-konzol-oop-linq-fajl/L03-fajlkezeles/) | 9–12. |  |
-| 14-M01-L04 | [Konzolos vizsgafeladatok](M01-konzol-oop-linq-fajl/L04-konzolos-vizsgafeladatok/) | 13–16. |  |
-| 14-M01-L05 | [I. modul számonkérés](M01-konzol-oop-linq-fajl/L05-modulzaro-szamonkeres/) | 17–18. |  |
+| 14-M01-L01 | [OOP ismétlés](M01-konzol-ismetles/L01-oop-ismetles/) | 1–4. |  |
+| 14-M01-L02 | [Fájlkezelés és LINQ](M01-konzol-ismetles/L02-fajlkezeles-linq/) | 5–8. |  |
 
-### [M02 – Adatbázis és Entity Framework Core](M02-adatbazis-ef-core/)
+### [M02 – WPF alkalmazások](M02-wpf/)
 
 | ID | Lecke | Órák | Hét |
 |---|---|---|---|
-| 14-M02-L01 | [MySQL adatbázis tervezése](M02-adatbazis-ef-core/L01-mysql-tervezes/) | 19–22. |  |
-| 14-M02-L02 | [EF Core előkészítés](M02-adatbazis-ef-core/L02-ef-core-elokeszites/) | 23–26. |  |
-| 14-M02-L03 | [Scaffolding rutin](M02-adatbazis-ef-core/L03-scaffolding/) | 27–30. |  |
-| 14-M02-L04 | [Scaffold módosítások, CRUD konzolon](M02-adatbazis-ef-core/L04-scaffold-modositasok-crud/) | 31–34. |  |
+| 14-M02-L01 | [WPF alapok: XAML, elrendezés, vezérlők](M02-wpf/L01-wpf-alapok/) | 9–12. |  |
+| 14-M02-L02 | [Adatkötés és DataContext](M02-wpf/L02-adatkotes-datacontext/) | 13–16. |  |
+| 14-M02-L03 | [Integrált feladat: CSV-ből WPF-felület](M02-wpf/L03-integralt-csv-wpf/) | 17–20. |  |
 
-### [M03 – WPF alapok](M03-wpf-alapok/)
-
-| ID | Lecke | Órák | Hét |
-|---|---|---|---|
-| 14-M03-L01 | [WPF XAML alapok, elrendezés](M03-wpf-alapok/L01-xaml-layout/) | 35–38. |  |
-| 14-M03-L02 | [WPF alapvezérlők és események](M03-wpf-alapok/L02-alapvezerlok/) | 39–42. |  |
-| 14-M03-L03 | [WPF DataGrid](M03-wpf-alapok/L03-datagrid/) | 43–46. |  |
-| 14-M03-L04 | [Data Binding és kiválasztás](M03-wpf-alapok/L04-data-binding/) | 47–50. |  |
-
-### [M04 – WPF + EF Core adatkezelő alkalmazás](M04-wpf-ef-core-alkalmazas/)
+### [M03 – Adatbázis-kezelés Entity Framework Core-ral](M03-ef-core/)
 
 | ID | Lecke | Órák | Hét |
 |---|---|---|---|
-| 14-M04-L01 | [WPF és EF Core összekötése](M04-wpf-ef-core-alkalmazas/L01-wpf-ef-core-kotes/) | 51–54. |  |
-| 14-M04-L02 | [Adatimport CSV-ből MySQL-be](M04-wpf-ef-core-alkalmazas/L02-adatimport/) | 55–58. |  |
-| 14-M04-L03 | [Adatfelvétel (Create)](M04-wpf-ef-core-alkalmazas/L03-adatfelvetel/) | 59–62. |  |
-| 14-M04-L04 | [Szerkesztés és törlés](M04-wpf-ef-core-alkalmazas/L04-szerkesztes-torles/) | 63–66. |  |
-| 14-M04-L05 | [Szűrés és keresés](M04-wpf-ef-core-alkalmazas/L05-szures-kereses/) | 67–70. |  |
-| 14-M04-L06 | [Validáció és kivételkezelés](M04-wpf-ef-core-alkalmazas/L06-validacio-kivetelek/) | 71–74. |  |
+| 14-M03-L01 | [EF Core – Code First](M03-ef-core/L01-ef-code-first/) | 21–24. |  |
+| 14-M03-L02 | [Relációs adatbázis tervezése, MySQL](M03-ef-core/L02-adatbazis-tervezes/) | 25–28. |  |
+| 14-M03-L03 | [EF Core – Database First (Scaffold)](M03-ef-core/L03-database-first-scaffold/) | 29–32. |  |
+| 14-M03-L04 | [Kapcsolatok és LINQ-lekérdezések EF-ben](M03-ef-core/L04-kapcsolatok-lekerdezesek/) | 33–36. |  |
 
-### [M05 – Vizsgafelkészítés](M05-vizsgafelkeszites/)
+### [M04 – WPF + EF Core adatkezelő alkalmazás](M04-wpf-ef-alkalmazas/)
 
 | ID | Lecke | Órák | Hét |
 |---|---|---|---|
-| 14-M05-L01 | [1. komplett próbavizsga](M05-vizsgafelkeszites/L01-probavizsga-1/) | 75–78. |  |
-| 14-M05-L02 | [2. komplett próbavizsga](M05-vizsgafelkeszites/L02-probavizsga-2/) | 79–82. |  |
-| 14-M05-L03 | [3. komplett próbavizsga](M05-vizsgafelkeszites/L03-probavizsga-3/) | 83–86. |  |
-| 14-M05-L04 | [Finomhangolás és rutin](M05-vizsgafelkeszites/L04-finomhangolas/) | 87–90. |  |
+| 14-M04-L01 | [Adatok megjelenítése: DataGrid, ComboBox](M04-wpf-ef-alkalmazas/L01-megjelenites/) | 37–40. |  |
+| 14-M04-L02 | [Felvétel, módosítás, törlés (CRUD)](M04-wpf-ef-alkalmazas/L02-crud/) | 41–44. |  |
+| 14-M04-L03 | [Szűrés, keresés, validáció, kivételkezelés](M04-wpf-ef-alkalmazas/L03-szures-validacio/) | 45–48. |  |
+| 14-M04-L04 | [Adatimport és -export (CSV, JSON, XML)](M04-wpf-ef-alkalmazas/L04-import-export/) | 49–52. |  |
+
+### [M05 – Szoftverminőség és tesztelés](M05-minoseg-teszteles/)
+
+| ID | Lecke | Órák | Hét |
+|---|---|---|---|
+| 14-M05-L01 | [Rétegzett architektúra, tervezési minták](M05-minoseg-teszteles/L01-retegzett-architektura-mintak/) | 53–56. |  |
+| 14-M05-L02 | [Tiszta kód és UML](M05-minoseg-teszteles/L02-clean-code-uml/) | 57–60. |  |
+| 14-M05-L03 | [Egységtesztelés](M05-minoseg-teszteles/L03-egysegteszteles/) | 61–64. |  |
+
+### [M06 – Vizsgafelkészítés](M06-vizsgafelkeszites/)
+
+| ID | Lecke | Órák | Hét |
+|---|---|---|---|
+| 14-M06-L01 | [Konzolos vizsgafeladat](M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat/) | 65–68. |  |
+| 14-M06-L02 | [1. próbavizsga: CSV → MySQL → WPF](M06-vizsgafelkeszites/L02-probavizsga-1/) | 69–72. |  |
+| 14-M06-L03 | [2. próbavizsga: több tábla, szűrések](M06-vizsgafelkeszites/L03-probavizsga-2/) | 73–76. |  |
+| 14-M06-L04 | [3. próbavizsga: vizsgaszimuláció](M06-vizsgafelkeszites/L04-probavizsga-3/) | 77–80. |  |
+| 14-M06-L05 | [Számonkérés és kódátnézés](M06-vizsgafelkeszites/L05-modulzaro-szamonkeres/) | 81–84. |  |
+| 14-M06-L06 | [Finomhangolás és rutin](M06-vizsgafelkeszites/L06-finomhangolas/) | 85–88. |  |
+| 14-M06-L07 | [Év végi értékelés](M06-vizsgafelkeszites/L07-zaras/) | 89–90. |  |
 <!-- TARTALOM:END -->
