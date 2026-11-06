@@ -1,0 +1,61 @@
+Datum;Kezdes;Sportag;Hazai;Vendeg;HazaiPont;VendegPont;Nezok;Jegyar
+2026-03-03;18:00;labdarúgás;Kék Sasok;Zöld Farkasok;1;2;965;1000
+2026-03-05;19:30;kézilabda;Medvék;Sólymok;31;25;153;800
+2026-03-06;18:00;kézilabda;Sólymok;Hiúzok;24;31;407;800
+2026-03-07;17:30;kézilabda;Medvék;Hiúzok;30;31;567;800
+2026-03-08;17:30;kézilabda;Sólymok;Hiúzok;34;23;642;800
+2026-03-09;18:00;kosárlabda;Tornádók;Óriások;101;75;566;1500
+2026-03-10;18:00;kosárlabda;Tornádók;Villámok;89;94;279;1500
+2026-03-12;19:30;kosárlabda;Óriások;Rakéták;96;83;282;1500
+2026-03-13;19:30;labdarúgás;Zöld Farkasok;Sárga Darazsak;3;2;1003;1000
+2026-03-15;15:00;kosárlabda;Tornádók;Villámok;83;76;352;1500
+2026-03-17;18:00;kosárlabda;Rakéták;Villámok;82;83;286;1500
+2026-03-18;18:00;kézilabda;Delfinek;Hiúzok;27;25;199;800
+2026-03-20;19:30;kézilabda;Sólymok;Delfinek;25;25;146;800
+2026-03-21;17:30;kosárlabda;Rakéták;Villámok;63;101;436;1500
+2026-03-22;15:00;labdarúgás;Vörös Bikák;Kék Sasok;2;2;988;1200
+2026-03-24;18:00;labdarúgás;Kék Sasok;Zöld Farkasok;5;0;853;1000
+2026-03-25;19:30;kézilabda;Delfinek;Medvék;34;27;358;800
+2026-03-26;18:00;labdarúgás;Sárga Darazsak;Zöld Farkasok;2;4;889;1000
+2026-03-27;19:30;kosárlabda;Rakéták;Villámok;77;87;461;1500
+2026-03-29;17:30;kosárlabda;Villámok;Rakéták;86;64;730;1500
+2026-03-31;18:00;labdarúgás;Kék Sasok;Sárga Darazsak;1;1;1066;1000
+2026-04-01;18:00;kosárlabda;Villámok;Rakéták;63;88;531;1500
+2026-04-03;19:30;kosárlabda;Tornádók;Villámok;76;72;217;1500
+2026-04-05;17:30;kézilabda;Delfinek;Sólymok;30;32;464;800
+2026-04-07;19:30;kosárlabda;Óriások;Villámok;95;78;297;1500
+2026-04-09;18:00;kézilabda;Medvék;Delfinek;30;31;342;800
+2026-04-10;18:00;kosárlabda;Villámok;Rakéták;63;80;242;1500
+2026-04-11;17:30;kosárlabda;Óriások;Villámok;95;69;851;1500
+2026-04-13;19:30;kosárlabda;Óriások;Villámok;102;79;604;1500
+2026-04-15;18:00;kézilabda;Medvék;Hiúzok;27;34;463;800
+2026-04-17;18:00;labdarúgás;Zöld Farkasok;Vörös Bikák;3;3;1067;1000
+2026-04-18;15:00;kézilabda;Delfinek;Sólymok;28;22;267;800
+2026-04-19;17:30;kézilabda;Delfinek;Medvék;35;25;354;800
+2026-04-20;19:30;kézilabda;Delfinek;Medvék;31;34;191;800
+2026-04-22;19:30;kosárlabda;Villámok;Tornádók;84;62;607;1500
+2026-04-23;19:30;labdarúgás;Zöld Farkasok;Sárga Darazsak;3;4;931;1000
+2026-04-25;15:00;labdarúgás;Kék Sasok;Sárga Darazsak;4;1;614;0
+2026-04-26;17:30;kosárlabda;Óriások;Tornádók;62;97;410;1500
+2026-04-28;19:30;labdarúgás;Sárga Darazsak;Vörös Bikák;2;3;446;1000
+2026-04-29;18:00;kézilabda;Hiúzok;Delfinek;33;23;282;800
+2026-05-01;19:30;labdarúgás;Kék Sasok;Vörös Bikák;2;2;488;1000
+2026-05-03;15:00;labdarúgás;Kék Sasok;Sárga Darazsak;1;2;373;1200
+2026-05-05;19:30;labdarúgás;Sárga Darazsak;Kék Sasok;4;1;359;1000
+2026-05-06;19:30;kézilabda;Hiúzok;Delfinek;30;22;212;800
+2026-05-07;18:00;kézilabda;Sólymok;Medvék;33;28;467;800
+2026-05-08;18:00;kézilabda;Delfinek;Hiúzok;34;22;297;800
+2026-05-09;15:00;kézilabda;Medvék;Hiúzok;23;31;693;800
+2026-05-11;18:00;kosárlabda;Óriások;Tornádók;105;62;426;1500
+2026-05-12;19:30;kézilabda;Medvék;Delfinek;29;33;184;800
+2026-05-14;18:00;kosárlabda;Tornádók;Rakéták;71;85;174;1500
+2026-05-16;15:00;kosárlabda;Tornádók;Villámok;91;66;249;1500
+2026-05-18;19:30;kézilabda;Hiúzok;Delfinek;32;24;314;800
+2026-05-20;19:30;kézilabda;Delfinek;Medvék;35;33;448;800
+2026-05-21;19:30;kézilabda;Sólymok;Delfinek;35;34;272;800
+2026-05-22;19:30;kosárlabda;Tornádók;Rakéták;100;68;625;1500
+2026-05-24;15:00;labdarúgás;Vörös Bikák;Sárga Darazsak;3;3;1178;1200
+2026-05-26;18:00;kosárlabda;Óriások;Tornádók;89;82;338;1500
+2026-05-28;19:30;labdarúgás;Sárga Darazsak;Zöld Farkasok;2;3;1109;1000
+2026-05-29;18:00;kézilabda;Sólymok;Medvék;35;29;508;800
+2026-05-30;17:30;kézilabda;Sólymok;Medvék;32;23;718;800

@@ -1,0 +1,11 @@
+<Application x:Class="StilusokEroforrasok.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <!-- Alkalmazásszintű erőforrások: minden ablakban elérhetők -->
+    <Application.Resources>
+        <SolidColorBrush x:Key="FoSzin" Color="#2E86AB"/>
+        <SolidColorBrush x:Key="HatterSzin" Color="#F4F7F9"/>
+        <SolidColorBrush x:Key="FigyelmeztetoSzin" Color="#C0392B"/>
+    </Application.Resources>
+</Application>

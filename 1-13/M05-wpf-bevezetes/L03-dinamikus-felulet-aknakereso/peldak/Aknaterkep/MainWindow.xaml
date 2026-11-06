@@ -1,0 +1,15 @@
+<Window x:Class="Aknaterkep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Aknatérkép – a modell" Height="600" Width="540" MinHeight="420" MinWidth="400"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel Margin="5">
+        <DockPanel DockPanel.Dock="Top">
+            <Button DockPanel.Dock="Right" Content="Új térkép" Margin="5" Padding="10,2" FontSize="15"
+                    Click="UjTerkepGomb_Click"/>
+            <Label Name="InfoLabel" FontSize="15" VerticalAlignment="Center"/>
+        </DockPanel>
+        <!-- A cellákat a kód hozza létre -->
+        <UniformGrid Name="Tabla" Margin="5"/>
+    </DockPanel>
+</Window>

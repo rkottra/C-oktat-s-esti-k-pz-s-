@@ -1,0 +1,47 @@
+<Window x:Class="CaesarTores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Caesar-törő" Height="640" Width="1100" MinHeight="520" MinWidth="900"
+        FontSize="14" WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.3*"/>
+            <ColumnDefinition Width="1.2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+
+        <!-- Bal: rejtett szöveg -->
+        <DockPanel Grid.Row="0" Grid.Column="0" Margin="5">
+            <Label DockPanel.Dock="Top" Content="Rejtett szöveg:"/>
+            <Button DockPanel.Dock="Bottom" Content="Elemzés" Margin="0,5" Padding="10,3" HorizontalAlignment="Left"
+                    Click="ElemzesGomb_Click"/>
+            <TextBox Name="RejtettTextBox" AcceptsReturn="True" TextWrapping="Wrap" FontFamily="Consolas"
+                     VerticalScrollBarVisibility="Auto"
+                     Text="Rclefwlwfyv! L aczrclxzkldt gpcdpyj fezwdz qpwlolel pkkpw l etevzdtelddlw vlandzwlezd.&#10;Pdkcpgpeepo, szrj lxtvzc l vfwndze ypx tdxpcefv, l mpefv rjlvzctdlrl pwpr gzwe l xprqpuepdspk?"/>
+        </DockPanel>
+
+        <!-- Közép: gyakorisági diagram (a kód tölti fel) -->
+        <DockPanel Grid.Row="0" Grid.Column="1" Margin="5">
+            <Label DockPanel.Dock="Top" Content="Betűgyakoriság a rejtett szövegben:"/>
+            <Border BorderBrush="Gray" BorderThickness="1" Padding="3">
+                <UniformGrid Name="Diagram" Rows="1" Columns="26" SizeChanged="Diagram_SizeChanged"/>
+            </Border>
+        </DockPanel>
+
+        <!-- Jobb: mind a 26 kulcs -->
+        <DockPanel Grid.Row="0" Grid.Column="2" Margin="5">
+            <Label DockPanel.Dock="Top" Content="Mind a 26 lehetséges kulcs:"/>
+            <ListBox Name="KulcsLista" FontFamily="Consolas" SelectionChanged="KulcsLista_SelectionChanged"/>
+        </DockPanel>
+
+        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Name="EredmenyLabel" FontWeight="Bold" Margin="5,0"/>
+
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Name="NyiltTextBox" Margin="5" IsReadOnly="True"
+                 TextWrapping="Wrap" FontFamily="Consolas" Background="Beige" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>

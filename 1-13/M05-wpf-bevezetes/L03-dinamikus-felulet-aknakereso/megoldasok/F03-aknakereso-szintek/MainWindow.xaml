@@ -1,0 +1,23 @@
+<Window x:Class="AknakeresoPlusz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Aknakereső – szintek és rekordok" Height="760" Width="680" MinHeight="480" MinWidth="460"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel Margin="5">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <Label Content="Szint:" FontSize="15" VerticalAlignment="Center"/>
+            <ComboBox Name="SzintCombo" Width="190" Margin="5" FontSize="15"
+                      SelectionChanged="SzintCombo_SelectionChanged"/>
+            <Button Content="Új játék" Margin="5" Padding="10,2" FontSize="15" Click="UjJatekGomb_Click"/>
+            <Label Name="RekordLabel" FontSize="15" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </StackPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Label Name="AknaLabel" FontSize="16" FontWeight="Bold" Width="120"/>
+            <Label Name="IdoLabel" FontSize="16" FontWeight="Bold" Width="120"/>
+            <Label Name="AllapotLabel" FontSize="16"/>
+        </DockPanel>
+        <TextBlock DockPanel.Dock="Bottom" Margin="5,0" Foreground="Gray" TextWrapping="Wrap"
+                   Text="Bal klikk: felfedés · jobb klikk: zászló → kérdőjel → semmi · bal klikk egy felfedett számra: gyors felfedés"/>
+        <UniformGrid Name="Tabla" Margin="5"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,18 @@
+<Window x:Class="Aknakereso.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Aknakereső" Height="640" Width="560" MinHeight="460" MinWidth="420"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel Margin="5">
+        <DockPanel DockPanel.Dock="Top">
+            <Button DockPanel.Dock="Right" Content="Új játék" Margin="5" Padding="10,2" FontSize="15"
+                    Click="UjJatekGomb_Click"/>
+            <Label Name="AknaLabel" FontSize="16" FontWeight="Bold" Width="120" VerticalAlignment="Center"/>
+            <Label Name="IdoLabel" FontSize="16" FontWeight="Bold" Width="120" VerticalAlignment="Center"/>
+            <Label Name="AllapotLabel" FontSize="16" VerticalAlignment="Center"/>
+        </DockPanel>
+        <TextBlock DockPanel.Dock="Bottom" Margin="5,0" Foreground="Gray"
+                   Text="Bal klikk: felfedés · jobb klikk: zászló ki/be"/>
+        <UniformGrid Name="Tabla" Margin="5"/>
+    </DockPanel>
+</Window>

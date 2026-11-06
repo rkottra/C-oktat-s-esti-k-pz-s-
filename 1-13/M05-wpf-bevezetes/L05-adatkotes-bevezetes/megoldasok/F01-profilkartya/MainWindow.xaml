@@ -1,0 +1,67 @@
+<Window x:Class="Profilkartya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Profilkártya" Height="460" Width="760" MinHeight="420" MinWidth="680"
+        FontSize="15" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Padding" Value="0,4,0,2"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,6"/>
+            <Setter Property="Padding" Value="3"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,8,8,0"/>
+            <Setter Property="Padding" Value="10,4"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Űrlap: minden mező kétirányúan kötve a Szemely objektumhoz -->
+        <StackPanel Grid.Column="0">
+            <Label Content="Név:"/>
+            <TextBox Text="{Binding Nev, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="Foglalkozás:"/>
+            <TextBox Text="{Binding Foglalkozas, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="Város:"/>
+            <TextBox Text="{Binding Varos, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="Születési év:"/>
+            <TextBox Text="{Binding SzuletesiEv, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="Kártya színe:"/>
+            <ComboBox SelectedValuePath="Content" SelectedValue="{Binding Szin}">
+                <ComboBoxItem Content="LightSteelBlue"/>
+                <ComboBoxItem Content="Khaki"/>
+                <ComboBoxItem Content="PaleGreen"/>
+                <ComboBoxItem Content="LightPink"/>
+                <ComboBoxItem Content="Lavender"/>
+            </ComboBox>
+            <Label Content="Betűméret:"/>
+            <Slider Name="MeretSlider" Minimum="12" Maximum="28" Value="18" IsSnapToTickEnabled="True" TickFrequency="1"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Egy évvel idősebb" Click="IdosebbGomb_Click"/>
+                <Button Content="Alaphelyzet" Click="AlaphelyzetGomb_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Kártya: csak kötések, egyetlen sor C# nélkül frissül -->
+        <Border Grid.Column="1" Margin="30,10" Padding="20" CornerRadius="16" VerticalAlignment="Center"
+                Background="{Binding Szin}" BorderBrush="Gray" BorderThickness="1"
+                TextElement.FontSize="{Binding ElementName=MeretSlider, Path=Value}">
+            <StackPanel>
+                <Border Width="90" Height="90" CornerRadius="45" Background="White" HorizontalAlignment="Center">
+                    <TextBlock Text="{Binding Monogram}" FontSize="36" FontWeight="Bold"
+                               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+                <TextBlock Text="{Binding Nev}" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,12,0,0"/>
+                <TextBlock Text="{Binding Foglalkozas}" HorizontalAlignment="Center" FontStyle="Italic"/>
+                <TextBlock Text="{Binding Alcim}" HorizontalAlignment="Center" Foreground="DimGray"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

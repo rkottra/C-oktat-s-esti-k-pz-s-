@@ -1,0 +1,44 @@
+<Window x:Class="CaesarAblak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Caesar-titkosító" Height="560" Width="760" MinHeight="420" MinWidth="560"
+        FontSize="15" WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <Button DockPanel.Dock="Right" Content="Megnyitás…" Margin="5" Padding="8,2" Click="MegnyitasGomb_Click"/>
+            <Label Content="Bemenet:"/>
+        </DockPanel>
+        <TextBox Grid.Row="1" Name="BemenetTextBox" Margin="5" AcceptsReturn="True" TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto" FontFamily="Consolas"
+                 Text="Veni, vidi, vici – Julius Caesar"/>
+
+        <!-- Vezérlősáv: kulcs, irány, ékezetek, csere -->
+        <WrapPanel Grid.Row="2" Margin="0,5">
+            <Label Content="Kulcs:"/>
+            <Slider Name="KulcsSlider" Width="220" Minimum="0" Maximum="25" Value="3"
+                    IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight"
+                    VerticalAlignment="Center"/>
+            <Label Name="KulcsLabel" Width="90"/>
+            <RadioButton Name="TitkositRadio" Content="titkosít" IsChecked="True" VerticalAlignment="Center" Margin="10,0"/>
+            <RadioButton Name="VisszafejtRadio" Content="visszafejt" VerticalAlignment="Center" Margin="10,0"/>
+            <CheckBox Name="EkezetCheck" Content="ékezetek elhagyása" VerticalAlignment="Center" Margin="10,0"/>
+            <Button Content="⇅ Csere" Margin="10,0" Padding="8,2" Click="CsereGomb_Click"/>
+        </WrapPanel>
+
+        <TextBox Grid.Row="3" Name="KimenetTextBox" Margin="5" IsReadOnly="True" TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto" FontFamily="Consolas" Background="Beige"/>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Másolás vágólapra" Margin="5" Padding="8,2" Click="MasolasGomb_Click"/>
+            <Button Content="Mentés…" Margin="5" Padding="8,2" Click="MentesGomb_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+<Window x:Class="ElsoAblak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Első WPF ablakom" Height="300" Width="420" FontSize="16"
+        WindowStartupLocation="CenterScreen">
+    <!-- A Window-nak egyetlen tartalma lehet: ez a Grid, minden más ebbe kerül -->
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>   <!-- 0: név -->
+            <RowDefinition Height="Auto"/>   <!-- 1: gombok -->
+            <RowDefinition Height="Auto"/>   <!-- 2: szám -->
+            <RowDefinition Height="Auto"/>   <!-- 3: duplázás gomb -->
+            <RowDefinition Height="*"/>      <!-- 4: eredmény, kitölti a maradék helyet -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Neved:"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="NevTextBox" Margin="3"/>
+
+        <!-- A StackPanel egymás mellé rakja a két gombot -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+            <Button Content="Üdvözlés" Margin="3" Padding="10,2" IsDefault="True"
+                    Click="UdvozlesGomb_Click"/>
+            <Button Content="Törlés" Margin="3" Padding="10,2" Click="TorlesGomb_Click"/>
+        </StackPanel>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Egy szám:"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="SzamTextBox" Margin="3"
+                 HorizontalContentAlignment="Right"/>
+
+        <Button Grid.Row="3" Grid.Column="1" Content="Kétszerese" Margin="3" Padding="10,2"
+                HorizontalAlignment="Left" Click="DuplazasGomb_Click"/>
+
+        <!-- Grid.ColumnSpan: két oszlopon át ér -->
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Name="EredmenyLabel"
+               Content="-" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               FontSize="22" Background="Beige" Margin="3"/>
+    </Grid>
+</Window>

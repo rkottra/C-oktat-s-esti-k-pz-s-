@@ -1,0 +1,82 @@
+<Window x:Class="Filmkatalogus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Filmkatalógus" Height="560" Width="860" MinHeight="460" MinWidth="720"
+        FontSize="15" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <SolidColorBrush x:Key="Kiemelo" Color="DarkGoldenrod"/>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,0,6,0"/>
+            <Setter Property="Padding" Value="10,3"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Padding" Value="0,4,0,2"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,4"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel Margin="8">
+        <!-- Alul: gombok és összesítő -->
+        <DockPanel DockPanel.Dock="Bottom" Margin="0,8,0,0">
+            <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                <Button Content="Új film" Click="UjGomb_Click"/>
+                <Button Content="Törlés" Click="TorlesGomb_Click"/>
+                <Button Content="Rendezés: értékelés" Click="RendezesErtekelesGomb_Click"/>
+                <Button Content="Rendezés: cím" Click="RendezesCimGomb_Click"/>
+            </StackPanel>
+            <TextBlock Name="OsszesitoTextBlock" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        </DockPanel>
+
+        <!-- Jobb: részletek a kijelölt filmhez kötve -->
+        <Border DockPanel.Dock="Right" Width="300" Margin="8,0,0,0" Padding="10" Background="Beige"
+                BorderBrush="Gray" BorderThickness="1"
+                DataContext="{Binding SelectedItem, ElementName=FilmLista}">
+            <StackPanel>
+                <Label Content="Cím:"/>
+                <TextBox Text="{Binding Cim, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="Rendező:"/>
+                <TextBox Text="{Binding Rendezo, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="Év:"/>
+                <TextBox Text="{Binding Ev, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="Műfaj:"/>
+                <TextBox Text="{Binding Mufaj, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding Csillagok}" ContentStringFormat="Értékelés: {0}"
+                       Foreground="{StaticResource Kiemelo}"/>
+                <Slider Minimum="1" Maximum="5" IsSnapToTickEnabled="True" TickFrequency="1"
+                        TickPlacement="BottomRight" Value="{Binding Ertekeles}"/>
+                <CheckBox Content="megnéztem" Margin="0,8,0,0" IsChecked="{Binding Megnezve}"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Bal: a lista -->
+        <ListBox Name="FilmLista" ItemsSource="{Binding Filmek}" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel Margin="2,3">
+                        <TextBlock DockPanel.Dock="Right" Text="{Binding Csillagok}" FontSize="18"
+                                   Foreground="{StaticResource Kiemelo}" VerticalAlignment="Center"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Cim}" FontWeight="Bold">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Megnezve}" Value="False">
+                                                <Setter Property="FontStyle" Value="Italic"/>
+                                                <Setter Property="Foreground" Value="Gray"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                            <TextBlock FontSize="13" Foreground="DimGray">
+                                <Run Text="{Binding Rendezo, Mode=OneWay}"/><Run Text=", "/><Run Text="{Binding Ev, Mode=OneWay}"/><Run Text=" · "/><Run Text="{Binding Mufaj, Mode=OneWay}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>

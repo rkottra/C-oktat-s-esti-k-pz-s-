@@ -1,0 +1,58 @@
+<Window x:Class="SzamologepLanc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Számológép – láncművelet" Height="420" Width="300" MinHeight="350" MinWidth="250"
+        FontSize="20" WindowStartupLocation="CenterScreen">
+    <!-- 4 egyforma oszlop; sorok: műveletsor, kijelző, 4 gombsor, megjegyzés -->
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Felső sor: az épp folyamatban lévő művelet -->
+        <Label Grid.Row="0" Grid.ColumnSpan="4" Name="MuveletLabel" Content=" "
+               HorizontalContentAlignment="Right" FontSize="14" Foreground="Gray"/>
+        <!-- Kijelző: csak olvasható, a gombok írják -->
+        <TextBox Grid.Row="1" Grid.ColumnSpan="4" Name="Kijelzo" Text="0" IsReadOnly="True"
+                 FontSize="30" Margin="3" Background="Beige"
+                 HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+
+        <!-- Számgombok: mindegyik UGYANAZT az eseménykezelőt hívja -->
+        <Button Grid.Row="2" Grid.Column="0" Content="7" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="8" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="9" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="3" Grid.Column="0" Content="4" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="5" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="6" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="4" Grid.Column="0" Content="1" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="2" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="3" Margin="3" Click="Szamjegy_Click"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="0" Margin="3" Click="Szamjegy_Click"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Content="C" Margin="3" Background="LightCoral"
+                Click="Torles_Click"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="=" Margin="3" Background="LightGreen"
+                Name="EgyenloGomb" Click="Egyenlo_Click"/>
+
+        <!-- Műveleti gombok: szintén közös kezelő, a Content dönti el, mi a művelet -->
+        <Button Grid.Row="2" Grid.Column="3" Content="/" Margin="3" Click="Muvelet_Click"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="*" Margin="3" Click="Muvelet_Click"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="-" Margin="3" Click="Muvelet_Click"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="+" Margin="3" Click="Muvelet_Click"/>
+
+        <TextBlock Grid.Row="6" Grid.ColumnSpan="4" Text="Láncművelet: 3 + 4 + 5 - 6 = 6"
+                   FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="3"/>
+    </Grid>
+</Window>

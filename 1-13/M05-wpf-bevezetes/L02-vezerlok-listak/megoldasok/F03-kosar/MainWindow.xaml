@@ -1,0 +1,48 @@
+<Window x:Class="Kosar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Webshop – kosár" Height="560" Width="980" MinHeight="480" MinWidth="860"
+        FontSize="15" WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Bal: termékek -->
+        <DockPanel Grid.Column="0" Margin="5">
+            <Label DockPanel.Dock="Top" Content="Kategória:"/>
+            <ComboBox DockPanel.Dock="Top" Name="KategoriaCombo" Margin="0,0,0,5"/>
+            <Label DockPanel.Dock="Top" Content="Termékek:"/>
+            <ListBox Name="TermekLista"/>
+        </DockPanel>
+
+        <!-- Közép: mennyiség és mozgató gombok -->
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="5">
+            <Label Content="Mennyiség:"/>
+            <TextBox Name="MennyisegTextBox" Text="1" Margin="0,0,0,10" HorizontalContentAlignment="Right"/>
+            <Button Name="KosarbaGomb" Content="Kosárba →" Padding="5" Margin="0,5" Click="KosarbaGomb_Click"/>
+            <Button Name="KiveszGomb" Content="← Kivesz" Padding="5" Margin="0,5" Click="KiveszGomb_Click"/>
+        </StackPanel>
+
+        <!-- Jobb: kosár és összesítő -->
+        <DockPanel Grid.Column="2" Margin="5">
+            <Label DockPanel.Dock="Top" Content="Kosár:"/>
+            <StackPanel DockPanel.Dock="Bottom" Margin="0,5,0,0">
+                <CheckBox Name="KuponCheck" Content="Kuponkód: DIAK10 (−10%)" Margin="0,3"/>
+                <GroupBox Header="Szállítás" Margin="0,3">
+                    <StackPanel Margin="5">
+                        <RadioButton Name="SzemelyesRadio" Content="személyes átvétel (0 Ft)" IsChecked="True"/>
+                        <RadioButton Name="AutomataRadio" Content="csomagautomata (990 Ft)"/>
+                        <RadioButton Name="FutarRadio" Content="futár (1 490 Ft)"/>
+                    </StackPanel>
+                </GroupBox>
+                <TextBlock Name="OsszesitoTextBlock" Margin="0,5" Background="Beige" Padding="6"/>
+                <Button Name="RendelesGomb" Content="Megrendelés" Padding="10,4" HorizontalAlignment="Right"
+                        Click="RendelesGomb_Click"/>
+            </StackPanel>
+            <ListBox Name="KosarLista"/>
+        </DockPanel>
+    </Grid>
+</Window>
