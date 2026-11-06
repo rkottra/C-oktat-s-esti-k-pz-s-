@@ -42,6 +42,9 @@ Mindhárom helyen **ugyanaz a mappaszerkezet és ugyanazok az azonosítók** (pl
 # A hálózati mappába szánt export elkészítése (_halozat/)
 .\scripts\Export-Halozat.ps1
 
-# Google Classroom-bejegyzés szövege egy leckéhez (vágólapra is másolja)
+# Google Classroom-jegyzék az automatikus feltöltéshez (docs/classroom-feltoltes.md)
+.\scripts\Classroom-Jegyzek.ps1
+
+# Google Classroom-bejegyzés szövege egy leckéhez, kézi feltöltéshez (vágólapra is másolja)
 .\scripts\Classroom-Poszt.ps1 -Id 13-M02-L03
 ```

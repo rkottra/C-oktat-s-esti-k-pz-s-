@@ -1,0 +1,483 @@
+{
+    "leiras":  "Generált fájl (scripts/Classroom-Jegyzek.ps1) – kézzel ne szerkeszd.",
+    "anyagok":  [
+                    {
+                        "id":  "13-M01-L01",
+                        "tema":  "13-M01 – C# alapok",
+                        "cim":  "13-M01-L01 · Első C# programok: típusok, operátorok, konzol",
+                        "leiras":  "Visual Studio és a C# program szerkezete, egyszerű típusok, változók, operátorok, kiírás és bekérés a konzolon, megjegyzések.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M01-csharp-alapok\\L01-elso-programok\n\nGyakorló feladatok:\n  - 13-M01-L01-F01 · Üzemidő átváltása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F01-uzemido\n  - 13-M01-L01-F02 · Műveleti táblázat  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F02-muveleti-tablazat\n  - 13-M01-L01-F03 · Jobbra és középre igazítás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F03-igazitas",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F01-uzemido",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F02-muveleti-tablazat",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L01-elso-programok/feladatok/F03-igazitas"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M01-L02",
+                        "tema":  "13-M01 – C# alapok",
+                        "cim":  "13-M01-L02 · Elágazások, ciklusok, véletlenszámok",
+                        "leiras":  "Elágazások és ciklusok gyakorlása matematikai feladatokon, véletlenszám-generálás (Random), lottó-szimuláció.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M01-csharp-alapok\\L02-veletlenszamok-matek\n\nGyakorló feladatok:\n  - 13-M01-L02-F01 · Számkitalálós játék  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F01-szamkitalalos\n  - 13-M01-L02-F02 · Prímszámok  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F02-primszamok\n  - 13-M01-L02-F03 · Rulett-statisztika  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F03-rulett",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F01-szamkitalalos",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F02-primszamok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M01-csharp-alapok/L02-veletlenszamok-matek/feladatok/F03-rulett"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M02-L01",
+                        "tema":  "13-M02 – Adatszerkezetek és algoritmusok",
+                        "cim":  "13-M02-L01 · Karakterláncok kezelése",
+                        "leiras":  "A string típus, szövegkezelő metódusok (Substring, IndexOf, Split, Replace, ToUpper), karakterenkénti feldolgozás.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M02-adatszerkezetek-algoritmusok\\L01-karakterlancok\n\nGyakorló feladatok:\n  - 13-M02-L01-F01 · Mondatelemző  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F01-mondatelemzo\n  - 13-M02-L01-F02 · Névkártya – nevek feldolgozása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F02-nevkartya\n  - 13-M02-L01-F03 · Egyszerű számológép szövegből  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F03-szovegszamologep",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F01-mondatelemzo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F02-nevkartya",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L01-karakterlancok/feladatok/F03-szovegszamologep"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M02-L02",
+                        "tema":  "13-M02 – Adatszerkezetek és algoritmusok",
+                        "cim":  "13-M02-L02 · Tömbök és mátrixok",
+                        "leiras":  "Egy- és kétdimenziós tömbök létrehozása, feltöltése, bejárása; mátrixműveletek.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M02-adatszerkezetek-algoritmusok\\L02-tombok-matrixok\n\nGyakorló feladatok:\n  - 13-M02-L02-F01 · Tömbök feltöltése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F01-tombfeltoltes\n  - 13-M02-L02-F02 · Domborzat – repülés a hegyek felett  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F02-domborzat\n  - 13-M02-L02-F03 · Bűvös négyzet  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F03-buvos-negyzet",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F01-tombfeltoltes",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F02-domborzat",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L02-tombok-matrixok/feladatok/F03-buvos-negyzet"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M02-L03",
+                        "tema":  "13-M02 – Adatszerkezetek és algoritmusok",
+                        "cim":  "13-M02-L03 · Programozási tételek",
+                        "leiras":  "Összegzés, megszámlálás, eldöntés, kiválasztás, keresés, maximumkiválasztás, kiválogatás, szétválogatás, metszet, unió, rendezés.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M02-adatszerkezetek-algoritmusok\\L03-programozasi-tetelek\n\nGyakorló feladatok:\n  - 13-M02-L03-F01 · Kosárlabda-szezon  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F01-kosarlabda-szezon\n  - 13-M02-L03-F02 · Szakkörök  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F02-szakkorok\n  - 13-M02-L03-F03 · Rendezések versenye  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F03-rendezesek-versenye",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F01-kosarlabda-szezon",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F02-szakkorok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L03-programozasi-tetelek/feladatok/F03-rendezesek-versenye"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M02-L04",
+                        "tema":  "13-M02 – Adatszerkezetek és algoritmusok",
+                        "cim":  "13-M02-L04 · Metódusok, struktúrák, listák",
+                        "leiras":  "Saját metódusok (paraméter, visszatérési érték), névterek, a program szerkezete, struct és enum, a `List\u003cT\u003e` használata.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M02-adatszerkezetek-algoritmusok\\L04-metodusok-strukturak\n\nGyakorló feladatok:\n  - 13-M02-L04-F01 · Geometriai számológép metódusokkal  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F01-geometria\n  - 13-M02-L04-F02 · Bevásárlólista  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F02-bevasarlolista\n  - 13-M02-L04-F03 · Felvételi rangsor  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F03-felveteli-rangsor",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F01-geometria",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F02-bevasarlolista",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M02-adatszerkezetek-algoritmusok/L04-metodusok-strukturak/feladatok/F03-felveteli-rangsor"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M03-L01",
+                        "tema":  "13-M03 – Objektumorientált programozás",
+                        "cim":  "13-M03-L01 · Osztályok és objektumok",
+                        "leiras":  "Osztály, objektum, adattag, tulajdonság (property), konstruktor, ToString felüldefiniálása, objektumok listában.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M03-oop\\L01-osztalyok-objektumok\n\nGyakorló feladatok:\n  - 13-M03-L01-F01 · Raktárkészlet  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F01-raktarkeszlet\n  - 13-M03-L01-F02 · Időtartam-átváltó  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F02-idotartam\n  - 13-M03-L01-F03 · Mozijegy-foglalás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F03-mozijegy",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F01-raktarkeszlet",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F02-idotartam",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L01-osztalyok-objektumok/feladatok/F03-mozijegy"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M03-L02",
+                        "tema":  "13-M03 – Objektumorientált programozás",
+                        "cim":  "13-M03-L02 · Öröklődés és többalakúság",
+                        "leiras":  "Ősosztály és leszármazott, base, virtual/override, többalakúság a gyakorlatban.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M03-oop\\L02-orokles-polimorfizmus\n\nGyakorló feladatok:\n  - 13-M03-L02-F01 · Webáruház termékei  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F01-webaruhaz\n  - 13-M03-L02-F02 · Ingatlaniroda  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F02-ingatlaniroda\n  - 13-M03-L02-F03 · Hősök csatája  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F03-hosok-csataja",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F01-webaruhaz",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F02-ingatlaniroda",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L02-orokles-polimorfizmus/feladatok/F03-hosok-csataja"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M03-L03",
+                        "tema":  "13-M03 – Objektumorientált programozás",
+                        "cim":  "13-M03-L03 · Statikus tagok, absztrakt osztályok, interfészek",
+                        "leiras":  "Statikus osztályok és metódusok, absztrakt osztályok és metódusok, interfészek definiálása és megvalósítása.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M03-oop\\L03-statikus-absztrakt-interfesz\n\nGyakorló feladatok:\n  - 13-M03-L03-F01 · Mértékegység-átváltó  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F01-atvalto\n  - 13-M03-L03-F02 · Kerttervező  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F02-kerttervezo\n  - 13-M03-L03-F03 · Okosotthon  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F03-okosotthon",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F01-atvalto",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F02-kerttervezo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M03-oop/L03-statikus-absztrakt-interfesz/feladatok/F03-okosotthon"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M04-L01",
+                        "tema":  "13-M04 – Fájlkezelés és adatfeldolgozás",
+                        "cim":  "13-M04-L01 · Szöveges fájlok és CSV feldolgozása",
+                        "leiras":  "Fájl beolvasása (File.ReadAllLines, StreamReader), sorok feldarabolása, objektumlista építése, fájlba írás.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M04-fajlkezeles-adatfeldolgozas\\L01-szoveges-fajlok\n\nGyakorló feladatok:\n  - 13-M04-L01-F01 · Számok statisztikája fájlból  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F01-szamok-statisztika\n  - 13-M04-L01-F02 · Raktárkészlet CSV-ből  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F02-raktarkeszlet\n  - 13-M04-L01-F03 · Mátrix fájlba írása és visszaolvasása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F03-matrix-fajlban",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F01-szamok-statisztika",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F02-raktarkeszlet",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L01-szoveges-fajlok/feladatok/F03-matrix-fajlban"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M04-L02",
+                        "tema":  "13-M04 – Fájlkezelés és adatfeldolgozás",
+                        "cim":  "13-M04-L02 · Menüs konzolos alkalmazás",
+                        "leiras":  "Többfunkciós konzolos program menüvel: adatbeolvasás fájlból, lekérdezések, kiíratás (Országok feladat).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M04-fajlkezeles-adatfeldolgozas\\L02-menus-alkalmazas\n\nGyakorló feladatok:\n  - 13-M04-L02-F01 · Iskolai könyvtár katalógusa  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F01-konyvtar-katalogus\n  - 13-M04-L02-F02 · Edzésnapló  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F02-edzesnaplo\n  - 13-M04-L02-F03 · Osztálynapló két fájlból  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F03-osztalynaplo",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F01-konyvtar-katalogus",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F02-edzesnaplo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L02-menus-alkalmazas/feladatok/F03-osztalynaplo"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M04-L03",
+                        "tema":  "13-M04 – Fájlkezelés és adatfeldolgozás",
+                        "cim":  "13-M04-L03 · Dátum- és időkezelés, típuskonverziók",
+                        "leiras":  "DateTime és TimeSpan, dátumok beolvasása és formázása, típuskonverziók (Parse, TryParse, Convert).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M04-fajlkezeles-adatfeldolgozas\\L03-datum-konverzio\n\nGyakorló feladatok:\n  - 13-M04-L03-F01 · Életkor-kalkulátor  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F01-eletkor\n  - 13-M04-L03-F02 · Kölcsönzések és késedelmi díjak  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F02-kolcsonzesek\n  - 13-M04-L03-F03 · Munkaidő-nyilvántartás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F03-munkaido",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F01-eletkor",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F02-kolcsonzesek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L03-datum-konverzio/feladatok/F03-munkaido"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M04-L04",
+                        "tema":  "13-M04 – Fájlkezelés és adatfeldolgozás",
+                        "cim":  "13-M04-L04 · Komplex feladatok, házidolgozat",
+                        "leiras":  "Önálló, vizsgaszerű konzolos feladatok fájlból olvasott adatokon (Sportesemények, Autós díjak), házidolgozat kiadása.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M04-fajlkezeles-adatfeldolgozas\\L04-komplex-feladatok\n\nGyakorló feladatok:\n  - 13-M04-L04-F01 · Sportesemények  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F01-sportesemenyek\n  - 13-M04-L04-F02 · Parkolóház díjai  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F02-parkolohaz\n  - 13-M04-L04-F03 · Házidolgozat  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F03-hazidolgozat",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F01-sportesemenyek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F02-parkolohaz",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M04-fajlkezeles-adatfeldolgozas/L04-komplex-feladatok/feladatok/F03-hazidolgozat"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M05-L01",
+                        "tema":  "13-M05 – Grafikus alkalmazások – WPF bevezetés",
+                        "cim":  "13-M05-L01 · WPF alapok: XAML, elrendezés – Számológép",
+                        "leiras":  "A WPF felépítése, XAML, ablak, Grid és StackPanel, gombok és eseménykezelés egy számológép elkészítésén keresztül.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M05-wpf-bevezetes\\L01-wpf-alapok-szamologep\n\nGyakorló feladatok:\n  - 13-M05-L01-F01 · Számláló ablak  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F01-szamlalo\n  - 13-M05-L01-F02 · Számológép valós számokkal  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F02-szamologep-bovites\n  - 13-M05-L01-F03 · Láncművelet  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F03-lancmuvelet",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F01-szamlalo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F02-szamologep-bovites",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L01-wpf-alapok-szamologep/feladatok/F03-lancmuvelet"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M05-L02",
+                        "tema":  "13-M05 – Grafikus alkalmazások – WPF bevezetés",
+                        "cim":  "13-M05-L02 · Vezérlők és listák",
+                        "leiras":  "Alapvezérlők (TextBox, ListBox, ComboBox, CheckBox), elemek hozzáadása, törlése, kiválasztás kezelése.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M05-wpf-bevezetes\\L02-vezerlok-listak\n\nGyakorló feladatok:\n  - 13-M05-L02-F01 · Teendőlista  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F01-teendolista\n  - 13-M05-L02-F02 · Névsor kereséssel és szűréssel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F02-nevsor-kereses\n  - 13-M05-L02-F03 · Webshop-kosár  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F03-kosar",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F01-teendolista",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F02-nevsor-kereses",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L02-vezerlok-listak/feladatok/F03-kosar"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M05-L03",
+                        "tema":  "13-M05 – Grafikus alkalmazások – WPF bevezetés",
+                        "cim":  "13-M05-L03 · Dinamikus felület – Aknakereső",
+                        "leiras":  "Vezérlők létrehozása kódból, rácsos játéktér, eseménykezelés több vezérlőn, játéklogika.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M05-wpf-bevezetes\\L03-dinamikus-felulet-aknakereso\n\nGyakorló feladatok:\n  - 13-M05-L03-F01 · Aknamező felfedése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F01-aknamezo-felfedes\n  - 13-M05-L03-F02 · Aknakereső: elárasztás, zászló, időmérés  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F02-aknakereso\n  - 13-M05-L03-F03 · Aknakereső: szintek, gyors felfedés, rekordok  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F03-aknakereso-szintek",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F01-aknamezo-felfedes",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F02-aknakereso",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L03-dinamikus-felulet-aknakereso/feladatok/F03-aknakereso-szintek"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M05-L04",
+                        "tema":  "13-M05 – Grafikus alkalmazások – WPF bevezetés",
+                        "cim":  "13-M05-L04 · Szövegfeldolgozás grafikus felületen – Titkosítás",
+                        "leiras":  "Egyszerű titkosító algoritmusok (pl. Caesar) megvalósítása és WPF felületre illesztése.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M05-wpf-bevezetes\\L04-titkositas\n\nGyakorló feladatok:\n  - 13-M05-L04-F01 · Atbas és ROT13  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F01-atbas\n  - 13-M05-L04-F02 · Vigenère-titkosító  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F02-vigenere\n  - 13-M05-L04-F03 · Caesar-törő gyakoriságelemzéssel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F03-caesar-tores",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F01-atbas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F02-vigenere",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L04-titkositas/feladatok/F03-caesar-tores"
+                                   ]
+                    },
+                    {
+                        "id":  "13-M05-L05",
+                        "tema":  "13-M05 – Grafikus alkalmazások – WPF bevezetés",
+                        "cim":  "13-M05-L05 · Adatkötés bevezetés",
+                        "leiras":  "Stílusok és erőforrások, egyszerű adatkötés (Binding), objektumlista megjelenítése.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\1-13\\M05-wpf-bevezetes\\L05-adatkotes-bevezetes\n\nGyakorló feladatok:\n  - 13-M05-L05-F01 · Profilkártya  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F01-profilkartya\n  - 13-M05-L05-F02 · Filmkatalógus  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F02-filmkatalogus\n  - 13-M05-L05-F03 · Költségvetés-napló  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F03-koltsegvetes",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F01-profilkartya",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F02-filmkatalogus",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/1-13/M05-wpf-bevezetes/L05-adatkotes-bevezetes/feladatok/F03-koltsegvetes"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M01-L01",
+                        "tema":  "14-M01 – Konzolos alkalmazások ismétlése",
+                        "cim":  "14-M01-L01 · OOP ismétlés",
+                        "leiras":  "Osztályok, tulajdonságok, konstruktorok, ToString felüldefiniálása, öröklődés; objektumok listában.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M01-konzol-ismetles\\L01-oop-ismetles\n\nGyakorló feladatok:\n  - 14-M01-L01-F01 · Téglalapok  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F01-teglalap\n  - 14-M01-L01-F02 · Járműflotta  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F02-jarmuvek\n  - 14-M01-L01-F03 · Felhasználók és jogosultságok  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F03-felhasznalok",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F01-teglalap",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F02-jarmuvek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L01-oop-ismetles/feladatok/F03-felhasznalok"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M01-L02",
+                        "tema":  "14-M01 – Konzolos alkalmazások ismétlése",
+                        "cim":  "14-M01-L02 · Fájlkezelés és LINQ",
+                        "leiras":  "CSV/TXT beolvasása objektumlistába, hibás sorok kezelése; LINQ: Where, Select, OrderBy, GroupBy, aggregálás; lambda kifejezések.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M01-konzol-ismetles\\L02-fajlkezeles-linq\n\nGyakorló feladatok:\n  - 14-M01-L02-F01 · Országok adatai  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F01-orszagok\n  - 14-M01-L02-F02 · Időjárás-mérések hibás sorokkal  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F02-idojaras-meresek\n  - 14-M01-L02-F03 · Webshop-rendelések kimutatása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F03-webshop-rendelesek",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F01-orszagok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F02-idojaras-meresek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M01-konzol-ismetles/L02-fajlkezeles-linq/feladatok/F03-webshop-rendelesek"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M02-L01",
+                        "tema":  "14-M02 – WPF alkalmazások",
+                        "cim":  "14-M02-L01 · WPF alapok: XAML, elrendezés, vezérlők",
+                        "leiras":  "XAML szerkezet, Grid és StackPanel, alapvezérlők és eseménykezelés.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M02-wpf\\L01-wpf-alapok\n\nGyakorló feladatok:\n  - 14-M02-L01-F01 · Pizzarendelő űrlap  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F01-pizzarendeles\n  - 14-M02-L01-F02 · Számológép Grid-elrendezéssel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F02-szamologep\n  - 14-M02-L01-F03 · Bevásárlólista két listával  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F03-bevasarlolista",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F01-pizzarendeles",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F02-szamologep",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L01-wpf-alapok/feladatok/F03-bevasarlolista"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M02-L02",
+                        "tema":  "14-M02 – WPF alkalmazások",
+                        "cim":  "14-M02-L02 · Adatkötés és DataContext",
+                        "leiras":  "DataContext, Binding XAML-ben, ItemsSource, SelectedItem, INotifyPropertyChanged alapjai, DataGrid.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M02-wpf\\L02-adatkotes-datacontext\n\nGyakorló feladatok:\n  - 14-M02-L02-F01 · Szövegformázó – kötések kód nélkül  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F01-szovegformazo\n  - 14-M02-L02-F02 · Termékkatalógus ListBoxszal  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F02-termekkatalogus\n  - 14-M02-L02-F03 · Könyvtár DataGriddel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F03-konyvtar-datagrid",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F01-szovegformazo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F02-termekkatalogus",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L02-adatkotes-datacontext/feladatok/F03-konyvtar-datagrid"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M02-L03",
+                        "tema":  "14-M02 – WPF alkalmazások",
+                        "cim":  "14-M02-L03 · Integrált feladat: CSV-ből WPF-felület",
+                        "leiras":  "Fájlból beolvasott adatok megjelenítése, szűrése és szerkesztése WPF-ben (Híres épületek).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M02-wpf\\L03-integralt-csv-wpf\n\nGyakorló feladatok:\n  - 14-M02-L03-F01 · Híres épületek – vizsgaszerű feladat  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf/feladatok/F01-hires-epuletek-vizsga\n  - 14-M02-L03-F02 · Hegycsúcsok böngészője  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf/feladatok/F02-hegycsucsok",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf/feladatok/F01-hires-epuletek-vizsga",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M02-wpf/L03-integralt-csv-wpf/feladatok/F02-hegycsucsok"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M03-L01",
+                        "tema":  "14-M03 – Adatbázis-kezelés Entity Framework Core-ral",
+                        "cim":  "14-M03-L01 · EF Core – Code First",
+                        "leiras":  "Entitásosztályok és DbContext, MySQL-kapcsolat, migrációk, adatok felvétele és lekérdezése konzolról.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M03-ef-core\\L01-ef-code-first\n\nGyakorló feladatok:\n  - 14-M03-L01-F01 · Filmtár Code First módszerrel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first/feladatok/F01-filmtar\n  - 14-M03-L01-F02 · Új tulajdonság és migráció  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first/feladatok/F02-uj-tulajdonsag-migracio",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first/feladatok/F01-filmtar",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L01-ef-code-first/feladatok/F02-uj-tulajdonsag-migracio"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M03-L02",
+                        "tema":  "14-M03 – Adatbázis-kezelés Entity Framework Core-ral",
+                        "cim":  "14-M03-L02 · Relációs adatbázis tervezése, MySQL",
+                        "leiras":  "Táblák, elsődleges és idegen kulcsok, kapcsolatok, AUTO_INCREMENT; MySQL Workbench.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M03-ef-core\\L02-adatbazis-tervezes\n\nGyakorló feladatok:\n  - 14-M03-L02-F01 · Zenetár normalizálása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F01-zenetar-normalizalas\n  - 14-M03-L02-F02 · Könyvtárak: kulcsok és kapcsolatok utólag  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F02-konyvtarak-kulcsok\n  - 14-M03-L02-F03 · Tanfolyami jelentkezések (N:M)  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F03-tanfolyam-jelentkezes",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F01-zenetar-normalizalas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F02-konyvtarak-kulcsok",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L02-adatbazis-tervezes/feladatok/F03-tanfolyam-jelentkezes"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M03-L03",
+                        "tema":  "14-M03 – Adatbázis-kezelés Entity Framework Core-ral",
+                        "cim":  "14-M03-L03 · EF Core – Database First (Scaffold)",
+                        "leiras":  "NuGet-csomagok, Scaffold-DbContext meglévő adatbázisból, a generált osztályok, újragenerálás -Force kapcsolóval.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M03-ef-core\\L03-database-first-scaffold\n\nGyakorló feladatok:\n  - 14-M03-L03-F01 · Pizzéria adatbázis scaffoldolása  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F01-pizzeria-scaffold\n  - 14-M03-L03-F02 · Öreg fák: scaffold kapcsolókkal és lekérdezések  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F02-oregfak-lekerdezesek\n  - 14-M03-L03-F03 · Változott az adatbázis: újragenerálás -Force kapcsolóval  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F03-ujrageneralas-force",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F01-pizzeria-scaffold",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F02-oregfak-lekerdezesek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L03-database-first-scaffold/feladatok/F03-ujrageneralas-force"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M03-L04",
+                        "tema":  "14-M03 – Adatbázis-kezelés Entity Framework Core-ral",
+                        "cim":  "14-M03-L04 · Kapcsolatok és LINQ-lekérdezések EF-ben",
+                        "leiras":  "Navigációs tulajdonságok, Include, egy-a-többhöz kapcsolatok, összetett lekérdezések.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M03-ef-core\\L04-kapcsolatok-lekerdezesek\n\nGyakorló feladatok:\n  - 14-M03-L04-F01 · Webshop: kategóriák és termékek (Code First, 1:N)  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F01-kategoriak-termekek\n  - 14-M03-L04-F02 · Öreg fák vármegyénként  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F02-oregfak-megyenkent\n  - 14-M03-L04-F03 · Pizzéria-statisztika (több tábla, N:M)  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F03-pizzeria-statisztika",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F01-kategoriak-termekek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F02-oregfak-megyenkent",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M03-ef-core/L04-kapcsolatok-lekerdezesek/feladatok/F03-pizzeria-statisztika"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M04-L01",
+                        "tema":  "14-M04 – WPF + EF Core adatkezelő alkalmazás",
+                        "cim":  "14-M04-L01 · Adatok megjelenítése: DataGrid, ComboBox",
+                        "leiras":  "Adatbázis-tartalom betöltése WPF-be a DbContexten keresztül, DataGrid-oszlopok, ComboBox kapcsolt táblával.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M04-wpf-ef-alkalmazas\\L01-megjelenites\n\nGyakorló feladatok:\n  - 14-M04-L01-F01 · Raktári terméklista  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites/feladatok/F01-raktar-lista\n  - 14-M04-L01-F02 · Szűrés kategóriára, részletek panel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites/feladatok/F02-kategoria-szuro",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites/feladatok/F01-raktar-lista",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L01-megjelenites/feladatok/F02-kategoria-szuro"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M04-L02",
+                        "tema":  "14-M04 – WPF + EF Core adatkezelő alkalmazás",
+                        "cim":  "14-M04-L02 · Felvétel, módosítás, törlés (CRUD)",
+                        "leiras":  "Új rekord felvétele, kiválasztott rekord szerkesztése és törlése megerősítéssel, felület frissítése.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M04-wpf-ef-alkalmazas\\L02-crud\n\nGyakorló feladatok:\n  - 14-M04-L02-F01 · Termékek felvétele, módosítása, törlése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud/feladatok/F01-raktar-crud\n  - 14-M04-L02-F02 · Kategóriák kezelése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud/feladatok/F02-kategoriak-kezelese",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud/feladatok/F01-raktar-crud",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L02-crud/feladatok/F02-kategoriak-kezelese"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M04-L03",
+                        "tema":  "14-M04 – WPF + EF Core adatkezelő alkalmazás",
+                        "cim":  "14-M04-L03 · Szűrés, keresés, validáció, kivételkezelés",
+                        "leiras":  "Élő keresés LINQ-kel, bemenet ellenőrzése mentés előtt, try-catch az adatbázis-műveletek körül.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M04-wpf-ef-alkalmazas\\L03-szures-validacio\n\nGyakorló feladatok:\n  - 14-M04-L03-F01 · Élő keresés és rendezés a raktárban  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio/feladatok/F01-elo-kereses\n  - 14-M04-L03-F02 · Ellenőrzött mentés és hibakezelés  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio/feladatok/F02-validacio",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio/feladatok/F01-elo-kereses",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L03-szures-validacio/feladatok/F02-validacio"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M04-L04",
+                        "tema":  "14-M04 – WPF + EF Core adatkezelő alkalmazás",
+                        "cim":  "14-M04-L04 · Adatimport és -export (CSV, JSON, XML)",
+                        "leiras":  "CSV importálása adatbázisba (AddRange), exportálás JSON és XML formátumba.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M04-wpf-ef-alkalmazas\\L04-import-export\n\nGyakorló feladatok:\n  - 14-M04-L04-F01 · Bevételezés CSV-fájlból  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export/feladatok/F01-csv-import\n  - 14-M04-L04-F02 · Raktárkészlet exportja JSON-ba és XML-be  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export/feladatok/F02-json-xml-export",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export/feladatok/F01-csv-import",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M04-wpf-ef-alkalmazas/L04-import-export/feladatok/F02-json-xml-export"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M05-L01",
+                        "tema":  "14-M05 – Szoftverminőség és tesztelés",
+                        "cim":  "14-M05-L01 · Rétegzett architektúra, tervezési minták",
+                        "leiras":  "Többrétegű programozási technika, a leggyakoribb tervezési minták (pl. Singleton, Repository, MVVM alapgondolata).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M05-minoseg-teszteles\\L01-retegzett-architektura-mintak\n\nGyakorló feladatok:\n  - 14-M05-L01-F01 · Rétegekre bontás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak/feladatok/F01-retegekre-bontas\n  - 14-M05-L01-F02 · Repository-csere és Singleton  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak/feladatok/F02-repository-singleton",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak/feladatok/F01-retegekre-bontas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L01-retegzett-architektura-mintak/feladatok/F02-repository-singleton"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M05-L02",
+                        "tema":  "14-M05 – Szoftverminőség és tesztelés",
+                        "cim":  "14-M05-L02 · Tiszta kód és UML",
+                        "leiras":  "Clean code alapelvek (elnevezés, függvények, refaktorálás), UML osztálydiagram olvasása és készítése.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M05-minoseg-teszteles\\L02-clean-code-uml\n\nGyakorló feladatok:\n  - 14-M05-L02-F01 · Parkolóház – refaktorálás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F01-refaktoralas\n  - 14-M05-L02-F02 · Állatorvosi rendelő – diagramból kód  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F02-diagrambol-kod\n  - 14-M05-L02-F03 · Edzőterem – tervezés UML-lel, majd megvalósítás  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F03-tervezes-uml-kod",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F01-refaktoralas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F02-diagrambol-kod",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L02-clean-code-uml/feladatok/F03-tervezes-uml-kod"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M05-L03",
+                        "tema":  "14-M05 – Szoftverminőség és tesztelés",
+                        "cim":  "14-M05-L03 · Egységtesztelés",
+                        "leiras":  "Tesztprojekt Visual Studióban (MSTest), Assert, tesztesetek tervezése, tesztelhető kód írása.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M05-minoseg-teszteles\\L03-egysegteszteles\n\nGyakorló feladatok:\n  - 14-M05-L03-F01 · Mozijegy – határértékek tesztelése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F01-mozijegy\n  - 14-M05-L03-F02 · Jelszóerősség-ellenőrző  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F02-jelszo-ellenorzo\n  - 14-M05-L03-F03 · Bankszámla – teljes tesztkészlet  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F03-bankszamla",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F01-mozijegy",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F02-jelszo-ellenorzo",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M05-minoseg-teszteles/L03-egysegteszteles/feladatok/F03-bankszamla"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L01",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L01 · Konzolos vizsgafeladat",
+                        "leiras":  "Vizsgaszerű konzolos feladat: beolvasás fájlból, LINQ-lekérdezések, statisztikák.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L01-konzolos-vizsgafeladat\n\nGyakorló feladatok:\n  - 14-M06-L01-F01 · Pilóták – konzolos vizsgafeladat  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat/feladatok/F01-pilotak-konzol\n  - 14-M06-L01-F02 · Pilóták JSON-ból – kiegészítő feladat  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat/feladatok/F02-pilotak-json",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat/feladatok/F01-pilotak-konzol",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L01-konzolos-vizsgafeladat/feladatok/F02-pilotak-json"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L02",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L02 · 1. próbavizsga: CSV → MySQL → WPF",
+                        "leiras":  "Teljes feladatsor időre: adatbázis, EF Core, WPF-felület CRUD-dal (Pilots).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L02-probavizsga-1\n\nGyakorló feladatok:\n  - 14-M06-L02-F01 · 1. próbavizsga: F1-pilóták – adatbázis és WPF-felület  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1/feladatok/F01-pilotak-wpf\n  - 14-M06-L02-F02 · Szűrés a pilóták között  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1/feladatok/F02-pilotak-szures",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1/feladatok/F01-pilotak-wpf",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L02-probavizsga-1/feladatok/F02-pilotak-szures"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L03",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L03 · 2. próbavizsga: több tábla, szűrések",
+                        "leiras":  "Összetettebb feladatsor kapcsolt táblákkal és szűrésekkel (Settlements).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L03-probavizsga-2\n\nGyakorló feladatok:\n  - 14-M06-L03-F01 · 2. próbavizsga: Magyarország városai  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2/feladatok/F01-telepulesek\n  - 14-M06-L03-F02 · Megyeszűrő és összesítés  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2/feladatok/F02-megyeszuro",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2/feladatok/F01-telepulesek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L03-probavizsga-2/feladatok/F02-megyeszuro"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L04",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L04 · 3. próbavizsga: vizsgaszimuláció",
+                        "leiras":  "Szigorú vizsgaszimuláció időkorláttal, pontozással.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L04-probavizsga-3\n\nGyakorló feladatok:\n  - 14-M06-L04-F01 · 3. próbavizsga: Kémiai elemek (vizsgaszimuláció)  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3/feladatok/F01-kemiai-elemek\n  - 14-M06-L04-F02 · Önjavítás a javítókulcs alapján  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3/feladatok/F02-onjavitas",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3/feladatok/F01-kemiai-elemek",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L04-probavizsga-3/feladatok/F02-onjavitas"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L05",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L05 · Számonkérés és kódátnézés",
+                        "leiras":  "Önálló feladatmegoldás időre, majd közös kódátnézés (code review).\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L05-modulzaro-szamonkeres\n\nGyakorló feladatok:\n  - 14-M06-L05-F01 · Számonkérés: Nyári olimpiák (tesztekkel)  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres/feladatok/F01-olimpiak\n  - 14-M06-L05-F02 · Kódátnézés: hibák és rossz megoldások felderítése  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres/feladatok/F02-kodatnezes",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres/feladatok/F01-olimpiak",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L05-modulzaro-szamonkeres/feladatok/F02-kodatnezes"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L06",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L06 · Finomhangolás és rutin",
+                        "leiras":  "Tipikus hibák, gyorsbillentyűk, saját kódminták és sablonok a vizsgára.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L06-finomhangolas\n\nGyakorló feladatok:\n  - 14-M06-L06-F01 · Sablonból 30 perc alatt  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas/feladatok/F01-sablonbol-gyorsan\n  - 14-M06-L06-F02 · Hibavadászat a hibakeresővel  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas/feladatok/F02-hibavadaszat",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas/feladatok/F01-sablonbol-gyorsan",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L06-finomhangolas/feladatok/F02-hibavadaszat"
+                                   ]
+                    },
+                    {
+                        "id":  "14-M06-L07",
+                        "tema":  "14-M06 – Vizsgafelkészítés",
+                        "cim":  "14-M06-L07 · Év végi értékelés",
+                        "leiras":  "Az éves munka értékelése, visszajelzés.\n\nTananyag (GitHub): https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras\nIskolai hálózaton: \\\\informatika.jedlik.eu\\Diák közös informatika\\rkottra\\13-14. évfolyam - Programozás\\2-14\\M06-vizsgafelkeszites\\L07-zaras\n\nGyakorló feladatok:\n  - 14-M06-L07-F01 · Önértékelő kérdőív  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras/feladatok/F01-onertekeles\n  - 14-M06-L07-F02 · Visszajelzés a képzésről  -\u003e  https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras/feladatok/F02-visszajelzes",
+                        "linkek":  [
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras/feladatok/F01-onertekeles",
+                                       "https://github.com/rkottra/C-oktat-s-esti-k-pz-s-/tree/main/2-14/M06-vizsgafelkeszites/L07-zaras/feladatok/F02-visszajelzes"
+                                   ]
+                    }
+                ]
+}

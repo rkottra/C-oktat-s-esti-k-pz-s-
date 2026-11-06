@@ -28,7 +28,8 @@ Címkék (labels): `uj-lecke`, `hiba`, `feladat`, `tanmenet`, `1-13`, `2-14`.
 5. **Kiadás**
    - `scripts/Tartalomjegyzek.ps1` – évfolyam-tartalomjegyzék frissítése (és commit),
    - `scripts/Export-Halozat.ps1` – a `_halozat/` frissítése, utána a saját szinkronod viszi a hálózati mappába,
-   - `scripts/Classroom-Poszt.ps1 -Id …` – a Classroom-bejegyzés szövege (a Classroom-link nem kerül vissza a repóba).
+   - `scripts/Classroom-Jegyzek.ps1` – a Classroom-jegyzék frissítése (és commit, push), utána az Apps Scriptben `szinkron` – lásd [classroom-feltoltes.md](classroom-feltoltes.md),
+   - kézi feltöltéshez egy leckére: `scripts/Classroom-Poszt.ps1 -Id …` (a Classroom-link nem kerül vissza a repóba).
 6. Status: *Kiadva*, issue lezárva.
 
 Egyszemélyes, gyors javításnál a 2–4. lépés lehet közvetlen commit a `main`-re, de akkor is legyen issue, hogy a Project mutassa, mi változott és ki lett-e adva.

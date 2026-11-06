@@ -72,3 +72,38 @@ function Get-Leckek {
         }
     }
 }
+
+# Egy lecke Classroom-anyaga: téma, cím, leírás és a link-mellékletek.
+# A Classroom-Poszt.ps1 (kézi) és a Classroom-Jegyzek.ps1 (automatikus feltöltés) is ezt használja.
+function Get-ClassroomAnyag($l) {
+    $k = Get-Konfig
+    $leckeUrl = Get-GitHubUrl $l.RelUt
+    $linkek = New-Object System.Collections.Generic.List[string]
+    $linkek.Add($leckeUrl)
+
+    $sorok = New-Object System.Collections.Generic.List[string]
+    if ($l.Leiras) { $sorok.Add($l.Leiras); $sorok.Add('') }
+    $sorok.Add("Tananyag (GitHub): $leckeUrl")
+    $sorok.Add("Iskolai hálózaton: $($k.halozatiUtvonal.TrimEnd('\'))\$($l.RelUt -replace '/', '\')")
+
+    $feladatok = @(Get-ChildItem (Join-Path $l.Mappa 'feladatok') -Directory -ErrorAction SilentlyContinue |
+        Where-Object Name -match '^F\d{2}-' | Sort-Object Name)
+    if ($feladatok) {
+        $sorok.Add(''); $sorok.Add('Gyakorló feladatok:')
+        foreach ($f in $feladatok) {
+            $cim = Get-ElsoCim (Join-Path $f.FullName 'README.md')
+            if (-not $cim) { $cim = $f.Name }
+            $url = Get-GitHubUrl "$($l.RelUt)/feladatok/$($f.Name)"
+            $sorok.Add("  - $cim  ->  $url")
+            $linkek.Add($url)
+        }
+    }
+
+    [pscustomobject]@{
+        id     = $l.Id
+        tema   = "$($l.Id.Substring(0, 3))$($l.Modul)"   # közös kurzus: pl. 13-M02 – Ciklusok
+        cim    = "$($l.Id) · $($l.Cim)"
+        leiras = $sorok -join "`n"
+        linkek = @($linkek | Select-Object -First 20)    # a Classroom legfeljebb 20 mellékletet enged
+    }
+}
